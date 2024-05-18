@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" stylesheets="@../CSS/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MainMenuController">
+    <VBox alignment="CENTER" layoutX="290.0" layoutY="30.0" prefHeight="200.0" prefWidth="350.0" spacing="5">
+    <!-- Apply the clip to the ImageView -->
+        <ImageView fx:id="imageView" fitHeight="104.0" fitWidth="116.0" layoutX="400.0" layoutY="50.0" />
+        <Label fx:id="username" prefHeight="30.0" prefWidth="199.0" style="-fx-background-color: #0d2279; -fx-background-radius: 20px" textFill="aliceblue">
+            <font>
+                <Font name="Chilanka Regular" size="25.0" />
+            </font>
+        </Label>
+    </VBox>
+   <VBox layoutX="340.0" layoutY="230.0" prefHeight="315.0" prefWidth="251.0" spacing="10" style=" -fx-background-color: #0c346b;-fx-background-radius: 30px;">
+       <padding>
+           <Insets left="28.0" top="20.0" />
+       </padding>
+    <children>
+        <Button layoutX="600" mnemonicParsing="false" onMouseClicked="#startNewGame"  styleClass="main-menu-button"  text="Start New Game">
+            <font>
+               <Font name="Lato Hairline Italic" />
+            </font></Button>
+        <Button layoutX="600" mnemonicParsing="false" onMouseClicked="#continueGame" prefHeight="38.0" prefWidth="200.0" styleClass="main-menu-button" text="Continue Previous Game">
+            <font>
+               <Font name="Lato Hairline Italic" size="13.0" />
+            </font></Button>
+        <Button layoutX="600" mnemonicParsing="false" onMouseClicked="#openProfileMenu" prefHeight="38.0" prefWidth="200.0" styleClass="main-menu-button" text="Profile Menu">
+            <font>
+               <Font name="Lato Hairline Italic" size="13.0" />
+            </font></Button>
+        <Button layoutX="600" mnemonicParsing="false" onMouseClicked="#openScoreBoard" prefHeight="38.0" prefWidth="200.0" styleClass="main-menu-button" text="Score Board">
+            <font>
+               <Font name="Lato Hairline Italic" size="13.0" />
+            </font></Button>
+        <Button layoutX="600" mnemonicParsing="false" onMouseClicked="#openSettings" prefHeight="38.0" prefWidth="200.0" styleClass="main-menu-button" text="Settings">
+            <font>
+               <Font name="Lato Hairline Italic" size="13.0" />
+            </font></Button>
+        <Button layoutX="600" mnemonicParsing="false" onMouseClicked="#exit" prefHeight="38.0" prefWidth="200.0" styleClass="main-menu-button" text="Exit">
+            <font>
+               <Font name="Lato Hairline Italic" size="13.0"/>
+            </font></Button>
+    </children>
+   </VBox>
+
+</AnchorPane>

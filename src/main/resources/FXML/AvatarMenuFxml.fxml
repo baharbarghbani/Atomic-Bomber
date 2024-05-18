@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="600" prefWidth="900.0" stylesheets="@../CSS/style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.AvatarMenuController">
+    <Text fill="antiquewhite" textAlignment="CENTER" layoutX="320" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose your Avatar" layoutY="50" wrappingWidth="250.0">
+        <font>
+            <Font name="Chilanka Regular" size="25.0" />
+        </font>
+    </Text>
+    <VBox alignment="CENTER" layoutX="100" layoutY="90" prefHeight="350" prefWidth="700" style="-fx-background-color: #77D1B6; -fx-background-radius: 30px;" styleClass="avatar-menu-Vbox">
+        <GridPane alignment="CENTER" hgap="80" vgap="70" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" layoutX="10">
+            <Button fx:id="button1" layoutX="10" onMouseClicked="#handleButtonClick" styleClass="transparent-button"
+            GridPane.columnIndex="0" GridPane.rowIndex="0">
+                <graphic>
+                    <ImageView fx:id="imageView1" fitHeight="104.0" fitWidth="116.0" />
+                   <!-- Replace "avatar1.png" with the path to your avatar image -->
+                </graphic>
+            </Button>
+            <Button fx:id="button2" layoutX="10" onMouseClicked="#handleButtonClick" styleClass="transparent-button"
+                    GridPane.columnIndex="1" GridPane.rowIndex="0">
+                <graphic>
+                    <ImageView fx:id="imageView2" fitHeight="104.0" fitWidth="116.0" />
+                    <!-- Replace "avatar1.png" with the path to your avatar image -->
+                </graphic>
+            </Button>
+            <Button fx:id="button3" layoutX="10" onMouseClicked="#handleButtonClick" styleClass="transparent-button"
+                    GridPane.columnIndex="2" GridPane.rowIndex="0">
+                <graphic>
+                    <ImageView fx:id="imageView3" fitHeight="104.0" fitWidth="116.0" />
+                    <!-- Replace "avatar1.png" with the path to your avatar image -->
+                </graphic>
+            </Button>
+            <Button fx:id="button4" layoutX="10" onMouseClicked="#handleButtonClick" styleClass="transparent-button"
+                    GridPane.columnIndex="0" GridPane.rowIndex="1">
+                <graphic>
+                    <ImageView fx:id="imageView4" fitHeight="104.0" fitWidth="116.0" />
+                    <!-- Replace "avatar1.png" with the path to your avatar image -->
+                </graphic>
+            </Button>
+            <Button fx:id="button5" layoutX="10" onMouseClicked="#handleButtonClick" styleClass="transparent-button"
+                    GridPane.columnIndex="1" GridPane.rowIndex="1">
+                <graphic>
+                    <ImageView fx:id="imageView5" fitHeight="104.0" fitWidth="116.0" />
+                    <!-- Replace "avatar1.png" with the path to your avatar image -->
+                </graphic>
+            </Button>
+            <Button fx:id="button6" layoutX="10" onMouseClicked="#handleButtonClick" styleClass="transparent-button"
+                    GridPane.columnIndex="2" GridPane.rowIndex="1">
+                <graphic>
+                    <ImageView fx:id="imageView6" fitHeight="104.0" fitWidth="116.0" />
+                    <!-- Replace "avatar1.png" with the path to your avatar image -->
+                </graphic>
+            </Button>
+        </GridPane>
+    </VBox>
+    <HBox alignment="CENTER" layoutX="325" layoutY="480" spacing="10">
+        <Button fx:id="backButton" layoutX="10" onMouseClicked="#handleBackButton" styleClass="change-username-button" prefWidth="110" prefHeight="40" text="Back" />
+        <Button fx:id="chooseAvatar" layoutX="10" onMouseClicked="#chooseCustomAvatar" styleClass="change-username-button" prefHeight="40" text="Choose Avatar" />
+    </HBox>
+
+</AnchorPane>

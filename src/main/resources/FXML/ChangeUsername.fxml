@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="400" prefWidth="600" stylesheets="@../CSS/style.css" style="-fx-border-radius: 30px; -fx-background-radius: 30px" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ChangeUsername">
+    <VBox alignment="CENTER" layoutX="-7.0" layoutY="7.0" prefHeight="400" prefWidth="600" spacing="20" styleClass="Vbox-background">
+        <padding>
+            <Insets bottom="20" left="200" right="200" top="20" />
+        </padding>
+    <children>
+        <TextField fx:id="username" alignment="CENTER" prefWidth="20" promptText="Username" styleClass="change-info" />
+        <PasswordField fx:id="password" alignment="CENTER" prefWidth="20" promptText="Password" styleClass="change-info" />
+        <Button mnemonicParsing="false" onAction="#changeUsername" prefHeight="40" prefWidth="150" styleClass="change-username-button" style="-fx-effect: dropshadow( gaussian , rgba(0,0,0,0.2) , 12, 0.8 , 0 , 2 );" text="Change Username" />
+        <Button mnemonicParsing="false" onAction="#backToProfile" prefHeight="40" prefWidth="150" styleClass="change-username-button" style="-fx-effect: dropshadow( gaussian , rgba(0,0,0,0.2) , 12, 0.8 , 0 , 2 );" text="Back" />
+
+    </children>
+    </VBox>
+</VBox>
