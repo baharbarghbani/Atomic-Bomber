@@ -5,12 +5,9 @@ import animations.NuclearBombAnimation;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.ImagePattern;
 import model.Game;
-
-import java.util.Objects;
 
 public class Building extends Component{
     public Building(double x, Game game, Pane pane){
@@ -30,9 +27,13 @@ public class Building extends Component{
 
     public void explodeByNuclear() {
         imageView.setLayoutX(this.getX());
-        imageView.setLayoutY(this.getY() - 30);
-        imageView.setFitWidth(this.getWidth() + 40);
-        imageView.setFitHeight(this.getHeight() + 40);
+        imageView.setLayoutY(this.getY() - 50);
+        imageView.setFitWidth(this.getWidth() + 60);
+        imageView.setFitHeight(this.getHeight() + 60);
+        Animation();
+    }
+
+    private void Animation() {
         NuclearBombAnimation nuclearBombAnimation = new NuclearBombAnimation(imageView);
         game.addAnimations(nuclearBombAnimation);
         pane.getChildren().remove(Building.this);
@@ -42,9 +43,20 @@ public class Building extends Component{
             public void handle(ActionEvent actionEvent) {
                 pane.getChildren().remove(imageView);
                 game.removeAnimation(nuclearBombAnimation);
+                game.getWave().removeObject(Building.this);
+                game.getWave().removeBuilding(Building.this);
+
             }
         });
         nuclearBombAnimation.play();
+    }
+    @Override
+    public void explodeByCluster(){
+        imageView.setLayoutX(this.getX());
+        imageView.setLayoutY(this.getY() - 30);
+        imageView.setFitWidth(this.getWidth() + 30);
+        imageView.setFitHeight(this.getHeight() + 30);
+        Animation();
     }
 
     @Override
@@ -57,6 +69,8 @@ public class Building extends Component{
             public void handle(ActionEvent actionEvent) {
                 pane.getChildren().remove(Building.this);
                 game.removeAnimation(explodeAnimation);
+                game.getWave().removeObject(Building.this);
+                game.getWave().removeBuilding(Building.this);
             }
         });
         explodeAnimation.play();

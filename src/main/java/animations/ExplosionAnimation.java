@@ -1,9 +1,7 @@
 package animations;
 
 import javafx.animation.Transition;
-import javafx.application.Platform;
 import model.components.*;
-import view.GameLauncher;
 
 public class ExplosionAnimation extends Transition {
     private Component component;
@@ -24,7 +22,7 @@ public class ExplosionAnimation extends Transition {
     public void setComponent(Component component){
         this.component = component;
     }
-    public void setRocket(Bomb bomb){
+    public void setBomb(Bomb bomb){
         this.bomb = bomb;
     }
     @Override
@@ -37,11 +35,10 @@ public class ExplosionAnimation extends Transition {
             if (bomb instanceof Rocket) {
                 int frame = (int) Math.floor(v * 4);
                 bomb.setBackground("/Images/planeExplosion/explosion" + frame + ".png");
-            } else if (bomb instanceof NuclearBomb) {
-//                bomb.changeSize();
-                bomb.explodeByNuclear();
-//                GameLauncher.getInstance().root.getChildren().remove(bomb);
+            } else if (bomb instanceof NuclearBomb || bomb instanceof Cluster) {
+                bomb.explodeNuclear();
             }
+
         }
         else if (isPlane) {
             int frame = (int) Math.floor(v * 4);

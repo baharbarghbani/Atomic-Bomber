@@ -1,7 +1,6 @@
 package model;
 
 import javafx.scene.layout.Pane;
-import javafx.scene.shape.Rectangle;
 import model.components.*;
 
 import controller.GameController;
@@ -19,6 +18,7 @@ public class Wave {
     private ArrayList<ShootingTank> shootingTanks;
     private Game game;
     private ArrayList<Tree> trees;
+    private Mig mig;
     static Random random = new Random();
     public Wave(Pane pane, Game game){
         tanks = new ArrayList<>();
@@ -35,7 +35,6 @@ public class Wave {
         createTanks();
         createTrees();
         createFort();
-        createShootingTanks();
     }
     public ArrayList<Tank> getTanks() {
         return tanks;
@@ -44,7 +43,7 @@ public class Wave {
         GameController.createTrucks(this, game, pane);
     }
     public void createTanks() {
-        GameController.createTanks(this, game, pane);
+        GameController.createTanks(this, game, pane, 3);
     }
     public void createBuildings(){
         GameController.createBuildings(this, game, pane);
@@ -77,9 +76,42 @@ public class Wave {
         return allObjects;
     }
 
-    public void removeObject(Rectangle object){
+    public void removeObject(Component object){
         allObjects.remove(object);
-        pane.getChildren().remove(object);
     }
 
+    public void removeShootingTank(ShootingTank shootingTank) {
+        shootingTanks.remove(shootingTank);
+    }
+
+    public void removeBuilding(Building building) {
+        buildings.remove(building);
+    }
+
+    public void removeFort(Fort fort) {
+        forts.remove(fort);
+    }
+    public void removeTree(Tree tree) {
+        trees.remove(tree);
+    }
+    public void removeTruck(Truck truck) {
+        trucks.remove(truck);
+    }
+    public void removeTank(Tank tank) {
+        tanks.remove(tank);
+    }
+    public void removeMig(Mig mig) {
+        this.mig = null;
+    }
+    public Mig getMig() {
+        return mig;
+    }
+
+    public void createMig() {
+        GameController.createMig(this,game,pane);
+    }
+
+    public void setMig(Mig mig) {
+        this.mig = mig;
+    }
 }

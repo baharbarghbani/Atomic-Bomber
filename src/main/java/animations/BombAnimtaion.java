@@ -1,5 +1,7 @@
 package animations;
 
+import controller.GameController;
+import javafx.animation.Timeline;
 import javafx.animation.Transition;
 import model.Game;
 import model.components.*;
@@ -8,11 +10,16 @@ import view.GameLauncherController;
 
 public class BombAnimtaion extends Transition {
     private Bomb bomb;
+    private static boolean clusterHasExploded = false;
+//    private Timeline checkCluster;
     public BombAnimtaion(Bomb bomb){
         this.bomb = bomb;
         this.setCycleCount(-1);
         this.setCycleDuration(javafx.util.Duration.millis(100));
         Game.getInstance().addAnimations(this);
+//        checkCluster = new Timeline(new javafx.animation.KeyFrame(javafx.util.Duration.seconds(0.5), actionEvent -> GameController.checkCluster(bomb)));
+//        checkCluster.setCycleCount(-1);
+//        checkCluster.play();
     }
     @Override
     protected void interpolate(double v) {
@@ -29,6 +36,13 @@ public class BombAnimtaion extends Transition {
         bomb.getChildren().get(1).setRotate(angle);
         bomb.setY(y);
         bomb.setX(x);
+        if (bomb instanceof Cluster cluster && !clusterHasExploded) {
+            if (bomb.getY() > 400) {
+                clusterHasExploded = true;
+                cluster.divide();
+                this.pause();
+            }
+        }
         if (GameLauncherController.hasCollision(bomb)) {
             this.stop();
             GameLauncher.getInstance().root.getChildren().remove(bomb);
@@ -44,7 +58,12 @@ public class BombAnimtaion extends Transition {
         }
 
     }
-
+    public boolean isClusterHasExploded() {
+        return clusterHasExploded;
+    }
+    public static void setClusterHasExploded(boolean clusterHasExploded1) {
+        clusterHasExploded = clusterHasExploded1;
+    }
 
 
 }

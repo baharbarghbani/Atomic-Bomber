@@ -55,39 +55,7 @@ public class ApplicationController {
         List<User> userList = loadUsers();
         userList.removeIf(user -> user.getUsername().equals(username));
     }
-    @FXML
-    public static void showAlert(String errorMessage, String title, Alert.AlertType alertType, String imagePath){
-        Platform.runLater(() -> {
-            // UI-related code here
-            Alert alert = new Alert(alertType);
-            alert.setTitle(title);
-            alert.setHeaderText(errorMessage);
-            ImageView imageView = new ImageView(new Image(Objects.requireNonNull(ApplicationController.class.getResourceAsStream(imagePath))));
-            imageView.setFitWidth(300);
-            imageView.setFitHeight(200);
-            StackPane dialogPane = new StackPane();
-            dialogPane.getChildren().add(imageView);
-            alert.getDialogPane().setContent(dialogPane);
 
-            // Apply the background to the header area
-            alert.getDialogPane().setStyle("-fx-background-color: transparent;");
-            // Set the background of the alert dialog
-            alert.getDialogPane().setBackground(new Background(new BackgroundImage(
-                    imageView.getImage(),
-                    BackgroundRepeat.NO_REPEAT,
-                    BackgroundRepeat.NO_REPEAT,
-                    BackgroundPosition.CENTER,
-                    BackgroundSize.DEFAULT)));
-            alert.showAndWait();
-        });
-    }
-    public void setIcon(){
-        Image icon = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/icon.png")));
-        ImageView iconView = new ImageView(icon);
-        iconView.setFitHeight(16);
-        iconView.setFitWidth(16);
-        ApplicationController.getStage().getIcons().add(iconView.getImage());
-    }
 
 
 }

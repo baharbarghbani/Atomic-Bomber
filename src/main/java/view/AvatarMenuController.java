@@ -40,7 +40,7 @@ public class AvatarMenuController {
 
     @FXML
     public void initialize() {
-        ApplicationController applicationController = new ApplicationController();
+        AppController applicationController = new AppController();
         applicationController.setIcon();
         imageView1.setImage(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/avatars/avatar1.png"))));
         imageView2.setImage(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/avatars/avatar3.png"))));
@@ -66,9 +66,9 @@ public class AvatarMenuController {
     public void chooseCustomAvatar() throws Exception {
         Result result = chooseAvatar();
         if (!result.isSuccess()) {
-            ApplicationController.showAlert(result.getMessage(), "Changing avatar failed!", Alert.AlertType.WARNING, "/Images/backgrounds/background1.png");
+            AppController.showAlert(result.getMessage(), "Changing avatar failed!", Alert.AlertType.WARNING, "/Images/backgrounds/background1.png");
         } else {
-            ApplicationController.showAlert(result.getMessage(), "Changed avatar successfully!", Alert.AlertType.INFORMATION, "/Images/backgrounds/background1.png");
+            AppController.showAlert(result.getMessage(), "Changed avatar successfully!", Alert.AlertType.INFORMATION, "/Images/backgrounds/background1.png");
             ProfileMenu profileMenu = new ProfileMenu();
             profileMenu.start(ApplicationController.getStage());
         }

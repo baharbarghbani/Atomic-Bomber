@@ -27,6 +27,7 @@ public abstract class Component extends Rectangle{
     public abstract void explode();
     public abstract void remove();
     public abstract void explodeByNuclear();
+    public abstract void explodeByCluster();
     public int getKill(){
         return kill;
     }

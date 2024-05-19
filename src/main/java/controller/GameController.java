@@ -1,7 +1,5 @@
 package controller;
 
-import javafx.event.Event;
-import javafx.event.EventType;
 import javafx.scene.layout.Pane;
 import model.App;
 import model.Game;
@@ -26,9 +24,9 @@ public class GameController {
         }
     }
 
-    public static void createTanks(Wave wave, Game game, Pane pane) {
-        for (int i = 0; i < 3; i++) {
-            double x = random.nextDouble(1000);
+    public static void createTanks(Wave wave, Game game, Pane pane, int number) {
+        for (int i = 0; i < number; i++) {
+            double x = random.nextDouble(900);
             Tank tank = new Tank(x, random.nextInt(2), game, pane);
             wave.getTanks().add(tank);
             wave.getAllObjects().add(tank);
@@ -37,7 +35,7 @@ public class GameController {
 
     public static void createTrucks(Wave wave, Game game, Pane pane) {
         for (int i = 0; i < 2; i++) {
-            double x = random.nextDouble(1000);
+            double x = random.nextDouble(900);
             Truck truck = new Truck(random.nextInt(2), x, game, pane);
             wave.getTrucks().add(truck);
             wave.getAllObjects().add(truck);
@@ -46,7 +44,7 @@ public class GameController {
 
     public static void createTrees(Wave wave, Game game, Pane pane) {
         for (int i = 0; i < 5; i++) {
-            double x = random.nextDouble(1000);
+            double x = random.nextDouble(900);
             Tree tree = new Tree(x, random.nextInt(3), game, pane);
             wave.getAllObjects().add(tree);
             wave.getTrees().add(tree);
@@ -54,7 +52,7 @@ public class GameController {
     }
     public static void createShootingTanks(Wave wave, Game game, Pane pane) {
         for (int i = 0; i < 2; i++) {
-            double x = random.nextDouble(1000);
+            double x = random.nextDouble(900);
             ShootingTank shootingTank = new ShootingTank(x, random.nextInt(2), game, pane);
             wave.getAllObjects().add(shootingTank);
             wave.getShootingTanks().add(shootingTank);
@@ -62,7 +60,7 @@ public class GameController {
     }
     public static void createFort(Wave wave, Game game, Pane pane) {
         for (int i = 0; i < 2; i++) {
-            double x = random.nextDouble(1000);
+            double x = random.nextDouble(900);
             Fort fort = new Fort(x, game, pane);
             wave.getAllObjects().add(fort);
             wave.getForts().add(fort);
@@ -97,7 +95,22 @@ public class GameController {
 //        Game.getInstance().getWave().getBombs().add(bomb);
 //        Game.getInstance().getWave().getAllObjects().add(bomb);
 //    }
-    public static void checkPlaneIsInTankArea(Plane plane) {
+    public static void isPlaneInTankArea(Plane plane) {
+        double x = plane.getX();
+        double y = plane.getY();
+        Wave wave = Game.getInstance().getWave();
+        for (ShootingTank tank : wave.getShootingTanks()) {
+            double xPrime = tank.getX();
+            double yPrime = tank.getY();
+            if (Math.sqrt(Math.pow(x - xPrime, 2) + Math.pow(yPrime - y, 2)) < tank.getRadius()) {
+                double dx = 3.3 * Math.cos(plane.angle);
+                double dy = 3.3 * Math.sin(plane.angle);
+                double angle = Math.toDegrees(Math.atan((yPrime - dy - y) / (xPrime - dx - x)));
+                if (xPrime < x)
+                    angle += 180 - angle;
+                tank.shoot(angle);
+            }
+        }
     }
 
     public static Wave createWave(Game game) {
@@ -114,8 +127,13 @@ public class GameController {
         if (component instanceof Building){
             return createNuclearBomb(component);
         }else
-            return null;
+            return createClusterBomb(component);
     }
+
+    private static Bomb createClusterBomb(Component component) {
+        return new Cluster(component.getX(), component.getY(), 0.01, false, 0.1, -1, GameLauncher.getInstance().root, 60, 60);
+    }
+
     public static NuclearBomb createNuclearBomb(Component component){
         return new NuclearBomb(component.getX(), component.getY(), 0.01, false, 0.1, -1, GameLauncher.getInstance().root, 60, 60);
     }
@@ -128,9 +146,35 @@ public class GameController {
     public static void goToNextWave(){
         Game game = Game.getInstance();
         game.setWave(createWave(game));
+        game.getWave().createShootingTanks();
+        if (game.getWaveNumber() == 3){
+            game.getWave().createMig();
+        }
         GameLauncherController.updateWaveNumber();
         GameLauncherController.addComponents();
     }
+    public static void resetAccuracy(){
+        App.getLoggedInUser().setShootingCount(0);
+        App.getLoggedInUser().setSuccessfulShootingCount(0);
+    }
+    public static void increaseShootingCount(){
+        User user = App.getLoggedInUser();
+        user.increaseShootingCount();
+    }
+    public static void increaseKillingCount(){
+        User user = App.getLoggedInUser();
+        user.increaseSuccessfulShootingCount();
+    }
+    public static void checkCluster(Bomb bomb){
+        if (bomb instanceof Cluster cluster && bomb.getY() > 400){
+            cluster.divide();
+        }
+    }
 
+    public static void createMig(Wave wave, Game game, Pane pane) {
+        Mig mig = new Mig(1050, 120);
+        wave.setMig(mig);
+
+    }
 }
 

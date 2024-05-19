@@ -1,7 +1,6 @@
 package view;
 
 import controller.ApplicationController;
-import controller.ProfileMenuController;
 import javafx.application.Application;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -15,9 +14,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 import static java.util.Objects.requireNonNull;
-import static view.LoginMenuController.applicationController;
 import static view.MainMenuController.menuController;
-import static view.MainMenuController.profileMenu;
 
 public class ProfileMenu extends Application {
     static Scene currentScene;
@@ -51,31 +48,31 @@ public class ProfileMenu extends Application {
     }
     @FXML
     public void initialize() throws Exception{
-        applicationController.setIcon();
-        Image image = menuController.imageInitialize(imageView);
+        AppController.appController.setIcon();
+        Image image = menuController.imageInitialize();
         imageView.setImage(image);
     }
     @FXML
     public void changeUsername(){
         try {
-            MenuController.changeUsername.start(ApplicationController.getStage());
+            AppController.changeUsername.start(ApplicationController.getStage());
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
     @FXML
     public void deleteAccount(){
-        MenuController.profileMenuController.deleteAccount();
+        AppController.profileMenuController.deleteAccount();
 
     }
     @FXML
     public void logout(){
-        MenuController.profileMenuController.logout();
+        AppController.profileMenuController.logout();
 
     }
     @FXML
     public void openAvatarMenu(){
-        MenuController.profileMenuController.goToAvatarMenu();
+        AppController.profileMenuController.goToAvatarMenu();
     }
 
     public void back(MouseEvent mouseEvent) {

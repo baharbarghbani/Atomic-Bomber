@@ -56,27 +56,45 @@ public class Tank extends Component {
             @Override
             public void handle(ActionEvent actionEvent) {
                 pane.getChildren().remove(Tank.this);
+                game.getWave().removeObject(Tank.this);
+                game.removeAnimation(explodeAnimation);
+                game.getWave().removeTank(Tank.this);
             }
         });
         explodeAnimation.play();
     }
-    @Override
-    public void explodeByNuclear() {
-        imageView.setLayoutX(this.getX());
-        imageView.setLayoutY(this.getY() - 30);
-        imageView.setFitWidth(this.getWidth() + 40);
-        imageView.setFitHeight(this.getHeight() + 40);
+public void explodeByNuclear() {
+    imageView.setLayoutX(this.getX());
+    imageView.setLayoutY(this.getY() - 50);
+    imageView.setFitWidth(this.getWidth() + 60);
+    imageView.setFitHeight(this.getHeight() + 60);
+    Animation();
+}
+
+    private void Animation() {
         NuclearBombAnimation nuclearBombAnimation = new NuclearBombAnimation(imageView);
-        pane.getChildren().remove(Tank.this);
         game.addAnimations(nuclearBombAnimation);
+        pane.getChildren().remove(Tank.this);
+
         nuclearBombAnimation.setOnFinished(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
                 pane.getChildren().remove(imageView);
                 game.removeAnimation(nuclearBombAnimation);
+                game.getWave().removeObject(Tank.this);
+                game.getWave().removeTank(Tank.this);
+
             }
         });
         nuclearBombAnimation.play();
+    }
+    @Override
+    public void explodeByCluster(){
+        imageView.setLayoutX(this.getX());
+        imageView.setLayoutY(this.getY() - 30);
+        imageView.setFitWidth(this.getWidth() + 30);
+        imageView.setFitHeight(this.getHeight() + 30);
+        Animation();
     }
 
     public double getSpeed() {

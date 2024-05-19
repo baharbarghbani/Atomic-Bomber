@@ -63,29 +63,67 @@ public class Truck extends Component {
             @Override
             public void handle(ActionEvent actionEvent) {
                 pane.getChildren().remove(Truck.this);
+                game.getWave().removeObject(Truck.this);
+                game.removeAnimation(explodeAnimation);
+                game.getWave().removeTruck(Truck.this);
             }
         });
         explodeAnimation.play();
     }
-    @Override
-    public void explodeByNuclear() {
-//        ImageView imageView = new ImageView(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/explosion.gif"))));
+//    @Override
+//    public void explodeNuclear() {
+////        ImageView imageView = new ImageView(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/explosion.gif"))));
+////        imageView.setLayoutX(this.getX());
+////        imageView.setLayoutY(this.getY());
 //        imageView.setLayoutX(this.getX());
-//        imageView.setLayoutY(this.getY());
-        imageView.setLayoutX(this.getX());
-        imageView.setLayoutY(this.getY() - 30);
-        imageView.setFitWidth(this.getWidth() + 40);
-        imageView.setFitHeight(this.getHeight() + 40);
+//        imageView.setLayoutY(this.getY() - 30);
+//        imageView.setFitWidth(this.getWidth() + 40);
+//        imageView.setFitHeight(this.getHeight() + 40);
+//        NuclearBombAnimation nuclearBombAnimation = new NuclearBombAnimation(imageView);
+//        game.addAnimations(nuclearBombAnimation);
+//        pane.getChildren().remove(Truck.this);
+//        nuclearBombAnimation.setOnFinished(new EventHandler<ActionEvent>() {
+//            @Override
+//            public void handle(ActionEvent actionEvent) {
+//                pane.getChildren().remove(imageView);
+//                game.getWave().removeObject(Truck.this);
+//                game.removeAnimation(nuclearBombAnimation);
+//                game.getWave().removeTruck(Truck.this);
+//            }
+//        });
+//        nuclearBombAnimation.play();
+//    }
+public void explodeByNuclear() {
+    imageView.setLayoutX(this.getX());
+    imageView.setLayoutY(this.getY() - 50);
+    imageView.setFitWidth(this.getWidth() + 60);
+    imageView.setFitHeight(this.getHeight() + 60);
+    Animation();
+}
+
+    private void Animation() {
         NuclearBombAnimation nuclearBombAnimation = new NuclearBombAnimation(imageView);
         game.addAnimations(nuclearBombAnimation);
         pane.getChildren().remove(Truck.this);
+
         nuclearBombAnimation.setOnFinished(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
                 pane.getChildren().remove(imageView);
                 game.removeAnimation(nuclearBombAnimation);
+                game.getWave().removeObject(Truck.this);
+                game.getWave().removeTruck(Truck.this);
+
             }
         });
         nuclearBombAnimation.play();
+    }
+    @Override
+    public void explodeByCluster(){
+        imageView.setLayoutX(this.getX());
+        imageView.setLayoutY(this.getY() - 30);
+        imageView.setFitWidth(this.getWidth() + 30);
+        imageView.setFitHeight(this.getHeight() + 30);
+        Animation();
     }
 }

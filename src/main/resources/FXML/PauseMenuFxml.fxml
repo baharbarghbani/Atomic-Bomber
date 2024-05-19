@@ -9,12 +9,27 @@
 <?import javafx.geometry.Insets?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="view.PauseMenuController"
+            fx:controller="view.GameLauncher"
             prefHeight="600.0" prefWidth="900.0" stylesheets="@../CSS/style.css">
-    <VBox layoutX="280.0" layoutY="120.0" prefHeight="380.0" prefWidth="350.0" spacing="10" style=" -fx-background-color: transparent;-fx-background-radius: 30px; -fx-border-color: #0c2672; -fx-border-radius: 30px">
-    <padding>
-        <Insets left="28.0" top="20.0" />
-    </padding>
+    <VBox layoutX="280.0" layoutY="120.0" prefHeight="380.0" prefWidth="350.0" spacing="10" style=" -fx-background-color: transparent;-fx-background-radius: 30px; -fx-border-color: #0c2672; -fx-border-radius: 30px; -fx-border-width: 20">
+            <GridPane alignment="CENTER" hgap="15" vgap="15" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                      AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                <Button onAction="#exitWithSave" prefHeight="60" prefWidth="200" styleClass="profile-menu-button"
+                        text="Change Username" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+                <Button onAction="#exitWithoutSave" prefHeight="60" prefWidth="200" styleClass="profile-menu-button"
+                        text="Avatar Menu" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+                <Button onAction="#pauseMusic" prefHeight="60" prefWidth="200" styleClass="profile-menu-button" text="Logout"
+                        GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+                <Button onAction="#keyGuide" prefHeight="60" prefWidth="200" styleClass="profile-menu-button"
+                        text="Delete Account" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+                <Button onAction="#changeMusic" prefHeight="60" prefWidth="200" styleClass="profile-menu-button"
+                        text="Change Username" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+                <Button onAction="#back" prefHeight="60" prefWidth="200" styleClass="profile-menu-button"
+                        text="Avatar Menu" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+        </GridPane>
+<!--    <padding>-->
+<!--        <Insets left="28.0" top="20.0" />-->
+<!--    </padding>-->
     </VBox>
 
 </AnchorPane>

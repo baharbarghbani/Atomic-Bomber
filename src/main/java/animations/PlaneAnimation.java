@@ -1,13 +1,16 @@
 
 package animations;
 
+import controller.GameController;
+import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.animation.Transition;
 import javafx.scene.layout.Pane;
 import javafx.util.Duration;
 import model.Game;
 import model.components.Plane;
-import view.EndGameMenu;
+import model.components.ShootingTank;
+import view.GameLauncher;
 
 public class PlaneAnimation extends Transition {
     private final Game game;
@@ -27,10 +30,12 @@ public class PlaneAnimation extends Transition {
         this.setCycleDuration(Duration.millis(100));
         plane.setScaleX(-1);
         game.addAnimations(this);
-
-//        checkTank = new Timeline(new KeyFrame(Duration.seconds(1), actionEvent -> GameLauncherController.checkPlaneIsInTankArea(plane)));
-//        checkTank.setCycleCount(-1);
-//        checkTank.play();
+        checkTank = new Timeline(new KeyFrame(Duration.seconds(1), actionEvent -> GameController.isPlaneInTankArea(plane)));
+        checkTank.setCycleCount(-1);
+        checkTank.play();
+//        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(2), actionEvent -> GameController.createMig(Game.getInstance().getWave(), Game.getInstance(), GameLauncher.getInstance().root)));
+//        timeline.setCycleCount(-1);
+//        timeline.play();
     }
 
     @Override
@@ -101,10 +106,20 @@ public class PlaneAnimation extends Transition {
         plane.setY(y);
         plane.setX(x);
         if (y > Game.HEIGHT - 180 - Plane.HEIGHT) {
-            plane.remove();
             plane.explode();
+            plane.remove();
             this.stop();
         }
+//        if (GameController.isPlaneInTankArea(plane)) {
+//            ShootingTank tank = GameController.getTankInArea(plane);
+//            assert tank != null;
+//            double angle = Math.atan((tank.getY() - plane.getY()) / (tank.getX() - plane.getX()));
+//            tank.shoot(angle, Math.cos(angle) * tank.getSpeed(), Math.sin(angle) * tank.getSpeed());
+//            plane.explode();
+//            plane.remove();
+//            this.stop();
+//            EndGameMenu.getInstance().show();
+
     }
 
 

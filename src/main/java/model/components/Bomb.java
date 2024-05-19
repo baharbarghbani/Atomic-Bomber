@@ -3,7 +3,6 @@ package model.components;
 import animations.BonusAnimation;
 import animations.ExplosionAnimation;
 import animations.NuclearBombAnimation;
-import controller.GameController;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -13,7 +12,6 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.shape.Rectangle;
 import model.Game;
-import view.GameLauncher;
 
 import java.util.Objects;
 
@@ -74,10 +72,12 @@ public class Bomb extends Group {
     public void setBackground(String url) {
         imageView.setImage(new Image(Rocket.class.getResource(url).toExternalForm()));
     }
+    public void explodeCluster(){
 
+    }
     public void explode(){
         ExplosionAnimation explodeAnimation = new ExplosionAnimation(false,true,false);
-        explodeAnimation.setRocket(this);
+        explodeAnimation.setBomb(this);
         Game.getInstance().addAnimations(explodeAnimation);
         explodeAnimation.setOnFinished(actionEvent -> {
             this.getChildren().clear();
@@ -86,10 +86,15 @@ public class Bomb extends Group {
         });
         explodeAnimation.play();
     }
-    public void explodeByNuclear() {
+    public void explodeNuclear() {
         ImageView imageView = new ImageView(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/explosion.gif"))));
-        imageView.setLayoutX(this.getX());
-        imageView.setLayoutY(this.getY() - 60);
+        try {
+            imageView.setLayoutX(this.getX());
+            imageView.setLayoutY(this.getY() - 60);
+        }catch (Exception e) {
+            e.printStackTrace();
+        }
+
         imageView.setFitHeight(100);
         imageView.setFitWidth(100);
         pane.getChildren().remove(Bomb.this);
@@ -119,5 +124,9 @@ public class Bomb extends Group {
     }
     public void remove(){
         pane.getChildren().remove(this);
+    }
+
+    public void setVx(double vx) {
+        this.vx = vx;
     }
 }

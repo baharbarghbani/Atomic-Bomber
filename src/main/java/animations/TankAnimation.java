@@ -1,9 +1,11 @@
 package animations;
 
-import javafx.animation.Timeline;
+import controller.GameController;
 import javafx.animation.Transition;
 import javafx.util.Duration;
 import model.Game;
+import model.components.Plane;
+import model.components.ShootingTank;
 import model.components.Tank;
 
 public class TankAnimation extends Transition{

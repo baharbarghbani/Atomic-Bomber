@@ -1,27 +1,29 @@
 package view;
+import animations.BombAnimtaion;
 import animations.PlaneAnimation;
 import controller.ApplicationController;
 import controller.GameController;
 import javafx.application.Application;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
-import javafx.scene.paint.ImagePattern;
 import javafx.stage.Stage;
 import model.App;
 import model.Game;
 import model.Wave;
+import model.components.Cluster;
 import model.components.NuclearBomb;
 import model.components.Plane;
 import model.components.Rocket;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Objects;
 
@@ -34,6 +36,10 @@ public class GameLauncher extends Application {
     public ImageView userAvatar;
     @FXML
     public ImageView pauseButton;
+    @FXML
+    public Label clusterBombNumber;
+    @FXML
+    public ImageView clusterBomb;
     @FXML
     protected ImageView rocket;
     @FXML
@@ -53,10 +59,13 @@ public class GameLauncher extends Application {
     public static Label rocketNumberText;
     public static Label nuclearBombNumberText;
     public static Label waveNumberText;
+    public static Label clusterBombNumberText;
     public static ImageView pauseButtonImage;
     private Plane plane;
     public Pane root;
-    static GameLauncherController gameLauncherController = new GameLauncherController();
+    public Pane pauseMenu;
+    public Pane endGameMenu;
+    public Scene scene;
     protected static GameLauncher instance;
 
     public static int numberOfRockets = 0;
@@ -76,57 +85,65 @@ public class GameLauncher extends Application {
     public void start(Stage primaryStage) throws IOException {
         ApplicationController.setStage(primaryStage);
         setInstance(this);
+        createGameLauncher();
+        primaryStage.setTitle("Atomic Bomber");
+        primaryStage.setScene(scene);
+        primaryStage.show();
+        plane.requestFocus();
+    }
+    public void createGameLauncher() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/FXML/GameFxml.fxml"));
         root = fxmlLoader.load();
         root.getStyleClass().add("game");
-        Scene scene = new Scene(root);
+        scene = new Scene(root);
         createGame();
         creatPlane(root);
         game.setPlane(plane);
         Wave wave = GameController.createWave(game);
         scene.getStylesheets().add(getClass().getResource("/CSS/style.css").toExternalForm());
-//        Button button = new Button("Pause");
-//        button.setLayoutX(900);
-//        button.setLayoutY(100);
-//        button.setStyle("-fx-background-color: #000000; -fx-text-fill: #ffffff");
-////        root.getChildren().add(button);
         root.getChildren().add(plane);
         plane.requestFocus();
-//        root.getChildren().add(pauseButtonImage);
         root.getChildren().addAll(wave.getTrees());
         root.getChildren().addAll(wave.getBuildings());
         root.getChildren().addAll(wave.getForts());
         root.getChildren().addAll(wave.getTanks());
         root.getChildren().addAll(wave.getTrucks());
-//        root.getChildren().add(pauseButton);
-        primaryStage.setTitle("Atomic Bomber");
-        GameLauncherController.createTanksAnimation(wave.getTanks(), game);
+        GameLauncherController.createTanksAnimation(wave.getTanks(), game, 3);
         GameLauncherController.createTrucksAnimation(wave.getTrucks(), game);
-        // Create the root pane
-        // Show the scene
-        primaryStage.setScene(scene);
-        primaryStage.show();
-        plane.requestFocus();
+    }
+    public void createPauseMenu(){
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/FXML/PauseMenuFxml.fxml"));
+        try {
+            pauseMenu = fxmlLoader.load();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        pauseMenu.getStyleClass().add("pause-menu");
+        root.getChildren().add(pauseMenu);
+
+
     }
     @FXML
-    public void initialize(){
-        ApplicationController applicationController = new ApplicationController();
-        applicationController.setIcon();
-        rocket.setImage(gameLauncherController.getRocket());
+    public void initialize() throws FileNotFoundException {
+        AppController.appController.setIcon();
+        rocket.setImage(AppController.gameLauncherController.getRocket());
         rocketNumber.setText("X" + App.getLoggedInUser().getRocketNumber());
-        nuclearBomb.setImage(gameLauncherController.getNuclearBomb());
+        nuclearBomb.setImage(AppController.gameLauncherController.getNuclearBomb());
         nuclearBombNumber.setText("X" + App.getLoggedInUser().getNuclearBombNumber());
-        killNumberImage.setImage(gameLauncherController.getKillNumber());
+        killNumberImage.setImage(AppController.gameLauncherController.getKillNumber());
         killNumber.setText("X" + App.getLoggedInUser().getKill());
         killNumberText = killNumber;
         nuclearBombNumberText = nuclearBombNumber;
         rocketNumberText = rocketNumber;
         username.setText(App.getLoggedInUser().getUsername());
-        userAvatar.setImage(new Image(Objects.requireNonNull(Objects.requireNonNull(getClass().getResourceAsStream(App.getLoggedInUser().getAvatarPath())))));
+        userAvatar.setImage(AppController.appController.imageInitialize());
         waveNumber.setText("Wave 1");
         waveNumberText = waveNumber;
         pauseButton.setImage(new Image(requireNonNull(getClass().getResourceAsStream("/Images/pause.png"))));
         pauseButtonImage = pauseButton;
+        clusterBomb.setImage(new Image(requireNonNull(getClass().getResourceAsStream("/Images/bombs/malware.png"))));
+        clusterBombNumber.setText("X" + App.getLoggedInUser().getClusterBombNumber());
+        clusterBombNumberText = clusterBombNumber;
     }
     public void createGame() {
         game = new Game(root);
@@ -177,6 +194,8 @@ public class GameLauncher extends Application {
                 plane.setDisable(false);
             }
             if (event.getCode() == KeyCode.SPACE) {
+                GameController.increaseShootingCount();
+                System.out.println(App.getLoggedInUser().getShootingCount());
                 plane.setDisable(false);
                 double angle = -plane.getAngle() + Math.PI/2;
                 double y;
@@ -197,20 +216,39 @@ public class GameLauncher extends Application {
                 plane.requestFocus();
             }
             if (event.getCode() == KeyCode.R){
-                plane.setDisable(false);
                 if (App.getLoggedInUser().getNuclearBombNumber() == 0)
                     return;
-                NuclearBomb nuclearBomb = getNuclearBomb(planeAnimation);
-                root.getChildren().add(nuclearBomb);
-                App.getLoggedInUser().reduceNuclearBomb();
+                createNuclear(planeAnimation);
+
+            }
+            if (event.getCode() == KeyCode.C){
+                if (App.getLoggedInUser().getClusterBombNumber() == 0)
+                    return;
+                createCluster(planeAnimation);
+            }
+            if (event.getCode() == KeyCode.P){
+                if (!Game.getInstance().getWave().getAllObjects().isEmpty()){
+                    GameLauncherController.jumpToNextWave();
+                }
+                GameController.goToNextWave();
+            }
+            if (event.getCode() == KeyCode.G){
+                App.getLoggedInUser().addNuclearBomb();
                 GameLauncherController.updateNuclearBombCount();
-                GameLauncherController.shootBombs(nuclearBomb);
-                plane.requestFocus();
+            }
+            if (event.getCode() == KeyCode.T){
+                Wave wave = Game.getInstance().getWave();
+                GameController.createTanks(wave, game, root, 1);
+                GameLauncherController.createTankCheatCode(wave.getTanks());
+            }
+            if (event.getCode() == KeyCode.CONTROL) {
+                App.getLoggedInUser().addCluster();
+                GameLauncherController.updateClusterBombCount();
             }
         });
     }
 
-    private NuclearBomb getNuclearBomb(PlaneAnimation planeAnimation) {
+    public void createNuclear(PlaneAnimation planeAnimation) {
         double angle = -plane.getAngle() + Math.PI/2;
         double y;
         double x = plane.getX() + plane.getWidth()/2;
@@ -224,28 +262,66 @@ public class GameLauncher extends Application {
         double vy = -planeAnimation.getSpeed() * Math.sin(plane.angle);
         double vx = planeAnimation.getSpeed() * Math.cos(plane.angle);
         NuclearBomb nuclearBomb = new NuclearBomb(x, y, angle, plane.flipped, vx, vy, root, 30, 30);
-        return nuclearBomb;
+        plane.setDisable(false);
+        root.getChildren().add(nuclearBomb);
+        App.getLoggedInUser().reduceNuclearBomb();
+        GameLauncherController.updateNuclearBombCount();
+        GameLauncherController.shootBombs(nuclearBomb);
+        plane.requestFocus();
     }
-
+    public void createCluster(PlaneAnimation planeAnimation){
+        plane.setDisable(false);
+        BombAnimtaion.setClusterHasExploded(false);
+        double angle = -plane.getAngle() + Math.PI/2;
+        double y;
+        double x = plane.getX() + plane.getWidth()/2;
+        if (plane.getAngle() > Math.PI && plane.getAngle() < Math.PI * 2) {
+            y = plane.getY() + plane.getHeight() / 2;
+        } else {
+            y = plane.getY() + plane.getHeight() / 3;
+        }
+        if (plane.flipped)
+            x -= 10;
+        double vy = -planeAnimation.getSpeed() * Math.sin(plane.angle);
+        double vx = planeAnimation.getSpeed() * Math.cos(plane.angle);
+        Cluster cluster = new Cluster(x, y, angle, plane.flipped, vx, vy, root, 20, 20);
+        root.getChildren().add(cluster);
+        GameLauncherController.shootBombs(cluster);
+        App.getLoggedInUser().reduceClusterBomb();
+        GameLauncherController.updateClusterBombCount();
+        plane.requestFocus();
+    }
     public static void endGame() throws Exception {
         EndGameMenu endGameMenu = new EndGameMenu();
         endGameMenu.start(ApplicationController.getStage());
     }
 
-    public static void setKillNumberText(int kill){
-        killNumberText.setText("X" + kill);
-    }
-    public static void setNuclearBombNumberText(int number){
-        nuclearBombNumberText.setText("X" + number);
+
+    public void pauseGame(MouseEvent mouseEvent) throws IOException {
+        GameLauncherController.pauseGame();
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/FXML/PauseMenuFxml.fxml"));
+        Pane pane = fxmlLoader.load();
+        root.getChildren().add(pane);
+        ApplicationController.getStage().setScene(scene);
+        ApplicationController.getStage().show();
     }
 
-    public void pauseGame(MouseEvent mouseEvent) {
-        GameLauncherController.pauseGame();
-        PauseMenu pauseMenu = new PauseMenu();
-        try {
-            pauseMenu.start(ApplicationController.getStage());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+    public void exitWithSave(ActionEvent actionEvent) {
+    }
+
+    public void exitWithoutSave(ActionEvent actionEvent) {
+    }
+
+    public void pauseMusic(ActionEvent actionEvent) {
+    }
+
+    public void keyGuide(ActionEvent actionEvent) {
+    }
+
+    public void changeMusic(ActionEvent actionEvent) {
+    }
+
+    public void back(ActionEvent actionEvent) {
+
     }
 }

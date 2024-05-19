@@ -16,7 +16,7 @@ public class Plane extends Rectangle {
     public static final double WIDTH = 100;
     private static Plane instance;
     public double angle = 0.001;
-    private int hp = 100;
+    private int hp = 10;
     private Game game;
     private Pane pane;
     public Plane(Game game, Pane pane){
@@ -83,6 +83,12 @@ public class Plane extends Rectangle {
     }
     public void remove(){
         game.setPlane(null);
+    }
+    public void decreaseHP(){
+        hp--;
+        if (hp == 0){
+            explode();
+        }
     }
 
 }

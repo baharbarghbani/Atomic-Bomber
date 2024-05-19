@@ -11,7 +11,6 @@ import view.GameLauncherController;
 import java.util.List;
 
 public class NuclearBomb extends Bomb {
-    protected Rectangle rectangle;
     public NuclearBomb(double x, double y, double angle, boolean flipped, double vx, double vy, Pane pane, double fitWidth, double fitHeight){
         super(x, y, angle, flipped, vx, vy,pane);
         rectangle = new Rectangle(x, y, 25, 25);

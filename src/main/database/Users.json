@@ -8,7 +8,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "imr8Zk9j",
@@ -19,7 +23,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "FbrXuT3o",
@@ -30,7 +38,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "xs7gh1wF",
@@ -41,7 +53,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "xD4pepOk",
@@ -52,7 +68,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "Iy9qDgTd",
@@ -63,7 +83,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "S4fmYpEJ",
@@ -74,7 +98,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "AKEOveor",
@@ -85,7 +113,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "aTuVIJ6d",
@@ -96,7 +128,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "umodg0xd",
@@ -107,7 +143,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "qEMKivpy",
@@ -118,7 +158,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "1RCVIEiE",
@@ -129,7 +173,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "TMbAtRwx",
@@ -140,7 +188,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "Ixm7idZ9",
@@ -151,7 +203,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "TZxtKBNX",
@@ -162,7 +218,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "fEcaEWep",
@@ -173,7 +233,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "bkKAHej4",
@@ -184,7 +248,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "ybjMZ2yi",
@@ -195,7 +263,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "jKzqa7GH",
@@ -206,7 +278,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "ivZT5yOB",
@@ -217,7 +293,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "nirGgS61",
@@ -228,7 +308,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "uKcYWljU",
@@ -239,7 +323,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "w7vZDZ0y",
@@ -250,7 +338,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "hvQ6vbNf",
@@ -261,7 +353,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "FNR75Z94",
@@ -272,7 +368,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "f1Eq7WhY",
@@ -283,7 +383,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "J3yIbjU8",
@@ -294,7 +398,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "oPscTIed",
@@ -305,7 +413,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "7kBjiQLs",
@@ -316,7 +428,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "SrKrImz3",
@@ -327,7 +443,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "VbNY0syd",
@@ -338,7 +458,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "LSF4rdZT",
@@ -349,7 +473,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "13IDg6SG",
@@ -360,7 +488,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "q7vNe5tQ",
@@ -371,7 +503,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "RXdaPiNc",
@@ -382,7 +518,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "y88ZA8Sc",
@@ -393,7 +533,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "gjXmNqes",
@@ -404,7 +548,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "dN3gfvm0",
@@ -415,7 +563,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "F1rwonCv",
@@ -426,7 +578,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "PlvFsy16",
@@ -437,7 +593,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "cykmIfn0",
@@ -448,7 +608,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "QZTqmI4M",
@@ -459,7 +623,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "FYtZM6JX",
@@ -470,7 +638,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "HqKuaKPP",
@@ -481,7 +653,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "VJj6DIbs",
@@ -492,7 +668,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "MCt2mQst",
@@ -503,7 +683,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "bl1Lcrvd",
@@ -514,7 +698,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "L5dvCbR0",
@@ -525,7 +713,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "RRjaC04k",
@@ -536,7 +728,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "c6HAwWuz",
@@ -547,7 +743,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "jAdoSbRX",
@@ -558,7 +758,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "kgxnK6T6",
@@ -569,7 +773,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 0
+    "rocketNumber": 0,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "LNC9PmQO",
@@ -580,7 +788,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "ympaZL76",
@@ -591,7 +803,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "iXVnriHg",
@@ -602,7 +818,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "dxfcAnjl",
@@ -613,7 +833,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "hWILPFz4",
@@ -624,7 +848,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "VgCg4fWl",
@@ -635,7 +863,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "zRmy87JY",
@@ -646,7 +878,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "I9ijqvwh",
@@ -657,7 +893,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "vBZPCjCI",
@@ -668,7 +908,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "h5RFaXSz",
@@ -679,7 +923,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "1RimbSaL",
@@ -690,7 +938,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "LNP68q9U",
@@ -701,7 +953,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "OtKBjVSp",
@@ -712,7 +968,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "fg1Q3D4Y",
@@ -723,7 +983,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "t3oo17we",
@@ -734,7 +998,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "W7F7qunR",
@@ -745,7 +1013,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "iKJLo6sk",
@@ -756,7 +1028,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "RPvmBowr",
@@ -767,7 +1043,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "riWxkiqY",
@@ -778,7 +1058,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "5a4YeIpW",
@@ -789,7 +1073,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "mC6iqlFE",
@@ -800,7 +1088,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "zNHmw9qj",
@@ -811,7 +1103,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "QvUyVBeK",
@@ -822,7 +1118,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "MhL8zlDT",
@@ -833,7 +1133,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "9ohwLHFR",
@@ -844,7 +1148,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "JoLwbvNl",
@@ -855,7 +1163,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "nuPpJcyt",
@@ -866,7 +1178,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "UwNP0GgF",
@@ -877,7 +1193,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "IMzZ9Upk",
@@ -888,7 +1208,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "8TUG739H",
@@ -899,7 +1223,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "OKhCPSmK",
@@ -910,7 +1238,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "9hOtePAi",
@@ -921,7 +1253,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "aJBTSI4j",
@@ -932,7 +1268,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "6lI4TCrv",
@@ -943,7 +1283,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "LJdqvhEd",
@@ -954,7 +1298,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "eoQCpOhQ",
@@ -965,7 +1313,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "NZYXep5y",
@@ -976,7 +1328,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "M9ULX1iq",
@@ -987,7 +1343,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "fndtoMgh",
@@ -998,7 +1358,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "314fqtcE",
@@ -1009,7 +1373,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "yMgKYKOn",
@@ -1020,7 +1388,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "mBEq3RMD",
@@ -1031,7 +1403,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "lk2yWc2v",
@@ -1042,7 +1418,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "UBYJSLlw",
@@ -1053,7 +1433,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "ibOlz8Jw",
@@ -1064,7 +1448,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "alwXjwEe",
@@ -1075,7 +1463,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "JiAFYpjg",
@@ -1086,7 +1478,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "J1OKFEmK",
@@ -1097,7 +1493,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "BfPOFixr",
@@ -1108,7 +1508,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "HMwQv00k",
@@ -1119,7 +1523,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "ZYClbfvv",
@@ -1130,7 +1538,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "bEdN7dpN",
@@ -1141,7 +1553,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "CF1NLavV",
@@ -1152,7 +1568,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "xbHrPOwu",
@@ -1163,7 +1583,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "QlRUZAvf",
@@ -1174,7 +1598,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "VGNQCogj",
@@ -1185,7 +1613,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "2feaRxQT",
@@ -1196,7 +1628,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "KngZJOUf",
@@ -1207,7 +1643,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "aQ7BlQVQ",
@@ -1218,7 +1658,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "t7gDPCgx",
@@ -1229,7 +1673,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "0uzzYN8e",
@@ -1240,7 +1688,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "M50tuEus",
@@ -1251,7 +1703,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "yKxrfzh2",
@@ -1262,7 +1718,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "qMf0nc97",
@@ -1273,7 +1733,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "iz4lEtxm",
@@ -1284,7 +1748,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "jlrAtpWG",
@@ -1295,7 +1763,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "Qf5VNn5E",
@@ -1306,7 +1778,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "Xlios5o0",
@@ -1317,7 +1793,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "E3WA9xzU",
@@ -1328,7 +1808,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "ZZwya6Or",
@@ -1339,7 +1823,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "uWlkAULB",
@@ -1350,7 +1838,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "m6Nr63Vo",
@@ -1361,7 +1853,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "RHIcCzZp",
@@ -1372,7 +1868,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "t2lLaEy6",
@@ -1383,7 +1883,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "hKrBL3Mx",
@@ -1394,7 +1898,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "KtpopTFG",
@@ -1405,7 +1913,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "nSvMTErO",
@@ -1416,7 +1928,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "0naVwhce",
@@ -1427,7 +1943,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "lKq2cm6h",
@@ -1438,7 +1958,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "QpTQV3cB",
@@ -1449,7 +1973,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "UGNfW5yJ",
@@ -1460,7 +1988,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "ULaA7aaF",
@@ -1471,7 +2003,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "2AIKW7QE",
@@ -1482,7 +2018,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "CpW7DPwm",
@@ -1493,7 +2033,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "PbgblCtC",
@@ -1504,7 +2048,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "YXxVLXXq",
@@ -1515,7 +2063,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "jv5QlVsa",
@@ -1526,7 +2078,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "LeaLQMXF",
@@ -1537,7 +2093,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "7DeL8ERj",
@@ -1548,7 +2108,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "UosONFlV",
@@ -1559,7 +2123,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "21Ljvb5v",
@@ -1570,7 +2138,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "wVWr5gzp",
@@ -1581,7 +2153,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "tlsbRDpg",
@@ -1592,7 +2168,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "ejABKhcq",
@@ -1603,7 +2183,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "NoUKZc0s",
@@ -1614,7 +2198,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "YZaWqioJ",
@@ -1625,7 +2213,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "YKDnCYfO",
@@ -1636,7 +2228,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "AiZemXC9",
@@ -1647,7 +2243,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "oag7wwNf",
@@ -1658,7 +2258,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "Di2e3R9A",
@@ -1669,7 +2273,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "H6n8NW7R",
@@ -1680,7 +2288,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "wQvAhZgQ",
@@ -1691,7 +2303,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "rRb9T6Js",
@@ -1702,7 +2318,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "JXAjGtU6",
@@ -1713,7 +2333,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "CVfZBrW4",
@@ -1724,7 +2348,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "akEo2Pya",
@@ -1735,7 +2363,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "2iNkD32M",
@@ -1746,7 +2378,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "HbLpQqZy",
@@ -1757,7 +2393,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "IhroTChL",
@@ -1768,7 +2408,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "6YtQg0aC",
@@ -1779,7 +2423,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "xRdC6Euo",
@@ -1790,7 +2438,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "pSop0E8H",
@@ -1801,7 +2453,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "DV8Ro1oM",
@@ -1812,7 +2468,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "37aHy8xF",
@@ -1823,7 +2483,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "3NoR7U7m",
@@ -1834,7 +2498,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "mkjXPQz5",
@@ -1845,7 +2513,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "BK6j1pJL",
@@ -1856,7 +2528,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "zBUF02Fs",
@@ -1867,7 +2543,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "qL0oSxJu",
@@ -1878,7 +2558,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "cF3H39eQ",
@@ -1889,7 +2573,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "xhkmQk3R",
@@ -1900,7 +2588,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "Z63MgyUO",
@@ -1911,7 +2603,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "ZHqKQFNt",
@@ -1922,7 +2618,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "uHwBp5ux",
@@ -1933,7 +2633,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "cv9tn0wQ",
@@ -1944,7 +2648,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "PoMsI297",
@@ -1955,7 +2663,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "ciDLBwYT",
@@ -1966,7 +2678,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "5mmE8yFw",
@@ -1977,7 +2693,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "6eiGFGVN",
@@ -1988,7 +2708,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "ayoh9mMM",
@@ -1999,7 +2723,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "jrJ4BO9f",
@@ -2010,7 +2738,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "FlaKluvL",
@@ -2021,7 +2753,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "ZLtzKatk",
@@ -2032,7 +2768,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "ivDq97y4",
@@ -2043,7 +2783,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "1aiPU0cw",
@@ -2054,7 +2798,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "GheQAoma",
@@ -2065,7 +2813,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "oEy7PqjT",
@@ -2076,7 +2828,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "XNxNmFJu",
@@ -2087,7 +2843,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "H6Q5A6Xz",
@@ -2098,7 +2858,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "MvM7NdLH",
@@ -2109,7 +2873,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "bOGaAaOh",
@@ -2120,7 +2888,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "N8jFmCo0",
@@ -2131,7 +2903,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "DsgCGyaV",
@@ -2142,7 +2918,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "KCnRO6MH",
@@ -2153,7 +2933,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "2AuQpdjx",
@@ -2164,7 +2948,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "RgBDHhWX",
@@ -2175,7 +2963,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "iGipdO41",
@@ -2186,7 +2978,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "g9VDRsow",
@@ -2197,7 +2993,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "zPdvlOw7",
@@ -2208,7 +3008,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "LWAI59lr",
@@ -2219,7 +3023,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "cD40LvEJ",
@@ -2230,7 +3038,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "vhiscm3E",
@@ -2241,7 +3053,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "aSVjkBS2",
@@ -2252,7 +3068,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "ZEPWc30G",
@@ -2263,7 +3083,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "daGYB9dQ",
@@ -2274,7 +3098,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "PkpJAQnk",
@@ -2285,7 +3113,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "piO7THFQ",
@@ -2296,7 +3128,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "JXCfnM1Z",
@@ -2307,7 +3143,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "dzmIrbpn",
@@ -2318,7 +3158,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "fMeNVGFW",
@@ -2329,7 +3173,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "Dqgkx4uI",
@@ -2340,7 +3188,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "rpUhmFgA",
@@ -2351,7 +3203,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "n4SnLDiK",
@@ -2362,7 +3218,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "y9MHssDd",
@@ -2373,7 +3233,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "AnC2S0Gp",
@@ -2384,7 +3248,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "qiaHseKv",
@@ -2395,7 +3263,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "jjNlDRzm",
@@ -2406,7 +3278,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "mqjdfMZs",
@@ -2417,7 +3293,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "EHnzEW24",
@@ -2428,7 +3308,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "siFDcjmh",
@@ -2439,7 +3323,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "DypM0h0s",
@@ -2450,7 +3338,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "pH8IXX4t",
@@ -2461,7 +3353,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "HYBG8G16",
@@ -2472,7 +3368,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "1XOtTJYj",
@@ -2483,7 +3383,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "StaKTg3S",
@@ -2494,7 +3398,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "vDF98MjW",
@@ -2505,7 +3413,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "mXb7640F",
@@ -2516,7 +3428,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "BtyLIncd",
@@ -2527,7 +3443,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "DrFO9YIq",
@@ -2538,7 +3458,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "vTBMAyel",
@@ -2549,7 +3473,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "NWOzYfKD",
@@ -2560,7 +3488,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "Hc28rAju",
@@ -2571,7 +3503,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "orSN3Tih",
@@ -2582,7 +3518,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "F1McspJA",
@@ -2593,7 +3533,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "xy52k69L",
@@ -2604,7 +3548,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "guMPfieE",
@@ -2615,7 +3563,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "BJYzbjvR",
@@ -2626,7 +3578,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "4s3nqifq",
@@ -2637,7 +3593,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "3b5mhUrd",
@@ -2648,7 +3608,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "cU56EaJL",
@@ -2659,7 +3623,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "EFEPkk0C",
@@ -2670,7 +3638,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "1SK2yFtM",
@@ -2681,7 +3653,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "72o3nhCW",
@@ -2692,7 +3668,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "30Cd9uiU",
@@ -2703,7 +3683,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "nh8tNUGz",
@@ -2714,7 +3698,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "DFZtZBCR",
@@ -2725,7 +3713,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "j8eAbIHF",
@@ -2736,7 +3728,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "H0vVVnjK",
@@ -2747,7 +3743,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "iLxfyUEp",
@@ -2758,7 +3758,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "TzrgdUei",
@@ -2769,7 +3773,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "wnm5Y6Av",
@@ -2780,7 +3788,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "tzBXEerf",
@@ -2791,7 +3803,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "kXaFtKUT",
@@ -2802,7 +3818,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "zEUjUy6S",
@@ -2813,7 +3833,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "2slvjDkd",
@@ -2824,7 +3848,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "mmkcs882",
@@ -2835,7 +3863,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "wUD6H3ua",
@@ -2846,7 +3878,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "McJNVaDO",
@@ -2857,7 +3893,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "jAKVNb4V",
@@ -2868,7 +3908,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "TdwmvUiK",
@@ -2879,7 +3923,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "Wz2gfeCU",
@@ -2890,7 +3938,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "eDMQmW4u",
@@ -2901,7 +3953,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "uBXnUuEh",
@@ -2912,7 +3968,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "mdtJDG7Z",
@@ -2923,7 +3983,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "9pZwPkgB",
@@ -2934,7 +3998,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "dDezNLNl",
@@ -2945,7 +4013,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "D4doQqg1",
@@ -2956,7 +4028,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "7iFWz7T6",
@@ -2967,7 +4043,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "NkYCCjxy",
@@ -2978,7 +4058,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "YTqfi0zz",
@@ -2989,7 +4073,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "sAR6i6ok",
@@ -3000,7 +4088,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "ccMLyxIb",
@@ -3011,7 +4103,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "6xxsm15P",
@@ -3022,7 +4118,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "6GaHFCxP",
@@ -3033,7 +4133,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "b32bQMrm",
@@ -3044,7 +4148,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "gRHXhcGX",
@@ -3055,7 +4163,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "iNH4rbGf",
@@ -3066,7 +4178,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "W4qaK5LB",
@@ -3077,7 +4193,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "hj5n7I6U",
@@ -3088,7 +4208,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "3pwQgwId",
@@ -3099,7 +4223,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "SKExcSlt",
@@ -3110,7 +4238,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "85fyCg11",
@@ -3121,7 +4253,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "hm4C1G7N",
@@ -3132,7 +4268,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "81bWGEiJ",
@@ -3143,7 +4283,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "tI59zxDC",
@@ -3154,7 +4298,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "DQcMWioX",
@@ -3165,7 +4313,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "UWS86sdM",
@@ -3176,7 +4328,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "sigObBgF",
@@ -3187,7 +4343,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "Xh0zOxf8",
@@ -3198,7 +4358,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "NRbBtXNa",
@@ -3209,7 +4373,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "zbqeuz72",
@@ -3220,7 +4388,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "RNqHzLcG",
@@ -3231,7 +4403,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "fhdNmgXY",
@@ -3242,7 +4418,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "IrhsSE12",
@@ -3253,7 +4433,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "TqeIHh35",
@@ -3264,7 +4448,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "ghw4RYr1",
@@ -3275,7 +4463,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "97W56zkO",
@@ -3286,7 +4478,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "Pr21V5rW",
@@ -3297,7 +4493,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "tqWDISxU",
@@ -3308,7 +4508,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "VonJCdyc",
@@ -3319,7 +4523,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "qau31fJ9",
@@ -3330,7 +4538,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "JpMp0nlO",
@@ -3341,7 +4553,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "WoEOZA0M",
@@ -3352,7 +4568,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "mGsw4BaS",
@@ -3363,7 +4583,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "Vsyw808E",
@@ -3374,7 +4598,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "FwPjePLu",
@@ -3385,7 +4613,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "IBpcP2WZ",
@@ -3396,7 +4628,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "0hl5Z3tv",
@@ -3407,7 +4643,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "OHLBNvoJ",
@@ -3418,7 +4658,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "u1a10cha",
@@ -3429,7 +4673,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "ZZ1HWbhZ",
@@ -3440,7 +4688,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "wPbiqVpV",
@@ -3451,7 +4703,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "A17PHVoJ",
@@ -3462,7 +4718,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "67jENEBy",
@@ -3473,7 +4733,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "EWmtIyvq",
@@ -3484,7 +4748,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "qNL1Nhwt",
@@ -3495,7 +4763,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "VfY3RSHT",
@@ -3506,7 +4778,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "0JNkIe8z",
@@ -3517,7 +4793,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "f9WtMTH1",
@@ -3528,7 +4808,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "dQtXpxUl",
@@ -3539,7 +4823,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "DylgGEdp",
@@ -3550,7 +4838,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "RXhTVlRr",
@@ -3561,7 +4853,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "4P9Ldg8Q",
@@ -3572,7 +4868,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "d6SVFUUp",
@@ -3583,7 +4883,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "FpFNryjl",
@@ -3594,7 +4898,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "SCq14FGK",
@@ -3605,7 +4913,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "L797Vs7X",
@@ -3616,7 +4928,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "Lb4RULc7",
@@ -3627,7 +4943,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "hsIX0wZi",
@@ -3638,7 +4958,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "SXVOmc90",
@@ -3649,7 +4973,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "xdYZjTAI",
@@ -3660,7 +4988,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "KYwgWRDo",
@@ -3671,7 +5003,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "0oCTAC8Z",
@@ -3682,7 +5018,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "D9AzJ1e1",
@@ -3693,7 +5033,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "aPBX4c9m",
@@ -3704,7 +5048,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "FVuZshpM",
@@ -3715,7 +5063,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "rSTvzOBl",
@@ -3726,7 +5078,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "6hjr2cI1",
@@ -3737,7 +5093,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "MrqJ9CHz",
@@ -3748,7 +5108,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "TZqc5oKQ",
@@ -3759,7 +5123,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "UCCZM54f",
@@ -3770,7 +5138,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "QI0ilk8M",
@@ -3781,7 +5153,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "8D3la3m8",
@@ -3792,7 +5168,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "xtFanRKb",
@@ -3803,7 +5183,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "CoaPmZ8i",
@@ -3814,7 +5198,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "eyMPhdJi",
@@ -3825,7 +5213,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "dCfzGx2z",
@@ -3836,7 +5228,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "KvkLYV62",
@@ -3847,7 +5243,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "gK6SwW4R",
@@ -3858,7 +5258,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "kI4HMrMn",
@@ -3869,7 +5273,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "jGXXH4vP",
@@ -3880,7 +5288,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "6k3FCZgb",
@@ -3891,7 +5303,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "JS8Dl860",
@@ -3902,7 +5318,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "XwA5uRv2",
@@ -3913,7 +5333,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "aEN54ZZ5",
@@ -3924,7 +5348,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "pNTbmAQt",
@@ -3935,7 +5363,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "18aY0MGS",
@@ -3946,7 +5378,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "0rFadCv3",
@@ -3957,7 +5393,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "usieTeUR",
@@ -3968,7 +5408,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "qnbCUiCI",
@@ -3979,7 +5423,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "uItdNnBr",
@@ -3990,7 +5438,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "zVb57zC9",
@@ -4001,7 +5453,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "KH0BPiGm",
@@ -4012,7 +5468,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "0S3ygVoy",
@@ -4023,7 +5483,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "mT3gUDNS",
@@ -4034,7 +5498,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "C0a3Pyy0",
@@ -4045,7 +5513,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "YPFDguFA",
@@ -4056,7 +5528,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "m07ia8Kc",
@@ -4067,7 +5543,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "2rCMPA13",
@@ -4078,7 +5558,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "YjYHLg8e",
@@ -4089,7 +5573,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "xiyfBDvd",
@@ -4100,7 +5588,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "ESkyeYrf",
@@ -4111,7 +5603,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "UIRzDwI3",
@@ -4122,7 +5618,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "ZVy0BOSV",
@@ -4133,7 +5633,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "XFYs4Lv9",
@@ -4144,7 +5648,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "3LRHjHcy",
@@ -4155,7 +5663,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "kjZ73tN2",
@@ -4166,7 +5678,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "c7frfeXT",
@@ -4177,7 +5693,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "9goPk3vy",
@@ -4188,7 +5708,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "DM7dE0SU",
@@ -4199,7 +5723,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "0BsakUxw",
@@ -4210,7 +5738,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "acd1IvT6",
@@ -4221,7 +5753,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "oTOkNGgh",
@@ -4232,7 +5768,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "Ds1Bxw7N",
@@ -4243,7 +5783,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "bdjMChRP",
@@ -4254,7 +5798,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "E6VUvxPu",
@@ -4265,7 +5813,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "cIZwqV2i",
@@ -4276,7 +5828,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "iZ8FWobs",
@@ -4287,7 +5843,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "CkwTIMm3",
@@ -4298,7 +5858,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "KaYmDN8l",
@@ -4309,7 +5873,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "bgECw1Wh",
@@ -4320,7 +5888,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "kXrSuXFH",
@@ -4331,7 +5903,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "Pmqg5GV0",
@@ -4342,7 +5918,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "MkQMn5LF",
@@ -4353,7 +5933,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "GlSpI1l6",
@@ -4364,7 +5948,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "KtEHybiT",
@@ -4375,7 +5963,11 @@
     "avatarPath": "/Images/avatars/avatar6.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "ECrebuA5",
@@ -4386,7 +5978,11 @@
     "avatarPath": "/Images/avatars/avatar2.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "rHBWk39X",
@@ -4397,7 +5993,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "qTNZxAcX",
@@ -4408,7 +6008,11 @@
     "avatarPath": "/Images/avatars/avatar5.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "oMQMFaRH",
@@ -4419,7 +6023,11 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "IivbxTxz",
@@ -4430,7 +6038,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "PUREtp3f",
@@ -4441,7 +6053,11 @@
     "avatarPath": "/Images/avatars/avatar4.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "U6PORTiF",
@@ -4452,7 +6068,11 @@
     "avatarPath": "/Images/avatars/avatar3.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   },
   {
     "username": "aKtYcq18",
@@ -4463,6 +6083,1975 @@
     "avatarPath": "/Images/avatars/avatar1.png",
     "score": 0,
     "nuclearBombNumber": 0,
-    "rocketNumber": 1
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "BIWLM7Ql",
+    "password": "uhH98CTjrh",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "cTqhxbGV",
+    "password": "YuRZbYgEXs",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "vybronyl",
+    "password": "oc9dYrl2CI",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "QxWWDRjb",
+    "password": "9lPxui7lQa",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "AGjYTPEB",
+    "password": "KzxdnHAXsG",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar6.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "WZukIu3N",
+    "password": "2zTztKRV6y",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar6.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "KvruV44h",
+    "password": "GAWChzMqlN",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar6.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "S8glGq0a",
+    "password": "5u2ZopJvXW",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar6.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "OrCRTQzK",
+    "password": "5wYGERo9gq",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "5SQgFuEA",
+    "password": "uCkH2VEnPi",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "T8A0GQA0",
+    "password": "uzeC0QGZX3",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "XdhUcRfK",
+    "password": "WppO9MOO6H",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar5.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "F0BzlfVu",
+    "password": "aSNpLDz1bs",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar2.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "zM7kminc",
+    "password": "1ccRIBcRGx",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "lXxnc5HY",
+    "password": "mBpiAEkjt7",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar6.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "QF7yQZ2j",
+    "password": "CZAs08vAnI",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "peDg8bz6",
+    "password": "eiSfAK11wW",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "A7ptMFHR",
+    "password": "gsFyu21sNj",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "snJMzn1u",
+    "password": "vpj9ag3ckl",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "JxKilhSe",
+    "password": "EUyTPD3XqZ",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "GMdCEsH5",
+    "password": "mxS5uDtMpk",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar5.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "TdHd4fYV",
+    "password": "FC6F0Jarfu",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar2.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "Qga3tZ88",
+    "password": "Ptzfn1cCL8",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "y1kQF3Hz",
+    "password": "24CBRJY1BC",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar5.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "uvi2WNYo",
+    "password": "2b6bjWhi5d",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar5.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "MsoqVjsW",
+    "password": "awWuTbm19G",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "sTHJGK8i",
+    "password": "JPP393K13b",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar6.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "51PkbxhT",
+    "password": "ySFV9XFPI2",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar6.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "EQ2OpPIV",
+    "password": "Mkmuzz0ol7",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "vmsTwXAO",
+    "password": "O5Yd9a4cbZ",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "gUkIeU9J",
+    "password": "vB7HTmaqdI",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "sJ6JbfD7",
+    "password": "TQ2UT215Yp",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "qfqy8Sxf",
+    "password": "8He4gJvTmV",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar6.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "ifACHg18",
+    "password": "07hHDd8hkM",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar5.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "sMIr8Q17",
+    "password": "IiSNydz8rl",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "VX2EAI7W",
+    "password": "qRicGc1kpJ",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "D9J3IpBe",
+    "password": "SQMjC3KtSL",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar5.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "K51JJumk",
+    "password": "48y6sOIk8v",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "LVqJItAJ",
+    "password": "MghDCBIWyj",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar6.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "uZzci33i",
+    "password": "1IhunhAMnD",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "tzHTiISW",
+    "password": "G83o5fEVu1",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "V7Yr9dyq",
+    "password": "YsDRE94GpW",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar6.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "6J6JaWvh",
+    "password": "eKWhRibydP",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar2.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "tOqWxAAv",
+    "password": "TU5MhErzou",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar5.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "kcPZaP1i",
+    "password": "MHoG4IwEPz",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar2.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "CLEQl6hz",
+    "password": "UIMwAI60WO",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "hm5WJZJB",
+    "password": "xyir3yGI8q",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "1SpZYeyX",
+    "password": "UFUvZtRc4t",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "GF4waelg",
+    "password": "L8np8toQMV",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "sgPlSa6N",
+    "password": "k25zc6ou2i",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar6.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "ZRUfMDqE",
+    "password": "CMa6YP5oYu",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar5.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "pbB7KN9P",
+    "password": "bWY09mbEQJ",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "yr57kP1E",
+    "password": "idCkCg9gXj",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar5.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "EU71rMdS",
+    "password": "c3OVojIBiS",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "DZQIpYvg",
+    "password": "4T0x86iHHP",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar5.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "gtg0NIED",
+    "password": "oM1Z9OS0ox",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "dspLB1L4",
+    "password": "JqkON8wgJk",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "EKqzOiAx",
+    "password": "RZBH9yj8Wr",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "z926pSCy",
+    "password": "EhYDUcVUg4",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "2hFn7ntk",
+    "password": "XF0rZ2ymAB",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar5.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "lz61LU0R",
+    "password": "K9oMlDEqWZ",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "HZBT7kmW",
+    "password": "9AWzOOBmzB",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar5.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "QaoAhSUo",
+    "password": "2hSEwpaBDH",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "l8D5QzF6",
+    "password": "SHItozBnym",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "AHzirP4g",
+    "password": "GjqIpTXhB1",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "VpjChifd",
+    "password": "5wAq2UinOB",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "ySG0EOYt",
+    "password": "oOpjx0cnqE",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "XLRSfpsO",
+    "password": "bqgIeduSz8",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "XUWgf2JE",
+    "password": "FLIhkNfAia",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar6.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "TPYVBMYs",
+    "password": "318GYIjA9i",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "wipm2Gup",
+    "password": "4FLLFy0CIq",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "L7G8I3aR",
+    "password": "NTqmaOz2XS",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar6.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "FL2mFGWf",
+    "password": "mbScjqQgYp",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "crMB0aF4",
+    "password": "LgwestCHjW",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "UTLAKH5j",
+    "password": "1jcq4iJc9A",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar2.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "342KLufD",
+    "password": "X1qCrVHf25",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "NLMwigFn",
+    "password": "4YZxtJuFt0",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "5YYONz4I",
+    "password": "uK8aEErpLo",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "oagjUpxd",
+    "password": "2cOlcy52rp",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "gZGAa0xo",
+    "password": "jR1nNroLYU",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "CHKyLErz",
+    "password": "1yQpIffFjv",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar6.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "wBcLIxXj",
+    "password": "y9LAbkUSIc",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "VUh7vJFh",
+    "password": "SDDaIddOus",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar5.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "oNsbKSNF",
+    "password": "CVh0FyPdxC",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "EibS1leA",
+    "password": "log19u4KF0",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar6.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "LGyg8rmU",
+    "password": "WEEBJ1X4CN",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "lprrX0qu",
+    "password": "Yi8nzdIYQU",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "mCve9MgG",
+    "password": "9UYVpIfkY7",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "0aWaH824",
+    "password": "Xfl7Mnx7qo",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar5.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "sc8HmiRZ",
+    "password": "0bIobB8J9Y",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "HvaRihDo",
+    "password": "Edwru8M1Oi",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar5.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "zHCqxw0m",
+    "password": "L8p0lG34yI",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar5.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "XijIL42F",
+    "password": "OT0lV56ZWX",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "nWgrZq37",
+    "password": "whU0O4hX0d",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "7gf8DhAg",
+    "password": "1nZPOjvUTH",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "0FISGVXz",
+    "password": "CxeFnnM8G9",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar6.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "CoE8iEOd",
+    "password": "bbc002YeJ4",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar6.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "gu916J5P",
+    "password": "wzGu1oBRjk",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar5.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "RtOVonBv",
+    "password": "XnTIQ4Iblp",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar2.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "ytP6mL7b",
+    "password": "EzW86fKI2d",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "aisRAHAH",
+    "password": "CPZVDDit5t",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "wEFZY8xl",
+    "password": "hql1vfyWtD",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "RjJIx31D",
+    "password": "DgOUvW99Z7",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar2.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "v6Vd7tex",
+    "password": "yu0MmeT9bV",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar2.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "UDQvfHoa",
+    "password": "SC7WbcsGdS",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "oJLrDtJp",
+    "password": "6hrgQrnSjX",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar2.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "J46pDssr",
+    "password": "1pUozQL3dx",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar2.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "kOb0iaVe",
+    "password": "L5klkhco5W",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar2.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "FtQi7QAm",
+    "password": "eWfOh1hHGq",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar2.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "mK6RDXSI",
+    "password": "ynm7xyFRlW",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "Bahar",
+    "password": "Bhr48983*",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "C:\\Users\\ASUS\\Downloads\\jet.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "0EIyAZ1f",
+    "password": "GHpqS6Gt90",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "C:\\Users\\ASUS\\Documents\\Uni\\AP\\AtomicBomber2\\src\\main\\resources\\Images\\rockets\\rocket.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "eG3brcrG",
+    "password": "k2t1XFteun",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "C:\\Users\\ASUS\\Documents\\Uni\\AP\\AtomicBomber2\\src\\main\\resources\\Images\\fire\\fire0.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "Bhaat",
+    "password": "baht58\u0026YY4",
+    "isGuest": false,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "TXNVZ1fF",
+    "password": "Ku1HXdhJzD",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "l6CpGuhk",
+    "password": "4pEP2rjOW7",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "f0w1LZbA",
+    "password": "YEOzgxfMNv",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar2.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "ASyoZI1V",
+    "password": "ZMSiJYEotp",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar6.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "GztevfvW",
+    "password": "7d8UquKMcS",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar5.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "77p2fStN",
+    "password": "ThyLQgaAfl",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "qOQ3TnE9",
+    "password": "thFdBlPkK1",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "klRYUc0G",
+    "password": "n7OO7bdwiE",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "JDuTiucp",
+    "password": "mJ2ZvvWSm3",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "U0ythNNA",
+    "password": "8SevOpQjsH",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar2.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "aY9Sr6xp",
+    "password": "GhZsiTf0xW",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "4RL2d9PV",
+    "password": "3KJeyCchtJ",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar6.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "AYtosTxV",
+    "password": "vnmYLuFcGl",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "cdXywfQd",
+    "password": "ZDQiBdlOuG",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar2.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "ZZSwniK4",
+    "password": "9Rnz3MxHEh",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar2.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "G49xIdDY",
+    "password": "iku4tRRCul",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "9i8w7eJ4",
+    "password": "kOc1CEBVzd",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar4.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   }
 ]
