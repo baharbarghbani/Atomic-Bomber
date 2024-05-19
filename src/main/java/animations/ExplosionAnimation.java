@@ -1,10 +1,9 @@
 package animations;
 
 import javafx.animation.Transition;
-import model.components.Bomb;
-import model.components.Component;
-import model.components.Plane;
-import model.components.Rocket;
+import javafx.application.Platform;
+import model.components.*;
+import view.GameLauncher;
 
 public class ExplosionAnimation extends Transition {
     private Component component;
@@ -35,8 +34,14 @@ public class ExplosionAnimation extends Transition {
             component.setBackground("/Images/fire/fire" + frame + ".png");
         }
         else if (isBomb) {
-            int frame = (int) Math.floor(v * 4);
-            bomb.setBackground("/Images/planeExplosion/explosion" + frame + ".png");
+            if (bomb instanceof Rocket) {
+                int frame = (int) Math.floor(v * 4);
+                bomb.setBackground("/Images/planeExplosion/explosion" + frame + ".png");
+            } else if (bomb instanceof NuclearBomb) {
+//                bomb.changeSize();
+                bomb.explodeByNuclear();
+//                GameLauncher.getInstance().root.getChildren().remove(bomb);
+            }
         }
         else if (isPlane) {
             int frame = (int) Math.floor(v * 4);

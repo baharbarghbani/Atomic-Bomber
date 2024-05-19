@@ -13,7 +13,7 @@ import model.Game;
 import java.util.Objects;
 
 public class Tank extends Component {
-    protected double speed = 0.2;
+    protected double speed = 0.4;
     protected int imageNumber;
 
     public Tank(double x, int imageNumber, Game game, Pane pane){
@@ -62,14 +62,18 @@ public class Tank extends Component {
     }
     @Override
     public void explodeByNuclear() {
-        ImageView imageView = new ImageView(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/explosion.gif"))));
         imageView.setLayoutX(this.getX());
-        imageView.setLayoutY(this.getY());
-        NuclearBombAnimation nuclearBombAnimation = new NuclearBombAnimation(imageView, this);        game.addAnimations(nuclearBombAnimation);
+        imageView.setLayoutY(this.getY() - 30);
+        imageView.setFitWidth(this.getWidth() + 40);
+        imageView.setFitHeight(this.getHeight() + 40);
+        NuclearBombAnimation nuclearBombAnimation = new NuclearBombAnimation(imageView);
+        pane.getChildren().remove(Tank.this);
+        game.addAnimations(nuclearBombAnimation);
         nuclearBombAnimation.setOnFinished(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
-                pane.getChildren().remove(Tank.this);
+                pane.getChildren().remove(imageView);
+                game.removeAnimation(nuclearBombAnimation);
             }
         });
         nuclearBombAnimation.play();

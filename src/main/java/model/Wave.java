@@ -16,6 +16,7 @@ public class Wave {
     private ArrayList<Truck> trucks;
     private ArrayList<Building> buildings;
     private ArrayList<Fort> forts;
+    private ArrayList<ShootingTank> shootingTanks;
     private Game game;
     private ArrayList<Tree> trees;
     static Random random = new Random();
@@ -25,6 +26,7 @@ public class Wave {
         buildings = new ArrayList<>();
         trees = new ArrayList<>();
         forts = new ArrayList<>();
+        shootingTanks = new ArrayList<>();
         allObjects = new ArrayList<>();
         this.pane = pane;
         this.game = game;
@@ -33,6 +35,7 @@ public class Wave {
         createTanks();
         createTrees();
         createFort();
+        createShootingTanks();
     }
     public ArrayList<Tank> getTanks() {
         return tanks;
@@ -52,10 +55,15 @@ public class Wave {
     public void createFort(){
         GameController.createFort(this, game, pane);
     }
+    public void createShootingTanks(){
+        GameController.createShootingTanks(this, game, pane);
+    }
     public ArrayList<Building> getBuildings(){
         return buildings;
     }
-
+    public ArrayList<ShootingTank> getShootingTanks(){
+        return shootingTanks;
+    }
     public ArrayList<Truck> getTrucks() {
         return trucks;
     }

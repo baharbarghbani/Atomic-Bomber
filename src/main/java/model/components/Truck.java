@@ -13,7 +13,7 @@ import model.Game;
 import java.util.Objects;
 
 public class Truck extends Component {
-    private double speed = 0.2;
+    private double speed = 0.3;
     private int imageNumber;
 
     public Truck(int imageNumber, double x, Game game, Pane pane){
@@ -69,15 +69,21 @@ public class Truck extends Component {
     }
     @Override
     public void explodeByNuclear() {
-        ImageView imageView = new ImageView(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/explosion.gif"))));
+//        ImageView imageView = new ImageView(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/explosion.gif"))));
+//        imageView.setLayoutX(this.getX());
+//        imageView.setLayoutY(this.getY());
         imageView.setLayoutX(this.getX());
-        imageView.setLayoutY(this.getY());
-        NuclearBombAnimation nuclearBombAnimation = new NuclearBombAnimation(imageView, this);
+        imageView.setLayoutY(this.getY() - 30);
+        imageView.setFitWidth(this.getWidth() + 40);
+        imageView.setFitHeight(this.getHeight() + 40);
+        NuclearBombAnimation nuclearBombAnimation = new NuclearBombAnimation(imageView);
         game.addAnimations(nuclearBombAnimation);
+        pane.getChildren().remove(Truck.this);
         nuclearBombAnimation.setOnFinished(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
-                pane.getChildren().remove(Truck.this);
+                pane.getChildren().remove(imageView);
+                game.removeAnimation(nuclearBombAnimation);
             }
         });
         nuclearBombAnimation.play();

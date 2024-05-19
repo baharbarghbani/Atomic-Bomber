@@ -28,14 +28,19 @@ public class Building extends Component{
         game.getWave().getAllObjects().remove(this);
     }
 
-    @Override
     public void explodeByNuclear() {
-        NuclearBombAnimation nuclearBombAnimation = new NuclearBombAnimation(imageView, this);
+        imageView.setLayoutX(this.getX());
+        imageView.setLayoutY(this.getY() - 30);
+        imageView.setFitWidth(this.getWidth() + 40);
+        imageView.setFitHeight(this.getHeight() + 40);
+        NuclearBombAnimation nuclearBombAnimation = new NuclearBombAnimation(imageView);
         game.addAnimations(nuclearBombAnimation);
+        pane.getChildren().remove(Building.this);
+
         nuclearBombAnimation.setOnFinished(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
-                pane.getChildren().remove(Building.this);
+                pane.getChildren().remove(imageView);
                 game.removeAnimation(nuclearBombAnimation);
             }
         });

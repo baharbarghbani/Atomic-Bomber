@@ -2,14 +2,20 @@ package model.components;
 
 import animations.BonusAnimation;
 import animations.ExplosionAnimation;
+import animations.NuclearBombAnimation;
 import controller.GameController;
 import javafx.application.Platform;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.scene.Group;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.shape.Rectangle;
 import model.Game;
+import view.GameLauncher;
+
+import java.util.Objects;
 
 public class Bomb extends Group {
     protected double angle;
@@ -19,6 +25,7 @@ public class Bomb extends Group {
     protected ImageView imageView;
     protected Pane pane;
     protected BonusAnimation bonusAnimation;
+    protected Rectangle rectangle;
 
     public Bomb(double x, double y, double angle, boolean flipped, double vx, double vy, Pane pane) {
         this.flipped = flipped;
@@ -71,12 +78,33 @@ public class Bomb extends Group {
     public void explode(){
         ExplosionAnimation explodeAnimation = new ExplosionAnimation(false,true,false);
         explodeAnimation.setRocket(this);
+        Game.getInstance().addAnimations(explodeAnimation);
         explodeAnimation.setOnFinished(actionEvent -> {
             this.getChildren().clear();
             pane.getChildren().remove(this);
+            Game.getInstance().removeAnimation(explodeAnimation);
         });
         explodeAnimation.play();
     }
+    public void explodeByNuclear() {
+        ImageView imageView = new ImageView(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/explosion.gif"))));
+        imageView.setLayoutX(this.getX());
+        imageView.setLayoutY(this.getY() - 60);
+        imageView.setFitHeight(100);
+        imageView.setFitWidth(100);
+        pane.getChildren().remove(Bomb.this);
+        NuclearBombAnimation nuclearBombAnimation = new NuclearBombAnimation(imageView);
+        Game.getInstance().addAnimations(nuclearBombAnimation);
+        nuclearBombAnimation.setOnFinished(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent actionEvent) {
+                pane.getChildren().remove(imageView);
+                Game.getInstance().removeAnimation(nuclearBombAnimation);
+            }
+        });
+        nuclearBombAnimation.play();
+    }
+
     public void bonusAction(Component component){
         pane.getChildren().add(this);
         new Thread(() -> {Platform.runLater(() -> {
@@ -91,6 +119,5 @@ public class Bomb extends Group {
     }
     public void remove(){
         pane.getChildren().remove(this);
-
     }
 }

@@ -12,6 +12,7 @@
       xmlns:fx="http://javafx.com/fxml"
       fx:controller="view.GameLauncher"
       prefHeight="800.0" prefWidth="1000.0" stylesheets="@../CSS/style.css">
+<!--    <Button  styleClass="profile-menu-button" text="pause" layoutX="900" layoutY="160"/>-->
     <HBox layoutX="5" layoutY="5">
         <VBox layoutX="10" layoutY="10" prefHeight="70" prefWidth="70" styleClass="game-info">
             <Label fx:id="rocketNumber" layoutY="30" layoutX="40" styleClass="font" />
@@ -32,10 +33,10 @@
             <ImageView fx:id="userAvatar" fitHeight="70.0" fitWidth="70.0" layoutY="20" layoutX="20" pickOnBounds="true" preserveRatio="true"/>
         </VBox>
         <HBox layoutY="120" layoutX="870" prefWidth="130" prefHeight="50" styleClass="game-info">
-            <Label fx:id="waveNumber" alignment="CENTER" layoutY="30" layoutX="40" style="-fx-font-family: Chilanka; -fx-text-fill: #000000; -fx-font-size: 20"  />
+            <Label fx:id="waveNumber" alignment="CENTER" layoutY="30" layoutX="40" style="-fx-font-family: Chilanka; -fx-text-fill: #000000; -fx-font-size: 20; -fx-font-weight: bold"  />
         </HBox>
     </VBox>
-<!--    <Button onMouseClicked="#pause" styleClass="profile-menu-button" text="pause" layoutX="900" layoutY="160"/>-->
+    <ImageView layoutX="950" layoutY="160" fitHeight="40" fitWidth="40" fx:id="pauseButton" styleClass="profile-menu-button" onMouseClicked="#pauseGame" preserveRatio="true" pickOnBounds="true"/>
 </Pane>
 
 

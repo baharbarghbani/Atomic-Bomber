@@ -4,13 +4,17 @@ import javafx.animation.Transition;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.paint.ImagePattern;
+import javafx.scene.shape.Rectangle;
 import javafx.util.Duration;
 import model.components.Component;
 import view.GameLauncher;
 
+import java.util.Objects;
+import java.util.Random;
+
 public class NuclearBombAnimation extends Transition {
     public ImageView imageView;
-    public NuclearBombAnimation(ImageView imageView, Component component) {
+    public NuclearBombAnimation(ImageView imageView) {
         this.imageView = imageView;
         GameLauncher.getInstance().root.getChildren().add(imageView);
         setCycleDuration(Duration.millis(1000));

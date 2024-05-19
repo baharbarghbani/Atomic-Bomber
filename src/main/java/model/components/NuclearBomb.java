@@ -11,9 +11,10 @@ import view.GameLauncherController;
 import java.util.List;
 
 public class NuclearBomb extends Bomb {
+    protected Rectangle rectangle;
     public NuclearBomb(double x, double y, double angle, boolean flipped, double vx, double vy, Pane pane, double fitWidth, double fitHeight){
         super(x, y, angle, flipped, vx, vy,pane);
-        Rectangle rectangle = new Rectangle(x, y, 25, 25);
+        rectangle = new Rectangle(x, y, 25, 25);
         rectangle.setFill(Color.TRANSPARENT);
         Image rocketImage = new Image(Rocket.class.getResource("/Images/atomic-bomb.png").toExternalForm());
         imageView = new ImageView(rocketImage);
@@ -31,4 +32,6 @@ public class NuclearBomb extends Bomb {
         this.setRotate(Math.toDegrees(angle));
         this.getChildren().addAll(rectangle, imageView);
     }
+
+
 }

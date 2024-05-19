@@ -45,6 +45,9 @@ public class Game {
     public void addAnimations(Transition animation) {
         allAnimations.add(animation);
     }
+    public ArrayList<Transition> getAllAnimations(){
+        return allAnimations;
+    }
 
     public Pane getPane() {
         return pane;

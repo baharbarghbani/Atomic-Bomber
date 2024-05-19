@@ -17,12 +17,11 @@ import java.io.IOException;
 import static java.util.Objects.requireNonNull;
 import static view.LoginMenuController.applicationController;
 import static view.MainMenuController.menuController;
+import static view.MainMenuController.profileMenu;
 
 public class ProfileMenu extends Application {
     static Scene currentScene;
     public ImageView imageView;
-    static ProfileMenuController profileMenuController = new ProfileMenuController();
-    static ChangeUsername changeUsername = new ChangeUsername();
     public static void main(String[] args) {
         launch(args);
     }
@@ -59,24 +58,24 @@ public class ProfileMenu extends Application {
     @FXML
     public void changeUsername(){
         try {
-            changeUsername.start(ApplicationController.getStage());
+            MenuController.changeUsername.start(ApplicationController.getStage());
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
     @FXML
     public void deleteAccount(){
-        profileMenuController.deleteAccount();
+        MenuController.profileMenuController.deleteAccount();
 
     }
     @FXML
     public void logout(){
-        profileMenuController.logout();
+        MenuController.profileMenuController.logout();
 
     }
     @FXML
     public void openAvatarMenu(){
-        profileMenuController.goToAvatarMenu();
+        MenuController.profileMenuController.goToAvatarMenu();
     }
 
     public void back(MouseEvent mouseEvent) {

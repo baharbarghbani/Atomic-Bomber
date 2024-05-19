@@ -43,14 +43,21 @@ public class Tree extends Component {
     }
     @Override
     public void explodeByNuclear() {
-        ImageView imageView = new ImageView(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/explosion.gif"))));
-        imageView.setX(this.getX());
-        imageView.setY(this.getY());
-        NuclearBombAnimation nuclearBombAnimation = new NuclearBombAnimation(imageView, this);        game.addAnimations(nuclearBombAnimation);
+//        ImageView imageView = new ImageView(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/explosion.gif"))));
+//        imageView.setLayoutX(this.getX());
+//        imageView.setLayoutY(this.getY());
+        imageView.setLayoutX(this.getX());
+        imageView.setLayoutY(this.getY() - 30);
+        imageView.setFitWidth(this.getWidth() + 40);
+        imageView.setFitHeight(this.getHeight() + 40);
+        NuclearBombAnimation nuclearBombAnimation = new NuclearBombAnimation(imageView);
+        game.addAnimations(nuclearBombAnimation);
+        pane.getChildren().remove(Tree.this);
         nuclearBombAnimation.setOnFinished(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
-                pane.getChildren().remove(Tree.this);
+                pane.getChildren().remove(imageView);
+                game.removeAnimation(nuclearBombAnimation);
             }
         });
         nuclearBombAnimation.play();

@@ -16,6 +16,9 @@
 .game{
     -fx-background-image: url('../Images/backgrounds/background7.png');
 }
+.pause-menu{
+    -fx-background-image: url('../Images/backgrounds/setting.png');
+}
 .game-info{
     -fx-alignment: center;
     -fx-background-color: transparent;

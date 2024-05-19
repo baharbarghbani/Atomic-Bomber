@@ -42,11 +42,20 @@ public class Fort extends Component {
     }
     @Override
     public void explodeByNuclear() {
-        NuclearBombAnimation nuclearBombAnimation = new NuclearBombAnimation(imageView, this);        game.addAnimations(nuclearBombAnimation);
+        imageView.setLayoutX(this.getX());
+        imageView.setLayoutY(this.getY() - 30);
+        imageView.setFitWidth(this.getWidth() + 40);
+        imageView.setFitHeight(this.getHeight() + 40);
+        NuclearBombAnimation nuclearBombAnimation = new NuclearBombAnimation(imageView);
+
+        game.addAnimations(nuclearBombAnimation);
+        pane.getChildren().remove(Fort.this);
+
         nuclearBombAnimation.setOnFinished(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
-                pane.getChildren().remove(Fort.this);
+                pane.getChildren().remove(imageView);
+                game.removeAnimation(nuclearBombAnimation);
             }
         });
         nuclearBombAnimation.play();

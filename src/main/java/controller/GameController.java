@@ -52,7 +52,14 @@ public class GameController {
             wave.getTrees().add(tree);
         }
     }
-
+    public static void createShootingTanks(Wave wave, Game game, Pane pane) {
+        for (int i = 0; i < 2; i++) {
+            double x = random.nextDouble(1000);
+            ShootingTank shootingTank = new ShootingTank(x, random.nextInt(2), game, pane);
+            wave.getAllObjects().add(shootingTank);
+            wave.getShootingTanks().add(shootingTank);
+        }
+    }
     public static void createFort(Wave wave, Game game, Pane pane) {
         for (int i = 0; i < 2; i++) {
             double x = random.nextDouble(1000);
@@ -110,7 +117,7 @@ public class GameController {
             return null;
     }
     public static NuclearBomb createNuclearBomb(Component component){
-        return new NuclearBomb(component.getX(), component.getY(), 0, false, 0.01, -1, GameLauncher.getInstance().root, 60, 60);
+        return new NuclearBomb(component.getX(), component.getY(), 0.01, false, 0.1, -1, GameLauncher.getInstance().root, 60, 60);
     }
     public static void checkComponents(){
         Wave wave = Game.getInstance().getWave();

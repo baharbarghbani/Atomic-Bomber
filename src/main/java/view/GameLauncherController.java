@@ -5,27 +5,20 @@ import animations.TankAnimation;
 import animations.TruckAnimation;
 import controller.GameController;
 import javafx.animation.Transition;
-import javafx.application.Platform;
 import javafx.scene.image.Image;
-import javafx.scene.image.PixelFormat;
-import javafx.scene.image.PixelWriter;
-import javafx.scene.image.WritableImage;
 import javafx.scene.layout.Pane;
 import model.App;
 import model.Game;
-import model.User;
 import model.Wave;
 import model.components.*;
 
-import java.io.File;
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
 
 public class GameLauncherController {
 
 
-    public static void createTanks(ArrayList<Tank> tanks, Game game) {
+    public static void createTanksAnimation(ArrayList<Tank> tanks, Game game) {
         TankAnimation tankAnimation;
         for (int i = 0; i < 3; i++) {
             Tank tank = tanks.get(i);
@@ -33,14 +26,28 @@ public class GameLauncherController {
             tankAnimation.play();
         }
     }
-
-    public static void createTrucks(ArrayList<Truck> trucks, Game game) {
+    public static void createShootingTanksAnimation(ArrayList<ShootingTank> shootingTanks, Game game) {
+        TankAnimation tankAnimation;
+        for (int i = 0; i < 2; i++) {
+            ShootingTank shootingTank = shootingTanks.get(i);
+            tankAnimation = new TankAnimation(shootingTank, game);
+            tankAnimation.play();
+        }
+    }
+    public static void createTrucksAnimation(ArrayList<Truck> trucks, Game game) {
         TruckAnimation truckAnimation;
         for (int i = 0; i < 2; i++) {
             Truck truck = trucks.get(i);
             truckAnimation = new TruckAnimation(truck, game);
             truckAnimation.play();
         }
+    }
+
+    public static void pauseGame() {
+        for (Transition animation : Game.getInstance().getAllAnimations()) {
+            animation.pause();
+        }
+
     }
 
     public Image getRocket() {
@@ -76,6 +83,7 @@ public class GameLauncherController {
                 }
                 if (bomb instanceof NuclearBomb){
                     objects.explodeByNuclear();
+
                 } else if (bomb instanceof Rocket) {
                     objects.explode();
                 }
@@ -108,9 +116,12 @@ public class GameLauncherController {
         root.getChildren().addAll(game.getWave().getTanks());
         root.getChildren().addAll(game.getWave().getTrucks());
         root.getChildren().addAll(game.getWave().getTrees());
-        createTanks(game.getWave().getTanks(), game);
-        createTrucks(game.getWave().getTrucks(), game);
+        root.getChildren().addAll(game.getWave().getShootingTanks());
+        createTanksAnimation(game.getWave().getTanks(), game);
+        createTrucksAnimation(game.getWave().getTrucks(), game);
+        createShootingTanksAnimation(game.getWave().getShootingTanks(), game);
     }
+
 
 
 

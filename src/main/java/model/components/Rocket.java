@@ -31,4 +31,5 @@ public class Rocket extends Bomb {
         this.setRotate(Math.toDegrees(angle));
         this.getChildren().addAll(rectangle, imageView);
     }
+
 }
