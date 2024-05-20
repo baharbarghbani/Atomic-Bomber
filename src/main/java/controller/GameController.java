@@ -190,7 +190,7 @@ public class GameController {
         user.increaseShootingCount();
     }
     public static void checkMigTime(Game game, Wave wave, Pane root){
-        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(20), actionEvent -> GameController.createMig(wave, game, root)));
+        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(20 * App.getMigTimeCoef()), actionEvent -> GameController.createMig(wave, game, root)));
         timeline.setCycleCount(-1);
         timeline.play();
     }

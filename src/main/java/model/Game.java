@@ -10,7 +10,7 @@ public class Game {
     public static final int HEIGHT = 900;
     private Wave wave;
     private Pane pane;
-    private int hardness = 1;
+    private int hardness;
     protected Plane plane;
     private int waveNumber = 0;
     private ArrayList<Transition> allAnimations = new ArrayList<>();
@@ -25,6 +25,8 @@ public class Game {
 
     public Game(Pane pane){
         this.pane = pane;
+        this.hardness = App.getGameDifficulty();
+        System.out.println(hardness);
     }
 
     public int getHardness(){
@@ -68,5 +70,8 @@ public class Game {
 
     public int getWaveNumber() {
         return waveNumber;
+    }
+
+    public void setDifficulty(int i) {
     }
 }

@@ -13,7 +13,7 @@ import model.Game;
 import java.util.Objects;
 
 public class Tank extends Component {
-    protected double speed = 0.4;
+    protected double speed = 0.6;
     protected int imageNumber;
 
     public Tank(double x, int imageNumber, Game game, Pane pane){

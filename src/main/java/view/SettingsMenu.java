@@ -33,8 +33,6 @@ public class SettingsMenu extends Application {
         } catch (java.io.IOException e) {
             e.printStackTrace();
         }
-
-
          primaryStage.setTitle("Setting");
          primaryStage.show();
     }

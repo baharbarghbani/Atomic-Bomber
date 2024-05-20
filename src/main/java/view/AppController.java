@@ -21,6 +21,7 @@ public class AppController {
     static AppController appController = new AppController();
     static LoginMenu loginMenu = new LoginMenu();
     static SettingsMenu settingsMenu = new SettingsMenu();
+    static MainMenu mainMenu = new MainMenu();
     public Image imageInitialize() throws FileNotFoundException {
         if (App.getLoggedInUser() == null) {
             return null;

@@ -22,6 +22,7 @@ public class Mig extends Rectangle {
     private double speed = 2;
     private Game game;
     private Pane pane;
+    private double passingTime = 20;
     public Mig(double x, double y, Game game, Pane pane) {
         super(1050, 120, 100, 80);
         this.game = game;
@@ -71,5 +72,8 @@ public class Mig extends Rectangle {
     }
     public void pauseMissileAnimation(){
         missileAnimation.pause();
+    }
+    public double getPassingTime(){
+        return passingTime * game.getHardness();
     }
 }

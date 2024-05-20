@@ -125,3 +125,31 @@
     -fx-border-radius: 40px;
     -fx-padding: 10px;
 }
+.choice-box{
+    -fx-background-color: #1d999b;
+    -fx-font-family: chilanka;
+    -fx-font-size: 16;
+    -fx-text-fill: #ffff;
+    /*-fx-background-radius: 30px;*/
+    /*-fx-border-radius: 40px;*/
+    /*-fx-padding: 10px;*/
+}
+.choice-box .list-cell{
+    /*-fx-background-color: #0c2672;*/
+    -fx-font-family: chilanka;
+    -fx-font-size: 20;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 40px;
+    -fx-padding: 10px;
+}
+.choice-box:hover{
+    -fx-background-color: #69d0ac;
+}
+.setting-menu-button{
+    -fx-background-color: #0c346b;
+    -fx-background-radius: 30px;
+    -fx-font-size: 16;
+    -fx-text-fill: #ffffff
+}
+

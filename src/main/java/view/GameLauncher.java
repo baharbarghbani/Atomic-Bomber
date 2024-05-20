@@ -9,6 +9,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.effect.ColorAdjust;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
@@ -88,6 +89,12 @@ public class GameLauncher extends Application {
         createGameLauncher();
         primaryStage.setTitle("Atomic Bomber");
         primaryStage.setScene(scene);
+        if (App.isGrayScale()){
+            ColorAdjust grayscale = new ColorAdjust();
+            grayscale.setSaturation(-1);
+            primaryStage.getScene().getRoot().setEffect(grayscale);
+
+        }
         primaryStage.show();
         plane.requestFocus();
     }
@@ -286,10 +293,18 @@ public class GameLauncher extends Application {
     @FXML
     public void returnToGame(){
         GameLauncherController.resumeGame();
+        if (App.isGrayScale()){
+            ColorAdjust grayscale = new ColorAdjust();
+            grayscale.setSaturation(-1);
+            ApplicationController.getStage().getScene().getRoot().setEffect(grayscale);
+        }
         pauseMenu.setVisible(false);
     }
     public void pauseGame(MouseEvent mouseEvent) throws IOException {
         GameLauncherController.pauseGame();
+        ColorAdjust grayscale = new ColorAdjust();
+        grayscale.setSaturation(0);
+        ApplicationController.getStage().getScene().getRoot().setEffect(grayscale);
         pauseMenu.setVisible(true);
     }
     public static void endGame() throws Exception {
