@@ -91,7 +91,6 @@ public class User {
         clusterBombNumber--;
     }
     public int getAccuracy(){
-        System.out.println(shootingCount);
         if (shootingCount == 0)
             return 0;
         return (successfulShootingCount * 100) / shootingCount;

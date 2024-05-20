@@ -33,7 +33,7 @@ public class LoginMenuController {
     public void login() {
         Result loginResult = controller.login(username.getText(), password.getText());
         if (!loginResult.isSuccess()) {
-            AppController.showAlert(loginResult.getMessage(), "Login Failed!", Alert.AlertType.WARNING, "/Images/backgrounds/baharBG3.png");
+            AppController.showAlert(loginResult.getMessage(), "Login Failed!", Alert.AlertType.WARNING, "/Images/backgrounds/baharBG3.png",true);
         } else {
             try {
                 mainMenu.start(ApplicationController.getStage());
@@ -47,7 +47,7 @@ public class LoginMenuController {
     public void signUp() {
         Result result = controller.signUp(username.getText(), password.getText());
         if (!result.isSuccess()) {
-            AppController.showAlert(result.getMessage(), "Sign up Failed!", Alert.AlertType.WARNING, "/Images/backgrounds/baharBG3.png");
+            AppController.showAlert(result.getMessage(), "Sign up Failed!", Alert.AlertType.WARNING, "/Images/backgrounds/baharBG3.png",true);
         } else {
             try {
                 mainMenu.start(ApplicationController.getStage());
@@ -61,15 +61,15 @@ public class LoginMenuController {
     public void recoverPassword() {
         Result result = controller.recoverPassword(username.getText());
         if (!result.isSuccess()) {
-            AppController.showAlert(result.getMessage(), "Recover Password Failed!", Alert.AlertType.WARNING, "/Images/backgrounds/baharBG3.png");
+            AppController.showAlert(result.getMessage(), "Recover Password Failed!", Alert.AlertType.WARNING, "/Images/backgrounds/baharBG3.png",true);
         } else
-            AppController.showAlert(result.getMessage(), "Recover Password", Alert.AlertType.INFORMATION, "/Images/backgrounds/baharBG3.png");
+            AppController.showAlert(result.getMessage(), "Recover Password", Alert.AlertType.INFORMATION, "/Images/backgrounds/baharBG3.png", true);
     }
 
     @FXML
     public void registerAsGuest() {
         Result result = controller.startGameAsGuest();
-        AppController.showAlert(result.getMessage(), "Guest Mode", Alert.AlertType.INFORMATION, "/Images/backgrounds/baharBG3.png");
+        AppController.showAlert(result.getMessage(), "Guest Mode", Alert.AlertType.INFORMATION, "/Images/backgrounds/baharBG3.png", true);
         try {
             mainMenu.start(ApplicationController.getStage());
         } catch (Exception e) {

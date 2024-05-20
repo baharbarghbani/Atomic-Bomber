@@ -19,6 +19,8 @@ public class AppController {
     static ChangeUsername changeUsername = new ChangeUsername();
     static GameLauncherController gameLauncherController = new GameLauncherController();
     static AppController appController = new AppController();
+    static LoginMenu loginMenu = new LoginMenu();
+    static SettingsMenu settingsMenu = new SettingsMenu();
     public Image imageInitialize() throws FileNotFoundException {
         if (App.getLoggedInUser() == null) {
             return null;
@@ -30,7 +32,7 @@ public class AppController {
             return new Image(new FileInputStream(path));
     }
     @FXML
-    public static void showAlert(String errorMessage, String title, Alert.AlertType alertType, String imagePath){
+    public static void showAlert(String errorMessage, String title, Alert.AlertType alertType, String imagePath, boolean wait){
         Platform.runLater(() -> {
             // UI-related code here
             Alert alert = new Alert(alertType);
@@ -52,7 +54,10 @@ public class AppController {
                     BackgroundRepeat.NO_REPEAT,
                     BackgroundPosition.CENTER,
                     BackgroundSize.DEFAULT)));
-            alert.showAndWait();
+            if (wait)
+                alert.showAndWait();
+            else
+                alert.show();
         });
     }
     public void setIcon(){

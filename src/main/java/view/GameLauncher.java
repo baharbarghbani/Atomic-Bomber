@@ -100,6 +100,8 @@ public class GameLauncher extends Application {
         creatPlane(root);
         game.setPlane(plane);
         Wave wave = GameController.createWave(game);
+        GameController.checkMigTime(game, game.getWave(), root);
+        plane.requestFocus();
         scene.getStylesheets().add(getClass().getResource("/CSS/style.css").toExternalForm());
         root.getChildren().add(plane);
         plane.requestFocus();
@@ -110,18 +112,6 @@ public class GameLauncher extends Application {
         root.getChildren().addAll(wave.getTrucks());
         GameLauncherController.createTanksAnimation(wave.getTanks(), game, 3);
         GameLauncherController.createTrucksAnimation(wave.getTrucks(), game);
-    }
-    public void createPauseMenu(){
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/FXML/PauseMenuFxml.fxml"));
-        try {
-            pauseMenu = fxmlLoader.load();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        pauseMenu.getStyleClass().add("pause-menu");
-        root.getChildren().add(pauseMenu);
-
-
     }
     @FXML
     public void initialize() throws FileNotFoundException {
@@ -144,6 +134,7 @@ public class GameLauncher extends Application {
         clusterBomb.setImage(new Image(requireNonNull(getClass().getResourceAsStream("/Images/bombs/malware.png"))));
         clusterBombNumber.setText("X" + App.getLoggedInUser().getClusterBombNumber());
         clusterBombNumberText = clusterBombNumber;
+        pauseMenu.setVisible(false);
     }
     public void createGame() {
         game = new Game(root);
@@ -153,9 +144,9 @@ public class GameLauncher extends Application {
     private void creatPlane(Pane pane) {
         plane = new Plane(game, pane);
         plane.setFocusTraversable(true);
-        plane.requestFocus();
         PlaneAnimation planeAnimation = new PlaneAnimation(game, pane, plane);
         planeAnimation.play();
+        plane.requestFocus();
         plane.setOnKeyPressed(event -> {
             if (event.getCode() == KeyCode.UP) {
                 planeAnimation.setUp(true);
@@ -291,25 +282,27 @@ public class GameLauncher extends Application {
         GameLauncherController.updateClusterBombCount();
         plane.requestFocus();
     }
+
+    @FXML
+    public void returnToGame(){
+        GameLauncherController.resumeGame();
+        pauseMenu.setVisible(false);
+    }
+    public void pauseGame(MouseEvent mouseEvent) throws IOException {
+        GameLauncherController.pauseGame();
+        pauseMenu.setVisible(true);
+    }
     public static void endGame() throws Exception {
         EndGameMenu endGameMenu = new EndGameMenu();
         endGameMenu.start(ApplicationController.getStage());
     }
 
-
-    public void pauseGame(MouseEvent mouseEvent) throws IOException {
-        GameLauncherController.pauseGame();
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/FXML/PauseMenuFxml.fxml"));
-        Pane pane = fxmlLoader.load();
-        root.getChildren().add(pane);
-        ApplicationController.getStage().setScene(scene);
-        ApplicationController.getStage().show();
-    }
-
     public void exitWithSave(ActionEvent actionEvent) {
+
     }
 
-    public void exitWithoutSave(ActionEvent actionEvent) {
+    public void exitWithoutSave(ActionEvent actionEvent) throws Exception {
+        AppController.loginMenu.start(ApplicationController.getStage());
     }
 
     public void pauseMusic(ActionEvent actionEvent) {

@@ -19,7 +19,6 @@ import java.util.Objects;
 public class GameLauncherController {
 
 
-
     public static void createTanksAnimation(ArrayList<Tank> tanks, Game game, int number) {
         TankAnimation tankAnimation;
         for (int i = 0; i < number; i++) {
@@ -66,6 +65,17 @@ public class GameLauncherController {
 
     }
 
+    public static void resumeGame() {
+        for (Transition animation : Game.getInstance().getAllAnimations()) {
+            animation.play();
+        }
+
+    }
+
+    public static void updateClusterBombCount() {
+        GameLauncher.clusterBombNumberText.setText("X"+String.valueOf(App.getLoggedInUser().getClusterBombNumber()));
+    }
+
     public Image getRocket() {
         return new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/rockets/rocket4.png")));
     }
@@ -77,8 +87,8 @@ public class GameLauncherController {
         return new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/death.png")));
     }
 
-    public static void shootBombs(Bomb bomb) {
-        BombAnimtaion rocketAnimation = new BombAnimtaion(bomb);
+    public static void shootBombs(Bomb rocket) {
+        BombAnimtaion rocketAnimation = new BombAnimtaion(rocket);
         rocketAnimation.play();
     }
 
@@ -88,32 +98,28 @@ public class GameLauncherController {
     public static void updateNuclearBombCount() {
         GameLauncher.nuclearBombNumberText.setText("X"+String.valueOf(App.getLoggedInUser().getNuclearBombNumber()));
     }
-    public static void updateClusterBombCount() {
-        GameLauncher.clusterBombNumberText.setText("X"+String.valueOf(App.getLoggedInUser().getClusterBombNumber()));
-    }
     public static void checkCollision(Bomb bomb, Transition transition){
         Wave wave = Game.getInstance().getWave();
         for (Component objects : wave.getAllObjects()){
             if (bomb.getBoundsInParent().intersects(objects.getBoundsInParent())){
                 GameController.addKill(objects.getKill());
+                App.getLoggedInUser().increaseSuccessfulShootingCount();
                 if (objects.hasBonus()) {
                     Bomb bomb2 = GameController.giveBonus(objects);
                     bomb2.bonusAction(objects);
                 }
-
                 if (bomb instanceof NuclearBomb){
                     objects.explodeByNuclear();
+
                 } else if (bomb instanceof Rocket) {
                     objects.explode();
-                } else if (bomb instanceof Cluster) {
+                }
+                if (bomb instanceof Cluster){
                     objects.explodeByCluster();
                 }
                 objects.remove();
                 Game.getInstance().removeAnimation(transition);
-                transition.stop();
-//                Game.getInstance().getWave().removeObject(objects);
                 App.getLoggedInUser().addKill(objects.getKill());
-                App.getLoggedInUser().increaseSuccessfulShootingCount();
                 GameLauncherController.updateKillCount();
                 GameController.checkComponents();
                 break;
@@ -131,7 +137,7 @@ public class GameLauncherController {
     }
     public static void updateWaveNumber() {
         GameLauncher.waveNumberText.setText("Wave "+String.valueOf(Game.getInstance().getWaveNumber()));
-        AppController.showAlert("accuracy: " + App.getLoggedInUser().getAccuracy() + "%", "Wave "+String.valueOf(Game.getInstance().getWaveNumber())+" started", Alert.AlertType.INFORMATION, "/Images/backgrounds/background7.png");
+        AppController.showAlert("Accuracy: " + App.getLoggedInUser().getAccuracy() + "%", "Wave "+String.valueOf(Game.getInstance().getWaveNumber())+" started", Alert.AlertType.INFORMATION, "/Images/backgrounds/background7.png", false);
         GameController.resetAccuracy();
     }
     public static void addComponents(){
@@ -143,9 +149,6 @@ public class GameLauncherController {
         root.getChildren().addAll(game.getWave().getTrucks());
         root.getChildren().addAll(game.getWave().getTrees());
         root.getChildren().addAll(game.getWave().getShootingTanks());
-        if (game.getWaveNumber() == 3){
-            root.getChildren().add(game.getWave().getMig());
-        }
         createTanksAnimation(game.getWave().getTanks(), game,3);
         createTrucksAnimation(game.getWave().getTrucks(), game);
         createShootingTanksAnimation(game.getWave().getShootingTanks(), game);

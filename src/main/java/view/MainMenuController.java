@@ -44,9 +44,8 @@ public class MainMenuController {
 
     @FXML
     public void openSettings() {
-        SettingsMenu settingsMenu = new SettingsMenu();
         try {
-            settingsMenu.start(ApplicationController.getStage());
+            AppController.settingsMenu.start(ApplicationController.getStage());
         } catch (Exception e) {
             e.printStackTrace();
         }

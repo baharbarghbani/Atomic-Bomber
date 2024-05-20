@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="view.SettingsMenu"
-            prefHeight="600.0" prefWidth="900.0" stylesheets="@../CSS/style.css">
+<AnchorPane prefHeight="600.0" prefWidth="900.0" stylesheets="@../CSS/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.SettingController">
+    <HBox alignment="CENTER" layoutX="210.0" layoutY="64.0" prefHeight="150.0" prefWidth="483.0" styleClass="difficulty-box">
+        <GridPane alignment="BOTTOM_CENTER"  vgap="20" hgap="30" prefHeight="100" prefWidth="350.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <Label alignment="CENTER" prefWidth="120" text="Choose Game Difficulty" styleClass="font" prefHeight="80" style="-fx-background-color: #69d0ac; -fx-border-radius: 30px; -fx-background-radius: 30px;" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+            <Button onMouseClicked="#easy" prefWidth="100" styleClass="profile-menu-button" text="easy" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <Button onMouseClicked="#medium" prefWidth="100" styleClass="profile-menu-button" text="medium" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button onMouseClicked="#hard" prefWidth="100" styleClass="profile-menu-button" text="hard" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+        </GridPane>
+    </HBox>
 
 
 </AnchorPane>

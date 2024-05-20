@@ -18,7 +18,7 @@ public class Wave {
     private ArrayList<ShootingTank> shootingTanks;
     private Game game;
     private ArrayList<Tree> trees;
-    private Mig mig;
+    private static Mig mig;
     static Random random = new Random();
     public Wave(Pane pane, Game game){
         tanks = new ArrayList<>();
@@ -100,18 +100,14 @@ public class Wave {
     public void removeTank(Tank tank) {
         tanks.remove(tank);
     }
-    public void removeMig(Mig mig) {
-        this.mig = null;
+    public static void removeMig() {
+        mig = null;
     }
     public Mig getMig() {
         return mig;
     }
 
-    public void createMig() {
-        GameController.createMig(this,game,pane);
-    }
-
     public void setMig(Mig mig) {
-        this.mig = mig;
+        Wave.mig = mig;
     }
 }

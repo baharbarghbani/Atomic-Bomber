@@ -1,42 +1,29 @@
 package model.components;
 
 import animations.ExplosionAnimation;
+import animations.MissileAnimation;
 import animations.NuclearBombAnimation;
-import animations.TankShootingAnimation;
+import controller.GameController;
+import javafx.animation.Transition;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.image.Image;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.ImagePattern;
 import model.Game;
-import view.GameLauncher;
 
 public class ShootingTank extends Tank{
     private int radius = 200;
+    private MissileAnimation missileAnimation;
     public ShootingTank(double x ,int imageNumber, Game game, Pane pane){
         super(x, imageNumber, game, pane);
         this.setY(700);
         this.setFill(new ImagePattern(new Image(Tank.class.getResource("/Images/tanks/shooting-tank" + imageNumber + ".png").toExternalForm())));
     }
     public void shoot(double angle){
-        Bullet bullet = new Bullet(this.getX()+ 20, this.getY(), Math.toRadians(angle), 6 * Math.cos(angle), Math.abs(6 * Math.sin(angle)));
-        if (imageNumber == 0){
-            if (angle >= 180 && angle <= 270) {
-                GameLauncher.getInstance().root.getChildren().remove(this);
-                this.setScaleX(-1);
-                GameLauncher.getInstance().root.getChildren().add(this);
-            }
-        }else {
-            if (angle <= 360 && angle >= 270) {
-                GameLauncher.getInstance().root.getChildren().remove(this);
-                this.setScaleX(-1);
-                GameLauncher.getInstance().root.getChildren().add(this);
-            }
-        }
-        TankShootingAnimation shootingTankAnimation = new TankShootingAnimation(this, game, angle, bullet);
-        game.addAnimations(shootingTankAnimation);
-        GameLauncher.getInstance().root.getChildren().add(bullet);
-        shootingTankAnimation.play();
+//        Bullet bullet = new Bullet(this.getX()+ 20, this.getY(), Math.toRadians(angle), 6 * Math.cos(angle), Math.abs(6 * Math.sin(angle)));
+        Bullet bullet = GameController.createBullet(this.getX(), this.getY(), angle);
+        GameController.performTankShootingAnimation(this, bullet,imageNumber,angle,game, pane);
     }
     @Override
     public void explode(){
@@ -50,6 +37,7 @@ public class ShootingTank extends Tank{
                 game.getWave().removeObject(ShootingTank.this);
                 game.removeAnimation(explodeAnimation);
                 game.getWave().removeShootingTank(ShootingTank.this);
+//                pauseMissileAnimation();
             }
         });
         explodeAnimation.play();
@@ -70,11 +58,18 @@ public class ShootingTank extends Tank{
                 game.getWave().removeObject(ShootingTank.this);
                 game.getWave().removeShootingTank(ShootingTank.this);
                 game.removeAnimation(nuclearBombAnimation);
+//                pauseMissileAnimation();
             }
         });
         nuclearBombAnimation.play();
     }
     public int getRadius(){
         return radius*Game.getInstance().getHardness();
+    }
+    public void setMissileAnimation(MissileAnimation missileAnimation) {
+        this.missileAnimation = missileAnimation;
+    }
+    public void pauseMissileAnimation(){
+        missileAnimation.pause();
     }
 }

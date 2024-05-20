@@ -66,9 +66,10 @@ public class AvatarMenuController {
     public void chooseCustomAvatar() throws Exception {
         Result result = chooseAvatar();
         if (!result.isSuccess()) {
-            AppController.showAlert(result.getMessage(), "Changing avatar failed!", Alert.AlertType.WARNING, "/Images/backgrounds/background1.png");
+            AppController.showAlert(result.getMessage(), "Changing avatar failed!", Alert.AlertType.WARNING, "/Images/backgrounds/background1.png", true);
         } else {
-            AppController.showAlert(result.getMessage(), "Changed avatar successfully!", Alert.AlertType.INFORMATION, "/Images/backgrounds/background1.png");
+            AppController.showAlert
+                    (result.getMessage(), "Changed avatar successfully!", Alert.AlertType.INFORMATION, "/Images/backgrounds/background1.png", true);
             ProfileMenu profileMenu = new ProfileMenu();
             profileMenu.start(ApplicationController.getStage());
         }

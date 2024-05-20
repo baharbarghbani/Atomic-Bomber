@@ -18,6 +18,7 @@
 }
 .pause-menu{
     -fx-background-image: url('../Images/backgrounds/setting.png');
+    -fx-background-radius: 30px;
 }
 .game-info{
     -fx-alignment: center;
@@ -116,4 +117,11 @@
     -fx-pref-width: 200;
     -fx-pref-height: 38;
 }
-
+.difficulty-box{
+    -fx-border-color: #0c2672;
+    -fx-border-width: 10;
+    -fx-font-family: chilanka;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 40px;
+    -fx-padding: 10px;
+}

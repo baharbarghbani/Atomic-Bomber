@@ -57,10 +57,10 @@ public class ChangeUsername extends Application {
         ProfileMenuController profileMenuController = AppController.profileMenuController;
         Result result = profileMenuController.changeInfo(username.getText(), password.getText());
         if (!result.isSuccess()){
-            AppController.showAlert(result.getMessage(), "Changing username failed!", Alert.AlertType.WARNING, "/Images/backgrounds/background1.png");
+            AppController.showAlert(result.getMessage(), "Changing username failed!", Alert.AlertType.WARNING, "/Images/backgrounds/background1.png",true);
         }
         else {
-            AppController.showAlert(result.getMessage(), "Changed username and password successfully!", Alert.AlertType.INFORMATION, "/Images/backgrounds/background1.png");
+            AppController.showAlert(result.getMessage(), "Changed username and password successfully!", Alert.AlertType.INFORMATION, "/Images/backgrounds/background1.png",true);
             try {
                 new ProfileMenu().start(ApplicationController.getStage());
             } catch (Exception e) {

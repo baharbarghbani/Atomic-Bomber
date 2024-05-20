@@ -9,7 +9,6 @@ import javafx.scene.layout.Pane;
 import javafx.util.Duration;
 import model.Game;
 import model.components.Plane;
-import model.components.ShootingTank;
 import view.GameLauncher;
 
 public class PlaneAnimation extends Transition {
@@ -30,12 +29,10 @@ public class PlaneAnimation extends Transition {
         this.setCycleDuration(Duration.millis(100));
         plane.setScaleX(-1);
         game.addAnimations(this);
-        checkTank = new Timeline(new KeyFrame(Duration.seconds(1), actionEvent -> GameController.isPlaneInTankArea(plane)));
+        checkTank = new Timeline(new KeyFrame(Duration.seconds(0.5), actionEvent -> GameController.checkPlaneInTankArea(plane)));
         checkTank.setCycleCount(-1);
         checkTank.play();
-//        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(2), actionEvent -> GameController.createMig(Game.getInstance().getWave(), Game.getInstance(), GameLauncher.getInstance().root)));
-//        timeline.setCycleCount(-1);
-//        timeline.play();
+
     }
 
     @Override
@@ -110,7 +107,7 @@ public class PlaneAnimation extends Transition {
             plane.remove();
             this.stop();
         }
-//        if (GameController.isPlaneInTankArea(plane)) {
+//        if (GameController.checkPlaneInTankArea(plane)) {
 //            ShootingTank tank = GameController.getTankInArea(plane);
 //            assert tank != null;
 //            double angle = Math.atan((tank.getY() - plane.getY()) / (tank.getX() - plane.getX()));
