@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
-
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
 <?import javafx.scene.image.ImageView?>
-<?import javafx.scene.text.Text?>
-<?import javafx.geometry.Insets?>
-<Pane xmlns="http://javafx.com/javafx"
-      xmlns:fx="http://javafx.com/fxml"
-      fx:controller="view.GameLauncher"
-      prefHeight="800.0" prefWidth="1000.0" stylesheets="@../CSS/style.css">
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane prefHeight="800.0" prefWidth="1000.0" stylesheets="@../CSS/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.GameLauncher">
 <!--    <Button  styleClass="profile-menu-button" text="pause" layoutX="900" layoutY="160"/>-->
     <HBox layoutX="5" layoutY="5">
         <VBox layoutX="10" layoutY="10" prefHeight="70" prefWidth="70" styleClass="game-info">
-            <Label fx:id="rocketNumber" layoutY="30" layoutX="40" styleClass="font" />
-            <ImageView fx:id="rocket" fitHeight="70.0" fitWidth="70.0" layoutY="20" layoutX="20" pickOnBounds="true" preserveRatio="true"/>
+            <Label fx:id="rocketNumber" layoutX="40" layoutY="30" styleClass="font" />
+            <ImageView fx:id="rocket" fitHeight="70.0" fitWidth="70.0" layoutX="20" layoutY="20" pickOnBounds="true" preserveRatio="true" />
         </VBox>
         <VBox layoutX="50" layoutY="10" prefHeight="70" prefWidth="70" styleClass="game-info">
-            <Label fx:id="nuclearBombNumber" layoutY="30" layoutX="40" styleClass="font" />
-            <ImageView fx:id="nuclearBomb" fitHeight="70.0" fitWidth="70.0" layoutY="20" layoutX="20" pickOnBounds="true" preserveRatio="true"/>
+            <Label fx:id="nuclearBombNumber" layoutX="40" layoutY="30" styleClass="font" />
+            <ImageView fx:id="nuclearBomb" fitHeight="70.0" fitWidth="70.0" layoutX="20" layoutY="20" pickOnBounds="true" preserveRatio="true" />
         </VBox>
         <VBox layoutX="90" layoutY="10" prefHeight="70" prefWidth="70" styleClass="game-info">
-            <Label fx:id="clusterBombNumber" layoutY="30" layoutX="40" styleClass="font" />
-            <ImageView fx:id="clusterBomb" fitHeight="70.0" fitWidth="70.0" layoutY="20" layoutX="20" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="clusterBombNumber" layoutX="40" layoutY="30" styleClass="font" />
+            <ImageView fx:id="clusterBomb" fitHeight="70.0" fitWidth="70.0" layoutX="20" layoutY="20" pickOnBounds="true" preserveRatio="true" />
         </VBox>
     </HBox>
     <VBox layoutX="870" prefHeight="300">
         <VBox layoutX="870" layoutY="10" prefHeight="90" prefWidth="130" styleClass="game-info">
-            <Label fx:id="username" alignment="CENTER" layoutY="30" layoutX="60" styleClass="font" />
-            <ImageView fx:id="userAvatar" fitHeight="70.0" fitWidth="70.0" layoutY="20" layoutX="20" pickOnBounds="true" preserveRatio="true"/>
+            <Label fx:id="username" alignment="CENTER" layoutX="60" layoutY="30" styleClass="font" />
+            <ImageView fx:id="userAvatar" fitHeight="70.0" fitWidth="70.0" layoutX="20" layoutY="20" pickOnBounds="true" preserveRatio="true" />
         </VBox>
         <VBox layoutX="800" layoutY="10" prefHeight="70" prefWidth="70" styleClass="game-info">
-            <Label fx:id="killNumber" layoutY="30" layoutX="40" styleClass="font" />
-            <ImageView fx:id="killNumberImage" fitHeight="70.0" fitWidth="70.0" layoutY="20" layoutX="20" pickOnBounds="true" preserveRatio="true"/>
+            <Label fx:id="killNumber" layoutX="40" layoutY="30" styleClass="font" />
+            <ImageView fx:id="killNumberImage" fitHeight="70.0" fitWidth="70.0" layoutX="20" layoutY="20" pickOnBounds="true" preserveRatio="true" />
         </VBox>
-        <HBox layoutY="120" layoutX="870" prefWidth="130" prefHeight="50" styleClass="game-info">
-            <Label fx:id="waveNumber" alignment="CENTER" layoutY="30" layoutX="40" style="-fx-font-family: Chilanka; -fx-text-fill: #000000; -fx-font-size: 20; -fx-font-weight: bold"  />
+        <HBox layoutX="870" layoutY="120" prefHeight="50" prefWidth="130" styleClass="game-info">
+            <Label fx:id="waveNumber" alignment="CENTER" layoutX="40" layoutY="30" style="-fx-font-family: Chilanka; -fx-text-fill: #000000; -fx-font-size: 20; -fx-font-weight: bold" />
         </HBox>
     </VBox>
-    <ImageView layoutX="950" layoutY="270" fitHeight="40" fitWidth="40" fx:id="pauseButton" styleClass="profile-menu-button" onMouseClicked="#pauseGame" preserveRatio="true" pickOnBounds="true"/>
-    <VBox alignment="CENTER"  fx:id="pauseMenu" layoutX="220.0" layoutY="160.0" prefHeight="380.0" prefWidth="609.0" spacing="10" style=" -fx-background-color: transparent;-fx-background-radius: 30px; -fx-border-color: #0c2672; -fx-border-radius: 30px; -fx-border-width: 20" styleClass="pause-menu">
+    <ImageView fx:id="pauseButton" fitHeight="40" fitWidth="40" layoutX="950" layoutY="270" onMouseClicked="#pauseGame" pickOnBounds="true" preserveRatio="true" styleClass="profile-menu-button" />
+    <VBox fx:id="pauseMenu" alignment="CENTER" layoutX="220.0" layoutY="160.0" prefHeight="380.0" prefWidth="609.0" spacing="10" style=" -fx-background-color: transparent;-fx-background-radius: 30px; -fx-border-color: #0c2672; -fx-border-radius: 30px; -fx-border-width: 20" styleClass="pause-menu">
         <GridPane alignment="CENTER" hgap="15" prefWidth="570.0" vgap="15" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <Button onAction="#pauseMusic" prefHeight="60" prefWidth="200" styleClass="profile-menu-button" text="Mute" GridPane.columnIndex="0" GridPane.rowIndex="0" />
             <Button onAction="#keyGuide" prefHeight="60" prefWidth="200" styleClass="profile-menu-button" text="Guide" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <Button onAction="#changeMusic" prefHeight="60" prefWidth="200" styleClass="profile-menu-button" text="Change Music" GridPane.columnIndex="1" GridPane.rowIndex="0" />
             <Button onAction="#exitWithSave" prefHeight="60" prefWidth="200" styleClass="profile-menu-button" text="Save and Exit" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <Button onAction="#exitWithoutSave" prefHeight="60" prefWidth="200" styleClass="profile-menu-button" text="Exit" GridPane.columnIndex="0" GridPane.rowIndex="2" />
-            <Button fx:id="returnToGameButton" mnemonicParsing="false" onAction="#returnToGame" prefHeight="64.0" prefWidth="194.0" styleClass="profile-menu-button" text="Return to Game" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+            <Button fx:id="returnToGameButton" mnemonicParsing="false" onAction="#returnToGame" prefHeight="64.0" prefWidth="194.0" styleClass="profile-menu-button" text="Return to Game" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="1" />
             <columnConstraints>
                 <ColumnConstraints />
                 <ColumnConstraints />
@@ -57,6 +57,7 @@
             <rowConstraints>
                 <RowConstraints />
                 <RowConstraints />
+            <RowConstraints />
             </rowConstraints>
         </GridPane>
 <!--        <Button fx:id="returnToGameButton" mnemonicParsing="false" onAction="#returnToGame" prefHeight="64.0" prefWidth="194.0" styleClass="profile-menu-button" text="Return to Game" textAlignment="CENTER">-->
@@ -68,9 +69,5 @@
         <!--        <Insets left="28.0" top="20.0" />-->
         <!--    </padding>-->
     </VBox>
+   <ProgressBar layoutX="216.0" layoutY="51.0" prefHeight="20.0" prefWidth="100.0" progress="0.0" rotate="90.0" style="-fx-background-color: #0000;" />
 </Pane>
-
-
-
-
-

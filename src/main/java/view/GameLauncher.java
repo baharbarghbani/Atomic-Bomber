@@ -15,6 +15,8 @@ import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
 import javafx.stage.Stage;
 import model.App;
 import model.Game;
@@ -24,6 +26,7 @@ import model.components.NuclearBomb;
 import model.components.Plane;
 import model.components.Rocket;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Objects;
@@ -86,6 +89,9 @@ public class GameLauncher extends Application {
     public void start(Stage primaryStage) throws IOException {
         ApplicationController.setStage(primaryStage);
         setInstance(this);
+        Media media = new Media(new File("src/main/media/Billie_Eilish_-_CHIHIRO_@BaseNaija.mp3").toURI().toString());
+        MediaPlayer mediaPlayer = new MediaPlayer(media);
+        mediaPlayer.play();
         createGameLauncher();
         primaryStage.setTitle("Atomic Bomber");
         primaryStage.setScene(scene);
@@ -93,7 +99,6 @@ public class GameLauncher extends Application {
             ColorAdjust grayscale = new ColorAdjust();
             grayscale.setSaturation(-1);
             primaryStage.getScene().getRoot().setEffect(grayscale);
-
         }
         primaryStage.show();
         plane.requestFocus();

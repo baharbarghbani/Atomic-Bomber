@@ -39,10 +39,16 @@ public class Bomb extends Group {
 
 
     public double getX(){
+        if (this.getChildren().isEmpty()){
+            return 0;
+        }
         return ((Rectangle) (this.getChildren().getFirst())).getX();
     }
 
     public double getY(){
+        if (this.getChildren().isEmpty()){
+            return 0;
+        }
         return ((Rectangle) (this.getChildren().getFirst())).getY();
     }
 
@@ -91,10 +97,9 @@ public class Bomb extends Group {
         try {
             imageView.setLayoutX(this.getX());
             imageView.setLayoutY(this.getY() - 60);
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
-
         imageView.setFitHeight(100);
         imageView.setFitWidth(100);
         pane.getChildren().remove(Bomb.this);

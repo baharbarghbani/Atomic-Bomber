@@ -32,10 +32,10 @@ public class ExplosionAnimation extends Transition {
             component.setBackground("/Images/fire/fire" + frame + ".png");
         }
         else if (isBomb) {
-            if (bomb instanceof Rocket) {
+            if (bomb != null &&bomb instanceof Rocket) {
                 int frame = (int) Math.floor(v * 4);
                 bomb.setBackground("/Images/planeExplosion/explosion" + frame + ".png");
-            } else if (bomb instanceof NuclearBomb || bomb instanceof Cluster) {
+            } else if (bomb != null && (bomb instanceof NuclearBomb || bomb instanceof Cluster)) {
                 bomb.explodeNuclear();
             }
 
