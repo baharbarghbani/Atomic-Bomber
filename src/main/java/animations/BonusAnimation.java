@@ -3,9 +3,10 @@ package animations;
 import javafx.animation.Transition;
 import model.App;
 import model.Game;
-import model.components.Bomb;
-import model.components.Cluster;
-import model.components.NuclearBomb;
+import model.bombs.Bomb;
+import model.bombs.Cluster;
+import model.bombs.NuclearBomb;
+
 import model.components.Plane;
 import view.GameLauncherController;
 

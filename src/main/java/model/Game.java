@@ -26,7 +26,6 @@ public class Game {
     public Game(Pane pane){
         this.pane = pane;
         this.hardness = App.getGameDifficulty();
-        System.out.println(hardness);
     }
 
     public int getHardness(){

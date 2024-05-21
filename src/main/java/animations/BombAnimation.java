@@ -1,18 +1,18 @@
 package animations;
 
-import controller.GameController;
-import javafx.animation.Timeline;
 import javafx.animation.Transition;
 import model.Game;
-import model.components.*;
+import model.bombs.Bomb;
+import model.bombs.Cluster;
+
 import view.GameLauncher;
 import view.GameLauncherController;
 
-public class BombAnimtaion extends Transition {
+public class BombAnimation extends Transition {
     private Bomb bomb;
     private static boolean clusterHasExploded = false;
 //    private Timeline checkCluster;
-    public BombAnimtaion(Bomb bomb){
+    public BombAnimation(Bomb bomb){
         this.bomb = bomb;
         this.setCycleCount(-1);
         this.setCycleDuration(javafx.util.Duration.millis(100));

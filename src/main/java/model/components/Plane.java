@@ -1,6 +1,8 @@
 package model.components;
 
 import animations.ExplosionAnimation;
+import animations.PlaneAnimation;
+import controller.GameController;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.image.Image;
@@ -8,61 +10,43 @@ import javafx.scene.layout.Pane;
 import javafx.scene.paint.ImagePattern;
 import javafx.scene.shape.Rectangle;
 import model.Game;
+import view.AppViewController;
+import view.GameLauncherController;
 
 public class Plane extends Rectangle {
 
     public boolean flipped = false;
     public static final int HEIGHT = 80;
     public static final double WIDTH = 100;
-    private static Plane instance;
     public double angle = 0.001;
-    private int hp = 10;
+    private int hp = 3;
     private Game game;
     private Pane pane;
-    public Plane(Game game, Pane pane){
-        super(0, 90, 80 ,60);
+    private double x;
+    private double y;
+    private PlaneAnimation planeAnimation;
+    public Plane(Game game, Pane pane, double x, double y){
+        super(x, y, 80 ,60);
         this.game = game;
+        this.x = x;
+        this.y = y;
         this.pane = pane;
         this.setFill(new ImagePattern(new Image(Plane.class.getResource("/Images/icon.png").toExternalForm())));
     }
-    public void moveRight(){
-        if (!hitRightWall())
-            this.setX(this.getX() + 10);
-        else this.setX(-100);
-    }
-    public void moveLeft(){
-        if (!hitLeftWall())
-            this.setX(this.getX() - 10);
-        else this.setX(1100 - this.getWidth());
-    }
-    public void moveUp(){
-        if (!hitTopWall())
-            this.setY(this.getY() - 10);
-    }
-    public void moveDown(){
-        if (!hitBottomWall()) {
-            this.setY(this.getY() + 10);
-        }
 
-    }
-    public boolean hitTopWall(){
-        return this.getY() <= 0;
-    }
-    public boolean hitBottomWall(){
-        return this.getY() + this.getHeight() >= 600;
-    }
-    public boolean hitLeftWall(){
-        return this.getX() <= -100;
-    }
-    public boolean hitRightWall(){
-        return this.getX() + this.getWidth() >= 1100;
-    }
     public double getAngle(){
         return angle;
     }
     public void setAngle(double angle){
         this.angle = angle;
     }
+    public void setPlaneAnimation(PlaneAnimation planeAnimation){
+        this.planeAnimation = planeAnimation;
+    }
+    public PlaneAnimation getPlaneAnimation(){
+        return this.planeAnimation;
+    }
+
 
     public void setBackground(String url) {
         this.setFill(new ImagePattern(new Image(Plane.class.getResource(url).toExternalForm())));
@@ -76,9 +60,14 @@ public class Plane extends Rectangle {
             @Override
             public void handle(ActionEvent actionEvent) {
                 pane.getChildren().remove(Plane.this);
+                try {
+                    GameController.endGame();
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
             }
         });
-
+        Game.getInstance().setPlane(null);
         explodeAnimation.play();
     }
     public void remove(){
@@ -90,5 +79,10 @@ public class Plane extends Rectangle {
             explode();
         }
     }
+
+    public void increaseHitPoint(int i) {
+        this.hp += i;
+    }
+
 
 }

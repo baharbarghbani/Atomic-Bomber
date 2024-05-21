@@ -12,7 +12,6 @@ import javafx.scene.layout.AnchorPane;
 import javafx.stage.FileChooser;
 import model.App;
 import model.Result;
-import view.ProfileMenu;
 
 import java.io.File;
 import java.util.Arrays;
@@ -40,7 +39,7 @@ public class AvatarMenuController {
 
     @FXML
     public void initialize() {
-        AppController applicationController = new AppController();
+        AppViewController applicationController = new AppViewController();
         applicationController.setIcon();
         imageView1.setImage(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/avatars/avatar1.png"))));
         imageView2.setImage(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/avatars/avatar3.png"))));
@@ -66,9 +65,9 @@ public class AvatarMenuController {
     public void chooseCustomAvatar() throws Exception {
         Result result = chooseAvatar();
         if (!result.isSuccess()) {
-            AppController.showAlert(result.getMessage(), "Changing avatar failed!", Alert.AlertType.WARNING, "/Images/backgrounds/background1.png", true);
+            AppViewController.showAlert(result.getMessage(), "Changing avatar failed!", Alert.AlertType.WARNING, "/Images/backgrounds/background1.png", true);
         } else {
-            AppController.showAlert
+            AppViewController.showAlert
                     (result.getMessage(), "Changed avatar successfully!", Alert.AlertType.INFORMATION, "/Images/backgrounds/background1.png", true);
             ProfileMenu profileMenu = new ProfileMenu();
             profileMenu.start(ApplicationController.getStage());

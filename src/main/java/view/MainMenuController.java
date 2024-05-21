@@ -18,14 +18,14 @@ public class MainMenuController {
     @FXML
     public Label username;
     static ProfileMenu profileMenu = new ProfileMenu();
-    static AppController menuController = new AppController();
+    static AppViewController menuController = new AppViewController();
     @FXML
     public void openProfileMenu() throws Exception {
         profileMenu.start(ApplicationController.getStage());
     }
     @FXML
     public void initialize() throws FileNotFoundException {
-        AppController.appController.setIcon();
+        AppViewController.appController.setIcon();
         Image image = menuController.imageInitialize();
         imageView.setImage(image);
         username.setStyle("-fx-alignment: center");
@@ -45,7 +45,7 @@ public class MainMenuController {
     @FXML
     public void openSettings() {
         try {
-            AppController.settingsMenu.start(ApplicationController.getStage());
+            AppViewController.settingsMenu.start(ApplicationController.getStage());
         } catch (Exception e) {
             e.printStackTrace();
         }

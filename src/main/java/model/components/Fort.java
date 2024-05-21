@@ -5,13 +5,9 @@ import animations.NuclearBombAnimation;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.ImagePattern;
 import model.Game;
-
-import java.io.FileReader;
-import java.util.Objects;
 
 public class Fort extends Component {
     public Fort(double x, Game game, Pane pane){

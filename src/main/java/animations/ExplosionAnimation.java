@@ -1,7 +1,12 @@
 package animations;
 
 import javafx.animation.Transition;
-import model.components.*;
+import model.bombs.Bomb;
+import model.bombs.Cluster;
+import model.bombs.NuclearBomb;
+import model.bombs.Rocket;
+import model.components.Component;
+import model.components.Plane;
 
 public class ExplosionAnimation extends Transition {
     private Component component;

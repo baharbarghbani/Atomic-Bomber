@@ -18,7 +18,6 @@ import static view.MainMenuController.menuController;
 
 public class ProfileMenu extends Application {
     static Scene currentScene;
-    public ImageView imageView;
     public static void main(String[] args) {
         launch(args);
     }
@@ -43,42 +42,6 @@ public class ProfileMenu extends Application {
             // Show the stage
             stage.show();
         } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-    @FXML
-    public void initialize() throws Exception{
-        AppController.appController.setIcon();
-        Image image = menuController.imageInitialize();
-        imageView.setImage(image);
-    }
-    @FXML
-    public void changeUsername(){
-        try {
-            AppController.changeUsername.start(ApplicationController.getStage());
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-    @FXML
-    public void deleteAccount(){
-        AppController.profileMenuController.deleteAccount();
-
-    }
-    @FXML
-    public void logout(){
-        AppController.profileMenuController.logout();
-
-    }
-    @FXML
-    public void openAvatarMenu(){
-        AppController.profileMenuController.goToAvatarMenu();
-    }
-
-    public void back(MouseEvent mouseEvent) {
-        try {
-            new MainMenu().start(ApplicationController.getStage());
-        } catch (Exception e) {
             e.printStackTrace();
         }
     }

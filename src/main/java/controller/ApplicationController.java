@@ -10,6 +10,7 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
 import model.App;
+import model.Game;
 import model.User;
 
 import java.io.*;
@@ -57,5 +58,21 @@ public class ApplicationController {
     }
 
 
+    public static String getGameResult() {
+        if (Game.getInstance().getPlane() != null){
+            return "Won!";
+        }else return "Lost!";
+    }
 
+    public static String getWave() {
+        return String.valueOf(Game.getInstance().getWave());
+    }
+
+    public static String getAccuracy() {
+        return String.valueOf(App.getLoggedInUser().getAccuracy());
+    }
+
+    public static String getKill() {
+        return String.valueOf(App.getLoggedInUser().getKill());
+    }
 }

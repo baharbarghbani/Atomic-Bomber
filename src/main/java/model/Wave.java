@@ -1,9 +1,10 @@
 package model;
 
+import controller.ComponentCreator;
 import javafx.scene.layout.Pane;
-import model.components.*;
 
 import controller.GameController;
+import model.components.*;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -40,22 +41,22 @@ public class Wave {
         return tanks;
     }
     public void createTrucks() {
-        GameController.createTrucks(this, game, pane);
+        ComponentCreator.createTrucks(this, game, pane);
     }
     public void createTanks() {
-        GameController.createTanks(this, game, pane, 3);
+        ComponentCreator.createTanks(this, game, pane, 3);
     }
     public void createBuildings(){
-        GameController.createBuildings(this, game, pane);
+        ComponentCreator.createBuildings(this, game, pane);
     }
     public void createTrees(){
-        GameController.createTrees(this, game, pane);
+        ComponentCreator.createTrees(this, game, pane);
     }
     public void createFort(){
-        GameController.createFort(this, game, pane);
+        ComponentCreator.createFort(this, game, pane);
     }
     public void createShootingTanks(){
-        GameController.createShootingTanks(this, game, pane);
+        ComponentCreator.createShootingTanks(this, game, pane);
     }
     public ArrayList<Building> getBuildings(){
         return buildings;

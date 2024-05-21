@@ -1,12 +1,11 @@
 package model.components;
 
-import animations.BonusAnimation;
-import animations.ExplosionAnimation;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.shape.Rectangle;
 import model.Game;
+import model.bombs.Bomb;
 
 import java.util.Objects;
 
@@ -35,9 +34,4 @@ public abstract class Component extends Rectangle{
         return hasBonus;
     }
 
-
-
-    public Bomb getBonus() {
-        return null;
-    }
 }

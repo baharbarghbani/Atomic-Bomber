@@ -9,7 +9,6 @@ import javafx.scene.layout.Pane;
 import javafx.util.Duration;
 import model.Game;
 import model.components.Plane;
-import view.GameLauncher;
 
 public class PlaneAnimation extends Transition {
     private final Game game;

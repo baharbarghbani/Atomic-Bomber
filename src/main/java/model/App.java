@@ -10,6 +10,7 @@ public class App {
     private static int gameDifficulty = 1;
     private static double migTimeCoef = 1.0;
     private static boolean isGrayScale;
+    private static boolean isMuted = false;
     public static User findUserByUsername(String username) {
         for (User user : users) {
             if (user.getUsername().equals(username)) {
@@ -22,7 +23,6 @@ public class App {
         users.add(user);
     }
     public static void loadUsers(ArrayList<User> users) {
-        System.out.println(users);
         App.users = users;
     }
     public static ArrayList<User> getUsers() {
@@ -63,5 +63,11 @@ public class App {
     }
     public static void setGrayScale(boolean grayScale) {
         isGrayScale = grayScale;
+    }
+    public static boolean isMuted() {
+        return isMuted;
+    }
+    public static void setMuted(boolean muted) {
+        isMuted = muted;
     }
 }

@@ -16,6 +16,8 @@ module AtomicBomber {
     opens animations to javafx.fxml, com.google.gson;
     exports model.components;
     opens model.components to javafx.fxml, com.google.gson;
+    exports model.bombs;
+    opens model.bombs to com.google.gson, javafx.fxml;
 
 
 }

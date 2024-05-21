@@ -6,27 +6,14 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.input.MouseEvent;
 import model.App;
-import model.Game;
 
 public class SettingController {
     @FXML
     private ChoiceBox<String> choiceBox;
-//    public void easy(MouseEvent mouseEvent) {
-//        App.setGameDifficulty(1);
-//        App.setGameDifficulty(1);
-//    }
-//
-//    public void medium(MouseEvent mouseEvent) {
-//        App.setGameDifficulty(2);
-//        App.setMigTimeCoef(0.75);
-//    }
-//
-//    public void hard(MouseEvent mouseEvent) {
-//        App.setGameDifficulty(3);
-//        App.setMigTimeCoef(0.5);
-//    }
     @FXML
     public void initialize(){
+        AppViewController.playMusic("src/main/media/Billie_Eilish_-_CHIHIRO_@BaseNaija.mp3");
+        AppViewController.setIcon();
         choiceBox.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
             handleEvent(newValue);
         });
@@ -47,14 +34,16 @@ public class SettingController {
     }
 
     public void back(MouseEvent mouseEvent) {
-        AppController.mainMenu.start(ApplicationController.getStage());
+        AppViewController.mainMenu.start(ApplicationController.getStage());
     }
 
     public void muteGame(MouseEvent mouseEvent) {
+        App.setMuted(true);
+        AppViewController.showAlert("Game is now muted", "Mute" ,Alert.AlertType.INFORMATION, "/Images/backgrounds/setting.png", true);
     }
 
     public void grayTheGame(MouseEvent mouseEvent) {
         App.setGrayScale(true);
-        AppController.showAlert("Game is now in grayscale", "Gray Scale" ,Alert.AlertType.INFORMATION, "/Images/backgrounds/setting.png", true);
+        AppViewController.showAlert("Game is now in grayscale", "Gray Scale" ,Alert.AlertType.INFORMATION, "/Images/backgrounds/setting.png", true);
     }
 }

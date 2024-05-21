@@ -10,7 +10,7 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.image.Image?>
-<AnchorPane prefHeight="600.0" prefWidth="900.0" stylesheets="@../CSS/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ProfileMenu">
+<AnchorPane prefHeight="600.0" prefWidth="900.0" stylesheets="@../CSS/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ProfileMenuController">
     <ImageView fx:id="imageView" fitHeight="104.0" fitWidth="116.0" layoutX="395.0" layoutY="100.0" />
     <VBox alignment="CENTER" layoutX="235.0" layoutY="233.0" prefWidth="450" prefHeight="200"
           style="-fx-background-color: #77D1B6; -fx-background-radius: 30px;" styleClass="Vbox-background">

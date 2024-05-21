@@ -3,7 +3,7 @@ package animations;
 import javafx.animation.Transition;
 import javafx.util.Duration;
 import model.Game;
-import model.components.Bullet;
+import model.bombs.Bullet;
 import model.components.Plane;
 import view.GameLauncher;
 
@@ -30,6 +30,7 @@ public class MissileAnimation extends Transition {
                 game.removeAnimation(this);
                 GameLauncher.getInstance().root.getChildren().remove(bullet);
                 plane.decreaseHP();
+                this.pause();
             }
         }
     }

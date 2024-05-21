@@ -2,18 +2,15 @@ package model.components;
 
 import animations.MigAnimation;
 import animations.MissileAnimation;
+import controller.ComponentCreator;
 import controller.GameController;
-import javafx.scene.control.Alert;
 import javafx.scene.image.Image;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.ImagePattern;
 import javafx.scene.shape.Rectangle;
-import javafx.util.Duration;
 import model.Game;
 import model.Wave;
-import view.AppController;
-
-import java.net.PortUnreachableException;
+import model.bombs.Bullet;
 
 public class Mig extends Rectangle {
     MigAnimation migAnimation;
@@ -57,7 +54,7 @@ public class Mig extends Rectangle {
     }
 
     public void shoot(double angle) {
-        Bullet bullet = GameController.createBullet(this.getX(), this.getY(), angle);
+        Bullet bullet = ComponentCreator.createBullet(this.getX(), this.getY(), angle);
         Plane plane = game.getPlane();
         if (plane != null){
             plane.requestFocus();

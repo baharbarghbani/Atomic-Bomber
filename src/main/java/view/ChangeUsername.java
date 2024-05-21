@@ -49,18 +49,18 @@ public class ChangeUsername extends Application {
     }
     @FXML
     public void initialize() throws FileNotFoundException {
-        AppController.appController.imageInitialize();
-        AppController.appController.setIcon();
+        AppViewController.appController.imageInitialize();
+        AppViewController.appController.setIcon();
     }
     public void changeUsername() {
 //        ProfileMenuController profileMenuController = new ProfileMenuController();
-        ProfileMenuController profileMenuController = AppController.profileMenuController;
+        ProfileMenuController profileMenuController = AppViewController.profileMenuController;
         Result result = profileMenuController.changeInfo(username.getText(), password.getText());
         if (!result.isSuccess()){
-            AppController.showAlert(result.getMessage(), "Changing username failed!", Alert.AlertType.WARNING, "/Images/backgrounds/background1.png",true);
+            AppViewController.showAlert(result.getMessage(), "Changing username failed!", Alert.AlertType.WARNING, "/Images/backgrounds/background1.png",true);
         }
         else {
-            AppController.showAlert(result.getMessage(), "Changed username and password successfully!", Alert.AlertType.INFORMATION, "/Images/backgrounds/background1.png",true);
+            AppViewController.showAlert(result.getMessage(), "Changed username and password successfully!", Alert.AlertType.INFORMATION, "/Images/backgrounds/background1.png",true);
             try {
                 new ProfileMenu().start(ApplicationController.getStage());
             } catch (Exception e) {

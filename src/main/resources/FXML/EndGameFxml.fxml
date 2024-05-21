@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" stylesheets="@../CSS/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.EndGameController">
+    <Label fx:id="gameResult" alignment="CENTER" layoutX="350.0" layoutY="68.0" prefWidth="200" style="-fx-font-size: 26; -fx-text-fill: #ffff; -fx-font-weight: bold" styleClass="font" />
+    <VBox alignment="CENTER" layoutX="250.0" layoutY="156.0" prefWidth="400" spacing="30" style="-fx-border-color: #1d999b; -fx-border-width: 5; -fx-border-radius: 30px" styleClass="endGame-box">
+        <padding>
+            <Insets bottom="20" left="20" right="20" top="20" />
+        </padding>
+        <HBox alignment="CENTER" spacing="15">
+            <Label fx:id="wave" style="-fx-font-size: 23; -fx-text-fill: #ffff; -fx-font-weight: bold" styleClass="font" />
+        </HBox>
+        <HBox alignment="CENTER" spacing="15">
+            <Label fx:id="accuracy" style="-fx-font-size: 23; -fx-text-fill: #ffff; -fx-font-weight: bold" styleClass="font" />
+        </HBox>
+        <HBox alignment="CENTER" spacing="15">
+            <Label fx:id="kill" style="-fx-font-size: 23; -fx-text-fill: #ffff; -fx-font-weight: bold" styleClass="font" />
+        </HBox>
+        <Button onMouseClicked="#back" prefHeight="40" prefWidth="200" style="-fx-font-size: 16" styleClass="profile-menu-button" text="Back To Main Menu" />
+     </VBox>
+
+
+</AnchorPane>

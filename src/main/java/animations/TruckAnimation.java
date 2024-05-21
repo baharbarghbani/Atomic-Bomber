@@ -1,7 +1,6 @@
 package animations;
 
 import javafx.animation.Transition;
-import javafx.fxml.FXML;
 import javafx.util.Duration;
 import model.Game;
 import model.components.Truck;

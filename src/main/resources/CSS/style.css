@@ -20,6 +20,10 @@
     -fx-background-image: url('../Images/backgrounds/setting.png');
     -fx-background-radius: 30px;
 }
+.end-game-menu{
+    -fx-background-image: url('../Images/backgrounds/background1.png');
+}
+
 .game-info{
     -fx-alignment: center;
     -fx-background-color: transparent;
@@ -151,5 +155,11 @@
     -fx-background-radius: 30px;
     -fx-font-size: 16;
     -fx-text-fill: #ffffff
+}
+.endGame-box{
+    -fx-background-image: url('../Images/backgrounds/background1.png');
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-background-size: cover;
 }
 
