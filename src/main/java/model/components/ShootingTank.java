@@ -23,7 +23,7 @@ public class ShootingTank extends Tank{
     }
     public void shoot(double angle){
 //        Bullet bullet = new Bullet(this.getX()+ 20, this.getY(), Math.toRadians(angle), 6 * Math.cos(angle), Math.abs(6 * Math.sin(angle)));
-        Bullet bullet = ComponentCreator.createBullet(this.getX(), this.getY(), angle);
+        Bullet bullet = ComponentCreator.createBulletForTank(this.getX(), this.getY(), angle);
         GameController.performTankShootingAnimation(this, bullet,imageNumber,angle,game, pane);
     }
     @Override

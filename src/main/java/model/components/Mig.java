@@ -54,14 +54,14 @@ public class Mig extends Rectangle {
     }
 
     public void shoot(double angle) {
-        Bullet bullet = ComponentCreator.createBullet(this.getX(), this.getY(), angle);
+        Bullet bullet = ComponentCreator.createBulletForMig(this.getX(), this.getY(), angle);
         Plane plane = game.getPlane();
-        if (plane != null){
-            plane.requestFocus();
-        }
+//        if (plane != null){
+//            plane.requestFocus();
+//        }
         GameController.performMissileShootingAnimationForMig(bullet, game, pane, this);
-        if (plane != null)
-            plane.requestFocus();
+//        if (plane != null)
+//            plane.requestFocus();
     }
 
     public void setMissileAnimation(MissileAnimation missileAnimation) {

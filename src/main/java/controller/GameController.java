@@ -1,10 +1,8 @@
 package controller;
 
 import animations.MissileAnimation;
-import animations.PlaneAnimation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
-import javafx.animation.Transition;
 import javafx.scene.layout.Pane;
 import javafx.util.Duration;
 import model.App;
@@ -52,7 +50,7 @@ public class GameController {
     private static double getAngleForTank(double x, double y, double xPrime, double yPrime, Plane plane) {
         double dx = 3.5 * Math.cos(plane.angle) / 2;
         double dy = 3.5 * Math.sin(plane.angle) / 2;
-        double angle = Math.toDegrees(Math.atan((yPrime - dy -  y) / (xPrime - dx - x)));
+        double angle = Math.toDegrees(Math.atan((yPrime - y - dy) / (xPrime - x - dx)));
         if (xPrime < x)
             angle += 180 - angle;
         return angle;
@@ -60,7 +58,18 @@ public class GameController {
     private static double getAngleForMig(double x, double y, double xPrime, double yPrime, Plane plane){
         double dx = 3.5 * Math.cos(plane.angle) / 2;
         double dy = 3.5 * Math.sin(plane.angle) / 2;
-        double angle = Math.toDegrees(Math.atan((yPrime - dy -  y) / (xPrime - dx - x)));
+        double angle = Math.toDegrees(Math.atan((y + dy - yPrime) / (x + dx - xPrime)));
+        if (Math.sin(angle) > 0 && Math.cos(angle) > 0){
+            if (xPrime < x && yPrime > y){
+
+            } else if (xPrime < x && yPrime < y) {
+                angle += 90;
+            } else if (xPrime > x && yPrime < y) {
+                angle += 180;
+            } else if (xPrime > x && yPrime > y) {
+                angle += 270;
+            }
+        }
         return angle;
     }
     public static Wave createWave(Game game) {
@@ -123,23 +132,55 @@ public class GameController {
         performMissileShootingAnimationForTank(bullet, game, pane, shootingTank);
     }
     public static void performMissileShootingAnimationForTank(Bullet bullet, Game game, Pane pane, ShootingTank shootingTank) {
-        MissileAnimation missileAnimation = new MissileAnimation(game, bullet);
-        shootingTank.setMissileAnimation(missileAnimation);
-        game.addAnimations(missileAnimation);
-        pane.getChildren().add(bullet);
-        missileAnimation.play();
+        if (!App.isFreezed()) {
+            MissileAnimation missileAnimation = new MissileAnimation(game, bullet);
+            shootingTank.setMissileAnimation(missileAnimation);
+            game.addAnimations(missileAnimation);
+            pane.getChildren().add(bullet);
+            missileAnimation.play();
+        }
     }
     public static void performMissileShootingAnimationForMig(Bullet bullet, Game game, Pane pane, Mig mig){
-        MissileAnimation missileAnimation = new MissileAnimation(game, bullet);
-        mig.setMissileAnimation(missileAnimation);
-        game.addAnimations(missileAnimation);
-        pane.getChildren().add(bullet);
-        missileAnimation.play();
+        if (!App.isFreezed()) {
+            MissileAnimation missileAnimation = new MissileAnimation(game, bullet);
+            mig.setMissileAnimation(missileAnimation);
+            game.addAnimations(missileAnimation);
+            pane.getChildren().add(bullet);
+            missileAnimation.play();
+        }
     }
 
     public static void endGame() throws Exception {
         GameLauncherController.endGame();
     }
 
+    public static void checkHP() {
+        if (Game.getInstance().getPlane()!= null) {
+
+            if (Game.getInstance().getPlane().getHP() == 2) {
+                GameLauncherController.heart3Image.setVisible(false);
+            }
+            if (Game.getInstance().getPlane().getHP() == 1) {
+                GameLauncherController.heart2Image.setVisible(false);
+            }
+            if (Game.getInstance().getPlane().getHP() == 0) {
+                GameLauncherController.heart1Image.setVisible(false);
+            }
+        }
+    }
+
+    public static void increaseHP() {
+        if (Game.getInstance().getPlane() != null) {
+            if (Game.getInstance().getPlane().getHP() == 1) {
+                GameLauncherController.heart1Image.setVisible(true);
+            }
+            if (Game.getInstance().getPlane().getHP() == 2) {
+                GameLauncherController.heart2Image.setVisible(true);
+            }
+            if (Game.getInstance().getPlane().getHP() == 3) {
+                GameLauncherController.heart3Image.setVisible(true);
+            }
+        }
+    }
 }
 

@@ -3,6 +3,7 @@ package animations;
 import javafx.animation.Transition;
 import model.App;
 import model.Game;
+import model.GameScore;
 import model.bombs.Bomb;
 import model.bombs.Cluster;
 import model.bombs.NuclearBomb;
@@ -14,6 +15,7 @@ public class BonusAnimation extends Transition {
     private Bomb bomb;
     public BonusAnimation(Bomb bomb){
         this.bomb = bomb;
+//        Game.getInstance().getPlane().requestFocus();
         this.setCycleDuration(javafx.util.Duration.millis(15000));
     }
     @Override

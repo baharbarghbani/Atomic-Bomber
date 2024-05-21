@@ -14,6 +14,7 @@ public class TruckAnimation extends Transition {
         speed = truck.getSpeed();
         setCycleDuration(Duration.millis(2000));
         this.setCycleCount(-1);
+//        Game.getInstance().getPlane().requestFocus();
         this.game = game;
         game.addAnimations(this);
     }

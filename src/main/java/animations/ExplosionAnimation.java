@@ -1,12 +1,17 @@
 package animations;
 
 import javafx.animation.Transition;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
+import model.Game;
 import model.bombs.Bomb;
 import model.bombs.Cluster;
 import model.bombs.NuclearBomb;
 import model.bombs.Rocket;
 import model.components.Component;
 import model.components.Plane;
+
+import java.io.File;
 
 public class ExplosionAnimation extends Transition {
     private Component component;
@@ -18,7 +23,9 @@ public class ExplosionAnimation extends Transition {
     public ExplosionAnimation(boolean isPlane, boolean isBomb, boolean isObject){
         this.isPlane = isPlane;
         this.isBomb = isBomb;
+//        Game.getInstance().getPlane().requestFocus();
         this.isComponent = isObject;
+        explosion();
         setCycleDuration(javafx.util.Duration.millis(500));
     }
     public void setPlane(Plane plane){
@@ -49,5 +56,11 @@ public class ExplosionAnimation extends Transition {
             int frame = (int) Math.floor(v * 4);
             plane.setBackground("/Images/planeExplosion/explosion" + frame + ".png");
         }
+    }
+    private void explosion() {
+        Media media = new Media(new File("src/main/media/explosion.wav").toURI().toString());
+        MediaPlayer mediaPlayer = new MediaPlayer(media);
+        mediaPlayer.setVolume(0.4);
+        mediaPlayer.setAutoPlay(true);
     }
 }

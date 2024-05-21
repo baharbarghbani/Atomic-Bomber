@@ -55,6 +55,12 @@ public class MainMenuController {
     }
 
     public void openScoreBoard(MouseEvent mouseEvent) {
+        try {
+            AppViewController.scoreBoard.start(ApplicationController.getStage());
+        } catch (Exception e) {
+            e.printStackTrace();
+
+        }
     }
 
     @FXML

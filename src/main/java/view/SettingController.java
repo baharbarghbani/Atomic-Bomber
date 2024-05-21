@@ -12,7 +12,6 @@ public class SettingController {
     private ChoiceBox<String> choiceBox;
     @FXML
     public void initialize(){
-        AppViewController.playMusic("src/main/media/Billie_Eilish_-_CHIHIRO_@BaseNaija.mp3");
         AppViewController.setIcon();
         choiceBox.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
             handleEvent(newValue);

@@ -26,6 +26,7 @@ public class AppViewController {
     static LoginMenu loginMenu = new LoginMenu();
     static SettingsMenu settingsMenu = new SettingsMenu();
     static MainMenu mainMenu = new MainMenu();
+    static ScoreBoard scoreBoard = new ScoreBoard();
     static Media media;
     static MediaPlayer mediaPlayer;
     public Image imageInitialize() throws FileNotFoundException {
@@ -39,6 +40,9 @@ public class AppViewController {
             return new Image(new FileInputStream(path));
     }
     public static void playMusic(String path){
+        if (media != null){
+            mediaPlayer.stop();
+        }
         media = new Media(new File(path).toURI().toString());
         mediaPlayer = new MediaPlayer(media);
         if (!App.isMuted())

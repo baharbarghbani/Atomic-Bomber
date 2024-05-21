@@ -2,15 +2,17 @@ package controller;
 
 import animations.TankAnimation;
 import animations.TruckAnimation;
+import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
-import javafx.scene.control.Alert;
 import javafx.scene.layout.Pane;
+import javafx.util.Duration;
+import model.App;
 import model.Game;
 import model.Wave;
 import model.bombs.*;
 import model.components.*;
-import view.AppViewController;
 import view.GameLauncher;
+import view.GameLauncherController;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -77,12 +79,12 @@ public class ComponentCreator {
 
     }
     public static void createTanksAnimation(ArrayList<Tank> tanks, Game game, int number) {
-        TankAnimation tankAnimation;
+        TankAnimation vehicleAnimation;
         for (int i = 0; i < number; i++) {
             Tank tank = tanks.get(i);
-            tankAnimation = new TankAnimation(tank, game);
-            game.addAnimations(tankAnimation);
-            tankAnimation.play();
+            vehicleAnimation = new TankAnimation(tank, game);
+            game.addAnimations(vehicleAnimation);
+            vehicleAnimation.play();
         }
     }
     public static void createTankCheatCode(ArrayList<Tank> tanks){
@@ -135,24 +137,29 @@ public class ComponentCreator {
         }
     }
     public static void createMig(Wave wave, Game game, Pane pane) {
-        if (game.getWaveNumber() == 3) {
-            AppViewController.showAlert("Mig is coming", "Mig is coming", Alert.AlertType.INFORMATION, "/Images/backgrounds/background7.png", false);
+        if (game.getWaveNumber() == 3 && !App.isPaused()) {
+            GameLauncherController.migWarningText.setVisible(true);
+            Timeline migWarningTimeLine  = new Timeline(new KeyFrame(Duration.seconds(3), actionEvent -> GameLauncherController.migWarningText.setVisible(false)));
+            migWarningTimeLine.setCycleCount(-1);
+            migWarningTimeLine.play();
             if (game.getPlane() != null){
                 game.getPlane().requestFocus();
             }
             Mig mig = new Mig(1050, 120, game, pane);
             wave.setMig(mig);
-            Timeline shootTimeline = new Timeline(new javafx.animation.KeyFrame(javafx.util.Duration.seconds(0.5), actionEvent -> GameController.checkPlaneInMigArea(game.getPlane())));
+            Timeline shootTimeline = new Timeline(new javafx.animation.KeyFrame(javafx.util.Duration.seconds(0.25), actionEvent -> GameController.checkPlaneInMigArea(game.getPlane())));
             shootTimeline.setCycleCount(-1);
             shootTimeline.play();
             if (game.getPlane() != null)
                 game.getPlane().requestFocus();
             pane.getChildren().add(mig);
-
         }
     }
-    public static Bullet createBullet(double x, double y, double angle) {
-        return new Bullet(x+ 20, y, Math.toRadians(angle), 6 * Math.cos(angle), Math.abs(6 * Math.sin(angle)));
+    public static Bullet createBulletForTank(double x, double y, double angle) {
+        return new Bullet(x+ 20, y, Math.toRadians(angle), 6 * Math.cos(angle),Math.abs(6 * Math.sin(angle)));
+    }
+    public static Bullet createBulletForMig(double x, double y,double angle){
+        return new Bullet(x, y, Math.toRadians(angle), 6 * Math.cos(angle), 6 * Math.sin(angle));
     }
     public static Bomb giveBonus(Component component){
         if (component instanceof Building){

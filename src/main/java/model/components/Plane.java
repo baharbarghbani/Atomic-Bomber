@@ -85,4 +85,7 @@ public class Plane extends Rectangle {
     }
 
 
+    public int getHP() {
+        return hp;
+    }
 }

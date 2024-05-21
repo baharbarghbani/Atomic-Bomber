@@ -11,6 +11,8 @@ public class App {
     private static double migTimeCoef = 1.0;
     private static boolean isGrayScale;
     private static boolean isMuted = false;
+    private static boolean isFreezed = false;
+    private static boolean isPaused = false;
     public static User findUserByUsername(String username) {
         for (User user : users) {
             if (user.getUsername().equals(username)) {
@@ -70,4 +72,17 @@ public class App {
     public static void setMuted(boolean muted) {
         isMuted = muted;
     }
+    public static void setFreezed(boolean isFreezed){
+        App.isFreezed = isFreezed;
+    }
+    public static boolean isFreezed(){
+        return isFreezed;
+    }
+    public static void setPaused(boolean isPaused){
+        App.isPaused = isPaused;
+    }
+    public static boolean isPaused(){
+        return isPaused;
+    }
+
 }

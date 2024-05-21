@@ -45,11 +45,12 @@ public class GameLauncher extends Application {
         scene = new Scene(root);
         AppViewController.gameLauncherController.setRoot(root);
         AppViewController.gameLauncherController.createGameLauncher(scene);
+        AppViewController.gameLauncherController.addLives();
         primaryStage.setTitle("Atomic Bomber");
         primaryStage.setScene(scene);
         AppViewController.gameLauncherController.checkGrayScale(primaryStage);
         primaryStage.show();
-        Game.getInstance().getPlane().requestFocus();
+//        Game.getInstance().getPlane().requestFocus();
     }
 //    public void createGameLauncher() throws IOException {
 //        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/FXML/GameFxml.fxml"));

@@ -1,6 +1,8 @@
 package animations;
 
 import javafx.animation.Transition;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
 import model.Game;
 import model.bombs.Bomb;
 import model.bombs.Cluster;
@@ -14,6 +16,7 @@ public class BombAnimation extends Transition {
 //    private Timeline checkCluster;
     public BombAnimation(Bomb bomb){
         this.bomb = bomb;
+//        Game.getInstance().getPlane().requestFocus();
         this.setCycleCount(-1);
         this.setCycleDuration(javafx.util.Duration.millis(100));
         Game.getInstance().addAnimations(this);
@@ -64,6 +67,4 @@ public class BombAnimation extends Transition {
     public static void setClusterHasExploded(boolean clusterHasExploded1) {
         clusterHasExploded = clusterHasExploded1;
     }
-
-
 }

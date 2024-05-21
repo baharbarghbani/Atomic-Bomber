@@ -5,9 +5,7 @@ public class User {
     private String password;
     private boolean isGuest;
     private int kill;
-    private int lives = 10;
     private String avatarPath;
-    private int score = 0;
     private int nuclearBombNumber = 0;
     private int rocketNumber = 1;
     private int clusterBombNumber = 0;
@@ -70,30 +68,23 @@ public class User {
     public int getClusterBombNumber() {
         return clusterBombNumber;
     }
-
-    public int getLives() {
-        return lives;
-    }
     public void increaseShootingCount(){
         shootingCount++;
     }
     public void increaseSuccessfulShootingCount(){
         successfulShootingCount++;
     }
-    public int getShootingCount() {
-        return shootingCount;
-    }
-    public int getSuccessfulShootingCount() {
-        return successfulShootingCount;
-    }
 
     public void reduceClusterBomb() {
         clusterBombNumber--;
     }
     public int getAccuracy(){
-        if (shootingCount == 0)
+        if (shootingCount == 0) {
+            this.accuracy = 0;
             return 0;
-        return (successfulShootingCount * 100) / shootingCount;
+        }
+        this.accuracy = (successfulShootingCount * 100)/shootingCount;
+        return this.accuracy;
     }
 
     public void setShootingCount(int i) {

@@ -162,4 +162,8 @@
     -fx-border-radius: 50px;
     -fx-background-size: cover;
 }
+.freeze{
+    -fx-background-image: url('../Images/frizz.png');
+    -fx-background-size: cover;
+}
 

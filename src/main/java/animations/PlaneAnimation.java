@@ -14,7 +14,7 @@ public class PlaneAnimation extends Transition {
     private final Game game;
     private final Pane root;
     private final Plane plane;
-    private final double speed = 3.3;
+    private final double speed = 4;
     private boolean up, down, left, right;
     private boolean isFlipped = false;
 

@@ -1,6 +1,7 @@
 package view;
 
 import animations.BombAnimation;
+import animations.FreezingAnimation;
 import animations.PlaneAnimation;
 import controller.ApplicationController;
 import controller.ComponentCreator;
@@ -12,6 +13,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Scene;
 import javafx.scene.control.Alert;
+import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.ProgressBar;
 import javafx.scene.effect.ColorAdjust;
@@ -32,6 +34,7 @@ import model.components.Plane;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.sql.Time;
 import java.util.Objects;
 
 import static java.util.Objects.requireNonNull;
@@ -50,6 +53,18 @@ public class GameLauncherController {
     @FXML
     public ProgressBar progressBar;
     @FXML
+    public Label migWarning;
+    @FXML
+    public Label waveOver;
+    @FXML
+    public ImageView heart1;
+    @FXML
+    public ImageView heart2;
+    @FXML
+    public ImageView heart3;
+    @FXML
+    public ChoiceBox<String> choiceBox;
+    @FXML
     protected ImageView rocket;
     @FXML
     public Label  rocketNumber;
@@ -61,6 +76,7 @@ public class GameLauncherController {
     public Label killNumber;
     @FXML
     public ImageView killNumberImage;
+
     @FXML
     public Label waveNumber;
     private  Game game;
@@ -71,12 +87,70 @@ public class GameLauncherController {
     public static Label clusterBombNumberText;
     public static ImageView pauseButtonImage;
     public static ProgressBar staticProgressBar;
+    public static Label migWarningText;
+    public static Label waveOverText;
+    public static ImageView heart1Image;
+    public static ImageView heart2Image;
+    public static ImageView heart3Image;
     private Plane plane;
     public Pane root;
     public Pane pauseMenu;
-    public Pane endGameMenu;
 
+    @FXML
+    public void initialize() throws FileNotFoundException {
+        AppViewController.setIcon();
+        rocket.setImage(AppViewController.gameLauncherController.getRocket());
+        rocketNumber.setText("X" + App.getLoggedInUser().getRocketNumber());
+        nuclearBomb.setImage(AppViewController.gameLauncherController.getNuclearBomb());
+        nuclearBombNumber.setText("X" + App.getLoggedInUser().getNuclearBombNumber());
+        killNumberImage.setImage(AppViewController.gameLauncherController.getKillNumber());
+        killNumber.setText("X" + App.getLoggedInUser().getKill());
+        killNumberText = killNumber;
+        nuclearBombNumberText = nuclearBombNumber;
+        rocketNumberText = rocketNumber;
+        username.setText(App.getLoggedInUser().getUsername());
+        userAvatar.setImage(AppViewController.appController.imageInitialize());
+        waveNumber.setText("Wave 1");
+        waveNumberText = waveNumber;
+        pauseButton.setImage(new Image(requireNonNull(getClass().getResourceAsStream("/Images/pause.png"))));
+        pauseButtonImage = pauseButton;
+        clusterBomb.setImage(new Image(requireNonNull(getClass().getResourceAsStream("/Images/bombs/malware.png"))));
+        clusterBombNumber.setText("X" + App.getLoggedInUser().getClusterBombNumber());
+        clusterBombNumberText = clusterBombNumber;
+        pauseMenu.setVisible(false);
+        staticProgressBar = progressBar;
+        migWarningText = migWarning;
+        migWarningText.setVisible(false);
+        waveOverText = waveOver;
+        waveOverText.setVisible(false);
+        heart1 = new ImageView(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/heart.png"))));
+        heart2 = new ImageView(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/heart.png"))));
+        heart3 = new ImageView(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/heart.png"))));
+        heart1Image = heart1;
+        heart2Image = heart2;
+        heart3Image = heart3;
+        choiceBox.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
+            handleEvent(newValue);
+        });
+    }
 
+    public void addLives(){
+        heart1Image.setFitWidth(50);
+        heart2Image.setFitWidth(50);
+        heart3Image.setFitWidth(50);
+        heart1Image.setFitHeight(50);
+        heart2Image.setFitHeight(50);
+        heart3Image.setFitHeight(50);
+        heart1Image.setX(22);
+        heart1Image.setY(125);
+        heart2Image.setX(75);
+        heart2Image.setY(125);
+        heart3Image.setX(128);
+        heart3Image.setY(125);
+        root.getChildren().add(heart1Image);
+        root.getChildren().add(heart2Image);
+        root.getChildren().add(heart3Image);
+    }
     public static void pauseGame() {
         for (Transition animation : Game.getInstance().getAllAnimations()) {
             animation.pause();
@@ -158,7 +232,11 @@ public class GameLauncherController {
     public static void updateWaveNumber() {
         if (Game.getInstance().getWaveNumber() < 4) {
             waveNumberText.setText("Wave " + String.valueOf(Game.getInstance().getWaveNumber()));
-            AppViewController.showAlert("Accuracy: " + App.getLoggedInUser().getAccuracy() + "%", "Wave " + String.valueOf(Game.getInstance().getWaveNumber()) + " started", Alert.AlertType.INFORMATION, "/Images/backgrounds/background7.png", false);
+            waveOverText.setText("Wave " + String.valueOf(Game.getInstance().getWaveNumber()) + "\nAccuracy: " + App.getLoggedInUser().getAccuracy() + "%");
+            waveOverText.setVisible(true);
+            Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(5), actionEvent -> waveOverText.setVisible(false)));
+            timeline.setCycleCount(-1);
+            timeline.play();
             GameController.resetAccuracy();
         }
     }
@@ -197,34 +275,10 @@ public class GameLauncherController {
         Wave wave = GameController.createWave(game);
         GameController.checkMigTime(game, game.getWave(), root);
         scene.getStylesheets().add(getClass().getResource("/CSS/style.css").toExternalForm());
-        plane.requestFocus();
+//        plane.requestFocus();
         AppViewController.gameLauncherController.addComponents();
         ComponentCreator.createTanksAnimation(wave.getTanks(), game, 3);
         ComponentCreator.createTrucksAnimation(wave.getTrucks(), game);
-    }
-    @FXML
-    public void initialize() throws FileNotFoundException {
-        AppViewController.appController.setIcon();
-        rocket.setImage(AppViewController.gameLauncherController.getRocket());
-        rocketNumber.setText("X" + App.getLoggedInUser().getRocketNumber());
-        nuclearBomb.setImage(AppViewController.gameLauncherController.getNuclearBomb());
-        nuclearBombNumber.setText("X" + App.getLoggedInUser().getNuclearBombNumber());
-        killNumberImage.setImage(AppViewController.gameLauncherController.getKillNumber());
-        killNumber.setText("X" + App.getLoggedInUser().getKill());
-        killNumberText = killNumber;
-        nuclearBombNumberText = nuclearBombNumber;
-        rocketNumberText = rocketNumber;
-        username.setText(App.getLoggedInUser().getUsername());
-        userAvatar.setImage(AppViewController.appController.imageInitialize());
-        waveNumber.setText("Wave 1");
-        waveNumberText = waveNumber;
-        pauseButton.setImage(new Image(requireNonNull(getClass().getResourceAsStream("/Images/pause.png"))));
-        pauseButtonImage = pauseButton;
-        clusterBomb.setImage(new Image(requireNonNull(getClass().getResourceAsStream("/Images/bombs/malware.png"))));
-        clusterBombNumber.setText("X" + App.getLoggedInUser().getClusterBombNumber());
-        clusterBombNumberText = clusterBombNumber;
-        pauseMenu.setVisible(false);
-        staticProgressBar = progressBar;
     }
     public void createGame() {
         game = new Game(root);
@@ -239,7 +293,7 @@ public class GameLauncherController {
         PlaneAnimation planeAnimation = new PlaneAnimation(game, pane, plane);
         planeAnimation.play();
         plane.setPlaneAnimation(planeAnimation);
-        plane.requestFocus();
+//        plane.requestFocus();
         plane.setOnKeyPressed(event -> {
             if (event.getCode() == KeyCode.UP) {
                 planeAnimation.setUp(true);
@@ -260,7 +314,7 @@ public class GameLauncherController {
         });
         plane.setOnKeyReleased(event -> {
             plane.setFocusTraversable(true);
-            plane.requestFocus();
+//            plane.requestFocus();
             if (event.getCode() == KeyCode.RIGHT) {
                 planeAnimation.setRight(false);
                 plane.setDisable(false);
@@ -296,15 +350,17 @@ public class GameLauncherController {
                 Rocket rocket = new Rocket(x, y, angle, plane.flipped, vx, vy, root);
                 root.getChildren().add(rocket);
                 GameLauncherController.shootBombs(rocket);
-                plane.requestFocus();
+//                plane.requestFocus();
             }
             if (event.getCode() == KeyCode.R){
+                GameController.increaseShootingCount();
                 if (App.getLoggedInUser().getNuclearBombNumber() == 0)
                     return;
                 createNuclear(planeAnimation);
 
             }
             if (event.getCode() == KeyCode.C){
+                GameController.increaseShootingCount();
                 if (App.getLoggedInUser().getClusterBombNumber() == 0)
                     return;
                 createCluster(planeAnimation);
@@ -336,16 +392,30 @@ public class GameLauncherController {
                 GameLauncherController.updateClusterBombCount();
             }
             if (event.getCode() == KeyCode.H){
+                GameController.increaseHP();
                 plane.increaseHitPoint(1);
             }
             if (event.getCode() == KeyCode.TAB){
-                if (staticProgressBar.getProgress() == 1){
-                    Timeline timeline = new Timeline(new KeyFrame(Duration.millis(5000), actionEvent -> freeze()));
-                    timeline.setCycleCount(-1);
+                App.setFreezed(true);
+                if (staticProgressBar.getProgress() > 0.97){
+                    freeze();
+                    Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(5), actionEvent -> melt()));
+                    timeline.setCycleCount(1);
                     timeline.play();
-                }else AppViewController.showAlert("You can't freeze game", "Freeze Failed!", Alert.AlertType.ERROR, "/Images/backgrounds/background7.png", false);
+                }
             }
         });
+    }
+
+    private void melt() {
+        int count = Game.getInstance().getAllAnimations().size();
+        for (int i = 0; i < count; i++) {
+            Transition animation = Game.getInstance().getAllAnimations().get(i);
+            if (animation instanceof PlaneAnimation)
+                continue;
+            animation.play();
+        }
+        App.setFreezed(false);
     }
 
     public void createNuclear(PlaneAnimation planeAnimation) {
@@ -367,7 +437,7 @@ public class GameLauncherController {
         App.getLoggedInUser().reduceNuclearBomb();
         GameLauncherController.updateNuclearBombCount();
         GameLauncherController.shootBombs(nuclearBomb);
-        plane.requestFocus();
+//        plane.requestFocus();
     }
     public void createCluster(PlaneAnimation planeAnimation){
         plane.setDisable(false);
@@ -389,11 +459,11 @@ public class GameLauncherController {
         GameLauncherController.shootBombs(cluster);
         App.getLoggedInUser().reduceClusterBomb();
         GameLauncherController.updateClusterBombCount();
-        plane.requestFocus();
+//        plane.requestFocus();
     }
     public static void increaseProgressBar(){
         staticProgressBar.setProgress(staticProgressBar.getProgress() + 0.2);
-        if (staticProgressBar.getProgress() == 1){
+        if (staticProgressBar.getProgress() > 0.97){
             staticProgressBar.setProgress(1);
         }
     }
@@ -409,13 +479,17 @@ public class GameLauncherController {
             grayscale.setSaturation(-1);
             ApplicationController.getStage().getScene().getRoot().setEffect(grayscale);
         }
+        App.setPaused(false);
         pauseMenu.setVisible(false);
     }
     public void pauseGame(MouseEvent mouseEvent) throws IOException {
         GameLauncherController.pauseGame();
+        App.setPaused(true);
+        if (App.isGrayScale()){
         ColorAdjust grayscale = new ColorAdjust();
         grayscale.setSaturation(0);
         ApplicationController.getStage().getScene().getRoot().setEffect(grayscale);
+        }
         pauseMenu.setVisible(true);
     }
     public static void endGame() throws Exception {
@@ -440,20 +514,36 @@ public class GameLauncherController {
     @FXML
     public void keyGuide(ActionEvent actionEvent) {
     }
-    @FXML
-    public void changeMusic(ActionEvent actionEvent) {
+
+    private void handleEvent(String newValue) {
+        if(newValue.equals("music1"))
+        AppViewController.playMusic("src/main/media/music1.mp3");
+        else if(newValue.equals("music2"))
+            AppViewController.playMusic("src/main/media/music2.mp3");
+        else if(newValue.equals("music3"))
+            AppViewController.playMusic("src/main/media/music3.mp3");
+        else if(newValue.equals("music4"))
+            AppViewController.playMusic("src/main/media/music4.mp3");
+        else if(newValue.equals("music5"))
+            AppViewController.playMusic("src/main/media/Billie_Eilish_-_CHIHIRO_@BaseNaija.mp3");
 
     }
-    public static void freeze() {
-        int animationCount = Game.getInstance().getAllAnimations().size();
-        for (int i = 0; i < animationCount; i++) {
-            Transition animation = Game.getInstance().getAllAnimations().get(i);
-            if (animation instanceof PlaneAnimation)
-                continue;
-            animation.pause();
-        }
-        resetProgressBar();
 
+    public static void freeze() {
+        App.setFreezed(true);
+        ImageView imageView = new ImageView(GameLauncherController.class.getResource("/Images/frizz.png").toString());
+        imageView.setFitWidth(1000);
+        imageView.setFitHeight(1300);
+        imageView.setOpacity(0.4);
+        imageView.setPreserveRatio(true);
+        imageView.setPickOnBounds(true);
+        ColorAdjust colorAdjust = new ColorAdjust();
+        colorAdjust.setBrightness(-0.5);
+        colorAdjust.setContrast(0.5);
+        ApplicationController.getStage().getScene().getRoot().setEffect(colorAdjust);
+        new FreezingAnimation(imageView).play();
+        AppViewController.gameLauncherController.root.getChildren().add(imageView);
+        resetProgressBar();
     }
 
 

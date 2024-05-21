@@ -61,6 +61,7 @@
     <HBox alignment="CENTER" layoutX="325" layoutY="480" spacing="10">
         <Button fx:id="backButton" layoutX="10" onMouseClicked="#handleBackButton" styleClass="change-username-button" prefWidth="110" prefHeight="40" text="Back" />
         <Button fx:id="chooseAvatar" layoutX="10" onMouseClicked="#chooseCustomAvatar" styleClass="change-username-button" prefHeight="40" text="Choose Avatar" />
+<!--        <Button onDr-->
     </HBox>
 
 </AnchorPane>
