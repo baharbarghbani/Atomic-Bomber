@@ -9,6 +9,7 @@ public class GameScore {
     private final int kills;
     private final int hardness;
     private final double accuracy;
+    private boolean isAdded = false;
     private static ArrayList<GameScore> allGameScores = new ArrayList<>();
 
     public GameScore(String username, int lastWave, int kills, int hardness, double accuracy) {
@@ -77,5 +78,13 @@ public class GameScore {
 
     public String getUsername() {
         return username;
+    }
+
+    public boolean isAdded() {
+        return isAdded;
+    }
+
+    public void setIsAdded(boolean b) {
+        isAdded = b;
     }
 }

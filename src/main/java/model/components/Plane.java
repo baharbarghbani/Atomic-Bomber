@@ -61,6 +61,7 @@ public class Plane extends Rectangle {
         explodeAnimation.setOnFinished(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
+                explodeAnimation.pause();
                 pane.getChildren().remove(Plane.this);
                 try {
                     GameController.endGame();

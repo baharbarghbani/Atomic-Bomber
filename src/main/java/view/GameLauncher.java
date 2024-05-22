@@ -13,15 +13,7 @@ import java.util.Objects;
 import static java.util.Objects.requireNonNull;
 
 public class GameLauncher extends Application {
-    //    public static Label killNumberText;
-//    public static Label rocketNumberText;
-//    public static Label nuclearBombNumberText;
-//    public static Label waveNumberText;
-//    public static Label clusterBombNumberText;
-//    public static ImageView pauseButtonImage;
     public Pane root;
-    public Pane pauseMenu;
-    public Pane endGameMenu;
     public Scene scene;
     protected static GameLauncher instance;
 

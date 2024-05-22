@@ -1142,5 +1142,70 @@
     "shootingCount": 0,
     "successfulShootingCount": 0,
     "accuracy": 0
+  },
+  {
+    "username": "X2cpg0Fr",
+    "password": "1KbDxGxbCz",
+    "isGuest": true,
+    "kill": 0,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "fNSpPoYB",
+    "password": "udzml5SeGo",
+    "isGuest": true,
+    "kill": 0,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "7iaXWbWH",
+    "password": "Xi7JLRrzwo",
+    "isGuest": true,
+    "kill": 0,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "D5wjvE4z",
+    "password": "EBCFsJzmEc",
+    "isGuest": true,
+    "kill": 0,
+    "avatarPath": "/Images/avatars/avatar1.png",
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
+  },
+  {
+    "username": "06DouMsB",
+    "password": "l7J4xyoXDp",
+    "isGuest": true,
+    "kill": 0,
+    "avatarPath": "/Images/avatars/avatar2.png",
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   }
 ]

@@ -5,36 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bd07efe-a17d-44a2-8768-46ddb026b90c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/database/GameScores.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animations/PlaneDamage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Atomic Bomber Text.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/database/GameScores.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/database/GameScores.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/database/Users.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/database/Users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animations/FreezingAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/FreezingAnimation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animations/MissileAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/MissileAnimation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ApplicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ComponentCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ComponentCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/components/Mig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/components/Mig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/GameScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/GameScore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/ScoreBoard.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/components/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/components/Plane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/AppViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/AppViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/AvatarMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/AvatarMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/AvatarMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/AvatarMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/ChangeUsername.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ChangeUsername.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/EndGameMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/EndGameMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/GameLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/GameLauncher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/GameLauncherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/GameLauncherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/LoginMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/LoginMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/ProfileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ProfileMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/ProfileMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ProfileMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/ScoreBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ScoreBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/SettingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/SettingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/SettingsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/SettingsMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/FXML/AvatarMenuFxml.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FXML/AvatarMenuFxml.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/FXML/GameFxml.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FXML/GameFxml.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/FXML/ProfileMenuFxml.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FXML/ProfileMenuFxml.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/FXML/ScoreBoardFxml.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FXML/ScoreBoardFxml.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Images/frizz.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Images/frizz.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +140,7 @@
       <workItem from="1716200184636" duration="33699000" />
       <workItem from="1716284991105" duration="2000" />
       <workItem from="1716285030205" duration="27706000" />
-      <workItem from="1716387294967" duration="7241000" />
+      <workItem from="1716387294967" duration="9317000" />
     </task>
     <servers />
   </component>

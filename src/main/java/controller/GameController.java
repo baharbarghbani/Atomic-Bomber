@@ -150,7 +150,9 @@ public class GameController {
     public static void endGame() throws Exception {
         GameScore gameScore = new GameScore(App.getLoggedInUser().getUsername(), Game.getInstance().getWaveNumber(), App.getLoggedInUser().getKill(), Game.getInstance().getHardness(), App.getLoggedInUser().getAccuracy());
         GameScore.getAllGameScores().add(gameScore);
-        ApplicationController.saveGameScore();
+//        if (!gameScore.isAdded())
+//            ApplicationController.saveGameScore();
+        gameScore.setIsAdded(true);
         GameLauncherController.endGame();
     }
 
