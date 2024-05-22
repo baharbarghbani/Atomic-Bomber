@@ -24,6 +24,7 @@ public class Mig extends Rectangle {
         super(1050, 120, 100, 80);
         this.game = game;
         this.pane = pane;
+
         this.setFill(new ImagePattern(new Image(Plane.class.getResource("/Images/jet.png").toExternalForm())));
         migAnimation = new MigAnimation(this);
         migAnimation.setCycleCount(-1);

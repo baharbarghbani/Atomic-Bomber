@@ -28,16 +28,12 @@ public class LoginMenu extends Application {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(requireNonNull(getClass().getResource("/FXML/LoginMenuFxml.fxml")));
             Pane root = fxmlLoader.load();
-
-            // Set the icon for the stage
             stage.setTitle("Login Menu");
-            // Create custom title bar layout
-            // Set the scene
             currentScene = new Scene(root);
             root.getStyleClass().add("login-menu");
             currentScene.getStylesheets().add(getClass().getResource("/CSS/style.css").toExternalForm());
             stage.setScene(currentScene);
-            // Show the stage
+            stage.setResizable(false);
             stage.show();
         } catch (IOException e) {
             e.printStackTrace();

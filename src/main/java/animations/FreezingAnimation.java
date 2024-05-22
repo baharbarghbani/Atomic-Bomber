@@ -32,7 +32,7 @@ public class FreezingAnimation extends Transition {
 //        Game.getInstance().getPlane().requestFocus();
         this.freez = freez;
         this.setCycleCount(1);
-        this.setCycleDuration(Duration.millis(12000));
+        this.setCycleDuration(Duration.millis(5000));
     }
     @Override
     protected void interpolate(double frac) {

@@ -22,6 +22,7 @@ public class EndGameMenu extends Application {
             Pane root = fxmlLoader.load();
             Scene currentScene = new Scene(root);
             root.getStyleClass().add("end-game-menu");
+            primaryStage.setResizable(false);
             currentScene.getStylesheets().add(getClass().getResource("/CSS/style.css").toExternalForm());
             primaryStage.setScene(currentScene);
             primaryStage.show();

@@ -12,6 +12,9 @@ public class ProfileMenuController {
     @FXML
     public ImageView imageView;
     @FXML
+    public ImageView avatarImageView;
+
+    @FXML
     public void initialize() throws Exception{
         AppViewController.setIcon();
         Image image = menuController.imageInitialize();
@@ -46,5 +49,9 @@ public class ProfileMenuController {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    public void onDragDetected(MouseEvent mouseEvent) {
+
     }
 }

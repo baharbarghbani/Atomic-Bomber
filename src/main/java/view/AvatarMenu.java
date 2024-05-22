@@ -23,16 +23,12 @@ public class AvatarMenu extends Application {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(Objects.requireNonNull(getClass().getResource("/FXML/AvatarMenuFxml.fxml")));
             Pane root = fxmlLoader.load();
-
-            // Set the icon for the stage
             stage.setTitle("Avatar Menu");
-            // Create custom title bar layout
-            // Set the scene
             currentScene = new Scene(root);
             root.getStyleClass().add("avatar-menu");
             currentScene.getStylesheets().add(getClass().getResource("/CSS/style.css").toExternalForm());
             stage.setScene(currentScene);
-            // Show the stage
+            stage.setResizable(false);
             stage.show();
         } catch (IOException e) {
             e.printStackTrace();

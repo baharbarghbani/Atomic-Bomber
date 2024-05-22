@@ -28,18 +28,11 @@ public class ProfileMenu extends Application {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader();
             Pane root = fxmlLoader.load(requireNonNull(getClass().getResource("/FXML/ProfileMenuFxml.fxml")));
-
-            // Set the icon for the stage
             stage.setTitle("Profile Menu");
-            // Create custom title bar layout
-            // Set the scene
             currentScene = new Scene(root);
             root.getStyleClass().add("profile-menu");
             currentScene.getStylesheets().add(getClass().getResource("/CSS/style.css").toExternalForm());
-//            stage.setTitle("Login Menu");
             stage.setScene(currentScene);
-
-            // Show the stage
             stage.show();
         } catch (IOException e) {
             e.printStackTrace();

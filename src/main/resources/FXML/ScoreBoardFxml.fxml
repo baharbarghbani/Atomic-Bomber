@@ -7,28 +7,44 @@
 <?import javafx.scene.layout.*?>
 
 <?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.text.Font?>
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
             fx:controller="view.ScoreBoard"
             prefHeight="600.0" prefWidth="900.0" stylesheets="@../CSS/style.css">
-    <TableView>
-        <columns>
-            <TableColumn text="Rank">
-                <cellValueFactory>
-                    <PropertyValueFactory property="rank"/>
-                </cellValueFactory>
-            </TableColumn>
-            <TableColumn text="Name">
-                <cellValueFactory>
-                    <PropertyValueFactory property="name"/>
-                </cellValueFactory>
-            </TableColumn>
-            <TableColumn text="Score">
-                <cellValueFactory>
-                    <PropertyValueFactory property="score"/>
-                </cellValueFactory>
-            </TableColumn>
-        </columns>
-    </TableView>
+    <children>
+        <Pane prefHeight="337.0" prefWidth="600.0">
+            <children>
+                <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Images/backgrounds/setting.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="249.0" layoutY="14.0" text="Score Table" textFill="#f2ff00">
+                    <font>
+                        <Font name="System Bold Italic" size="19.0" />
+                    </font>
+                </Label>
+                <Button layoutX="23.0" layoutY="288.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="28.0" prefWidth="59.0" text="Back" />
+                <RadioButton layoutX="141.0" layoutY="293.0" mnemonicParsing="false" selected="true" text="Kill">
+                    <toggleGroup>
+                        <ToggleGroup fx:id="group" />
+                    </toggleGroup>
+                </RadioButton>
+                <RadioButton layoutX="268.0" layoutY="293.0" mnemonicParsing="false" text="Difficulty" toggleGroup="$group" />
+                <RadioButton layoutX="406.0" layoutY="293.0" mnemonicParsing="false" text="Accuracy" toggleGroup="$group" />
+                <TableView fx:id="table" editable="true" layoutX="54.0" layoutY="61.0" prefHeight="201.0" prefWidth="492.0">
+                    <columns>
+                        <TableColumn prefWidth="75.0" text="C1" />
+                        <TableColumn prefWidth="75.0" text="C2" />
+                    </columns>
+                </TableView>
+            </children>
+        </Pane>
+    </children>
+
+
 
 </AnchorPane>

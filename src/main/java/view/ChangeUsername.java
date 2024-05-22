@@ -32,16 +32,10 @@ public class ChangeUsername extends Application {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader();
             Pane root = fxmlLoader.load(requireNonNull(getClass().getResource("/FXML/ChangeUsername.fxml")));
-
-            // Set the icon for the stage
-            stage.setTitle("Change Username");
-            // Create custom title bar layout
-            // Set the scene
             currentScene = new Scene(root);
-//            stage.setTitle("Login Menu");
             stage.setScene(currentScene);
-
-            // Show the stage
+            stage.setTitle("Change Username");
+            stage.setResizable(false);
             stage.show();
         } catch (IOException e) {
             e.printStackTrace();

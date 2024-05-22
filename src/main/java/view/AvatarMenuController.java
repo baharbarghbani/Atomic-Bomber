@@ -6,6 +6,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.Dragboard;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.input.TransferMode;
 import javafx.scene.layout.AnchorPane;
@@ -36,6 +37,8 @@ public class AvatarMenuController {
 
 
     private static final List<String> SUPPORTED_EXTENSIONS = Arrays.asList(".png", ".jpg", ".jpeg", ".gif", ".bmp");
+    @FXML
+    public ImageView avatarImageView;
 
     @FXML
     public void initialize() {
@@ -47,6 +50,34 @@ public class AvatarMenuController {
         imageView4.setImage(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/avatars/avatar4.png"))));
         imageView5.setImage(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/avatars/avatar5.png"))));
         imageView6.setImage(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/avatars/avatar6.png"))));
+        Image avatar = new Image(Objects.requireNonNull(getClass().getResourceAsStream(App.getLoggedInUser().getAvatarPath())));
+        avatarImageView.setImage(avatar);
+        avatarImageView.setOnDragOver(event -> {
+            if (event.getGestureSource() != avatarImageView && event.getDragboard().hasFiles()) {
+                event.acceptTransferModes(TransferMode.COPY_OR_MOVE);
+            }
+            event.consume();
+        });
+
+        avatarImageView.setOnDragDropped(event -> {
+            Dragboard dragboard = event.getDragboard();
+            boolean success = false;
+            if (dragboard.hasFiles()) {
+                // Handle the dropped file (e.g., display it in the ImageView)
+                File file = dragboard.getFiles().get(0);
+                App.getLoggedInUser().setAvatarPath(file.getAbsolutePath());
+                Image image = new Image(file.toURI().toString());
+                avatarImageView.setImage(image);
+                success = true;
+            }
+            event.setDropCompleted(success);
+            event.consume();
+        });
+    }
+
+    private void handleDroppedImage(File file, ImageView avatarImageView) {
+
+
     }
 
     @FXML
@@ -130,22 +161,6 @@ public class AvatarMenuController {
             }
         }
         return new Result("Avatar not changed!", false);
-    }
-
-    public void setupDragAndDrop(AnchorPane root) {
-        root.setOnDragOver(event -> {
-            if (event.getDragboard().hasFiles() && isValidImageFile(event.getDragboard().getFiles().get(0).getAbsolutePath())) {
-                event.acceptTransferModes(TransferMode.COPY);
-            }
-            event.consume();
-        });
-
-        root.setOnDragDropped(event -> {
-            if (event.getDragboard().hasFiles() && isValidImageFile(event.getDragboard().getFiles().get(0).getAbsolutePath())) {
-                App.getLoggedInUser().setAvatarPath(event.getDragboard().getFiles().get(0).getAbsolutePath());
-            }
-            event.consume();
-        });
     }
 
     private boolean isValidImageFile(String filePath) {

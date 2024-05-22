@@ -29,6 +29,7 @@ public class AppViewController {
     static ScoreBoard scoreBoard = new ScoreBoard();
     static Media media;
     static MediaPlayer mediaPlayer;
+    static String musicPath;
     public Image imageInitialize() throws FileNotFoundException {
         if (App.getLoggedInUser() == null) {
             return null;
@@ -43,13 +44,15 @@ public class AppViewController {
         if (media != null){
             mediaPlayer.stop();
         }
+        musicPath = path;
         media = new Media(new File(path).toURI().toString());
         mediaPlayer = new MediaPlayer(media);
         if (!App.isMuted())
             mediaPlayer.play();
     }
     public static void pauseMusic(){
-        mediaPlayer.pause();
+        if (mediaPlayer != null)
+            mediaPlayer.pause();
     }
     @FXML
     public static void showAlert(String errorMessage, String title, Alert.AlertType alertType, String imagePath, boolean wait){

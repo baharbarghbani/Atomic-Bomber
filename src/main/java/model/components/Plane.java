@@ -13,6 +13,8 @@ import model.Game;
 import view.AppViewController;
 import view.GameLauncherController;
 
+import java.util.Objects;
+
 public class Plane extends Rectangle {
 
     public boolean flipped = false;
@@ -87,5 +89,8 @@ public class Plane extends Rectangle {
 
     public int getHP() {
         return hp;
+    }
+    public void setImage(String s) {
+        this.setFill(new ImagePattern(new Image(Objects.requireNonNull(this.getClass().getResource(s)).toExternalForm())));
     }
 }

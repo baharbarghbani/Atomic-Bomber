@@ -23,16 +23,11 @@ public class MainMenu extends Application {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(Objects.requireNonNull(getClass().getResource("/FXML/MainMenuFxml.fxml")));
             Pane root = fxmlLoader.load();
-
-            // Set the icon for the stage
             stage.setTitle("Main Menu");
-            // Create custom title bar layout
-            // Set the scene
             currentScene = new Scene(root);
             root.getStyleClass().add("main-menu");
             currentScene.getStylesheets().add(getClass().getResource("/CSS/style.css").toExternalForm());
             stage.setScene(currentScene);
-            // Show the stage
             stage.show();
         } catch (IOException e) {
             e.printStackTrace();

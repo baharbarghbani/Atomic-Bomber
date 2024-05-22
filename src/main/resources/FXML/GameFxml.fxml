@@ -15,6 +15,7 @@
 
 <?import javafx.collections.FXCollections?>
 <?import java.lang.String?>
+<?import javafx.scene.text.Text?>
 <Pane prefHeight="800.0" prefWidth="1000.0" stylesheets="@../CSS/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.GameLauncherController">
 <!--    <Button  styleClass="profile-menu-button" text="pause" layoutX="900" layoutY="160"/>-->
     <HBox layoutX="5" layoutY="5">
@@ -47,9 +48,10 @@
     <ImageView fx:id="pauseButton" fitHeight="40" fitWidth="40" layoutX="950" layoutY="270" onMouseClicked="#pauseGame" pickOnBounds="true" preserveRatio="true" styleClass="profile-menu-button" />
     <VBox fx:id="pauseMenu" alignment="CENTER" layoutX="195.0" layoutY="210.0" prefHeight="380.0" prefWidth="609.0" spacing="10" style=" -fx-background-color: transparent;-fx-background-radius: 30px; -fx-border-color: #0c2672; -fx-border-radius: 30px; -fx-border-width: 20" styleClass="pause-menu">
         <GridPane alignment="CENTER" hgap="15" prefHeight="209.0" prefWidth="569.0" vgap="15" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-            <Button onAction="#pauseMusic" prefHeight="60" prefWidth="200" styleClass="profile-menu-button" text="Mute" GridPane.columnIndex="0" GridPane.rowIndex="0" />
-            <Button onAction="#keyGuide" prefHeight="60" prefWidth="200" styleClass="profile-menu-button" text="Guide" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <ChoiceBox fx:id="choiceBox" prefHeight="60" prefWidth="200" styleClass="profile-menu-button" GridPane.columnIndex="1" GridPane.rowIndex="0">
+            <Button onAction="#pauseMusic" prefHeight="60" prefWidth="200" styleClass="profile-menu-button" text="Mute" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <Button onAction="#unmute" prefHeight="60" prefWidth="200" styleClass="profile-menu-button" text="Unmute" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button onAction="#keyGuide" prefHeight="60" prefWidth="200" styleClass="profile-menu-button" text="Guide" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+            <ChoiceBox fx:id="choiceBox" prefHeight="60" prefWidth="200" styleClass="profile-menu-button" GridPane.columnIndex="0" GridPane.rowIndex="2">
             <items>
                 <FXCollections fx:factory="observableArrayList">
                     <String fx:value="music1" />
@@ -60,10 +62,8 @@
                 </FXCollections>
             </items>
             </ChoiceBox>
-<!--            <Label alignment="CENTER" prefHeight="44.0" prefWidth="205.0" style="-fx-font-family: Chilanka; -fx-text-fill: #ffffff; -fx-font-size: 15; -fx-font-weight: bold" text="Choose Music" GridPane.columnIndex="1" />-->
-            <Button onAction="#exitWithSave" prefHeight="60" prefWidth="200" styleClass="profile-menu-button" text="Save and Exit" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Button onAction="#exitWithoutSave" prefHeight="60" prefWidth="200" styleClass="profile-menu-button" text="Exit" GridPane.columnIndex="0" GridPane.rowIndex="2" />
-            <Button fx:id="returnToGameButton" mnemonicParsing="false" onAction="#returnToGame" prefHeight="64.0" prefWidth="194.0" styleClass="profile-menu-button" text="Return to Game" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <Button onAction="#exitWithoutSave" prefHeight="60" prefWidth="200" styleClass="profile-menu-button" text="Exit" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="returnToGameButton" mnemonicParsing="false" onAction="#returnToGame" prefHeight="64.0" prefWidth="194.0" styleClass="profile-menu-button" text="Return to Game" textAlignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="0" />
             <columnConstraints>
                 <ColumnConstraints />
                 <ColumnConstraints />
@@ -89,4 +89,8 @@
    <ImageView fx:id="heart1" fitHeight="50.0" fitWidth="55.0" layoutX="178.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true" />
    <ImageView fx:id="heart2" fitHeight="50.0" fitWidth="55.0" layoutX="104.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true" />
    <ImageView fx:id="heart3" fitHeight="50.0" fitWidth="55.0" layoutX="22.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true" />
+    <VBox fx:id="guide" alignment="CENTER" layoutX="195.0" layoutY="210.0" prefHeight="380.0" prefWidth="609.0" spacing="10" style=" -fx-background-color: transparent;-fx-background-radius: 30px; -fx-border-color: #0c2672; -fx-border-radius: 30px; -fx-border-width: 20" styleClass="pause-menu">
+        <Text style="-fx-font-family: Chilanka; -fx-text-fill: #ffffff; -fx-font-size: 23; -fx-font-weight: bold" fx:id="guideMenuText" />
+        <Button styleClass="profile-menu-button" text="back" onAction="#backToPauseMenu"/>
+    </VBox>
 </Pane>

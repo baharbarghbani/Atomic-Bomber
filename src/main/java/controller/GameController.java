@@ -5,10 +5,7 @@ import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.scene.layout.Pane;
 import javafx.util.Duration;
-import model.App;
-import model.Game;
-import model.User;
-import model.Wave;
+import model.*;
 import model.bombs.Bullet;
 import model.components.Mig;
 import model.components.Plane;
@@ -151,6 +148,9 @@ public class GameController {
     }
 
     public static void endGame() throws Exception {
+        GameScore gameScore = new GameScore(App.getLoggedInUser().getUsername(), Game.getInstance().getWaveNumber(), App.getLoggedInUser().getKill(), Game.getInstance().getHardness(), App.getLoggedInUser().getAccuracy());
+        GameScore.getAllGameScores().add(gameScore);
+        ApplicationController.saveGameScore();
         GameLauncherController.endGame();
     }
 

@@ -1,7 +1,14 @@
 package animations;
 
 import controller.GameController;
+import javafx.animation.FadeTransition;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
 import javafx.animation.Transition;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.util.Duration;
@@ -12,6 +19,7 @@ import view.GameLauncher;
 import view.GameLauncherController;
 
 import java.io.File;
+import java.util.Objects;
 
 public class MissileAnimation extends Transition {
     private Game game;
@@ -20,7 +28,6 @@ public class MissileAnimation extends Transition {
     public MissileAnimation(Game game, Bullet bullet) {
         this.game = game;
         this.bullet = bullet;
-//        Game.getInstance().getPlane().requestFocus();
         setCycleDuration(Duration.millis(10000));
         this.setCycleCount(-1);
         game.addAnimations(this);
@@ -38,11 +45,25 @@ public class MissileAnimation extends Transition {
                 explosion();
                 GameLauncher.getInstance().root.getChildren().remove(bullet);
                 plane.decreaseHP();
+                PlaneDamage planeDamage = new PlaneDamage(plane);
+                planeDamage.play();
+                Timeline timeline = getTimeline(planeDamage,plane);
+                timeline.play();
                 GameController.checkHP();
                 this.pause();
             }
         }
     }
+
+    private Timeline getTimeline(PlaneDamage planeDamage, Plane plane) {
+        Timeline timeline = new Timeline(new KeyFrame(Duration.millis(500), e -> {
+            planeDamage.pause();
+            plane.setImage("/Images/icon.png");
+        }));
+        timeline.setCycleCount(1);
+        return timeline;
+    }
+
     private void explosion() {
         Media media = new Media(new File("src/main/media/explosion.wav").toURI().toString());
         MediaPlayer mediaPlayer = new MediaPlayer(media);

@@ -122,11 +122,8 @@ public class ComponentCreator {
             Component obj1 = objects.get(i);
             for (int j = i + 1; j < objects.size(); j++) {
                 Component obj2 = objects.get(j);
-                // Check for collision along the x-axis
                 if (obj1.getX() < obj2.getX() + obj2.getWidth() && obj1.getX() + obj1.getWidth() > obj2.getX()) {
-                    // Collision detected, resolve it
                     double overlap = (obj1.getX() + obj1.getWidth()) - obj2.getX();
-                    // Move obj1 to the left by overlap amount to resolve the collision
                     if ((obj1.getX() - overlap) < 10 || (obj1.getX() - overlap) + obj1.getWidth() > 1000) {
                         obj1.setX(obj1.getX() + overlap);
                     } else {

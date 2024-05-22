@@ -22,6 +22,8 @@ import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
+import javafx.scene.paint.Color;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 import model.App;
@@ -65,6 +67,8 @@ public class GameLauncherController {
     @FXML
     public ChoiceBox<String> choiceBox;
     @FXML
+    public Text guideMenuText;
+    @FXML
     protected ImageView rocket;
     @FXML
     public Label  rocketNumber;
@@ -76,7 +80,6 @@ public class GameLauncherController {
     public Label killNumber;
     @FXML
     public ImageView killNumberImage;
-
     @FXML
     public Label waveNumber;
     private  Game game;
@@ -94,7 +97,10 @@ public class GameLauncherController {
     public static ImageView heart3Image;
     private Plane plane;
     public Pane root;
+    @FXML
     public Pane pauseMenu;
+    @FXML
+    public Pane guide;
 
     @FXML
     public void initialize() throws FileNotFoundException {
@@ -118,6 +124,7 @@ public class GameLauncherController {
         clusterBombNumber.setText("X" + App.getLoggedInUser().getClusterBombNumber());
         clusterBombNumberText = clusterBombNumber;
         pauseMenu.setVisible(false);
+        guide.setVisible(false);
         staticProgressBar = progressBar;
         migWarningText = migWarning;
         migWarningText.setVisible(false);
@@ -132,6 +139,8 @@ public class GameLauncherController {
         choiceBox.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
             handleEvent(newValue);
         });
+        guideMenuText.setText("Press UP, DOWN, LEFT, RIGHT to move the plane\nPress SPACE to shoot\nPress R to shoot nuclear bomb\nPress C to shoot cluster bomb\nPress P to go to next wave\nPress G to get nuclear bomb\nPress CONTROL to get cluster bomb\nPress H to increase HP\nPress TAB to freeze the game");
+        guideMenuText.setFill(Color.WHITE);
     }
 
     public void addLives(){
@@ -369,7 +378,7 @@ public class GameLauncherController {
                 if (!Game.getInstance().getWave().getAllObjects().isEmpty()){
                     GameLauncherController.jumpToNextWave();
                 }
-                if (Game.getInstance().getWaveNumber() == 4){
+                if (Game.getInstance().getWaveNumber() == 3){
                     try {
                         GameLauncherController.endGame();
                     } catch (Exception e) {
@@ -513,6 +522,8 @@ public class GameLauncherController {
     }
     @FXML
     public void keyGuide(ActionEvent actionEvent) {
+        guide.setVisible(true);
+        pauseMenu.setVisible(false);
     }
 
     private void handleEvent(String newValue) {
@@ -545,11 +556,14 @@ public class GameLauncherController {
         AppViewController.gameLauncherController.root.getChildren().add(imageView);
         resetProgressBar();
     }
+    public void unmute(ActionEvent actionEvent) {
+        App.setMuted(false);
+        AppViewController.playMusic(AppViewController.musicPath);
+    }
 
+    public void backToPauseMenu(ActionEvent actionEvent) {
+        guide.setVisible(false);
+        pauseMenu.setVisible(true);
 
-
-
-
-
-
+    }
 }

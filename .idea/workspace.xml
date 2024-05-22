@@ -5,60 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bd07efe-a17d-44a2-8768-46ddb026b90c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/animations/FreezingAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/GameScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/ScoreBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/ScoreBoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/media/music1.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/media/music2.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/media/music3.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/media/music4.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/FXML/ScoreBoardFxml.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/frizz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/database/GameScores.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/animations/PlaneDamage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/database/Users.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/database/Users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animations/BombAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/BombAnimation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animations/BonusAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/BonusAnimation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animations/ExplosionAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/ExplosionAnimation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animations/MigAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/MigAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animations/FreezingAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/FreezingAnimation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/animations/MissileAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/MissileAnimation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animations/NuclearBombAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/NuclearBombAnimation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animations/PlaneAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/PlaneAnimation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animations/TankAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/TankAnimation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/animations/TruckAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/TruckAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ApplicationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/ComponentCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ComponentCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/components/Mig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/components/Mig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/components/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/components/Plane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/components/ShootingTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/components/ShootingTank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/AppViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/AppViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/AvatarMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/AvatarMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/AvatarMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/AvatarMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/ChangeUsername.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ChangeUsername.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/EndGameMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/EndGameMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/GameLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/GameLauncher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/GameLauncherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/GameLauncherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/MainMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/MainMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/LoginMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/LoginMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/ProfileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ProfileMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/ProfileMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ProfileMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/ScoreBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ScoreBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/SettingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/SettingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/CSS/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/SettingsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/SettingsMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/FXML/AvatarMenuFxml.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FXML/AvatarMenuFxml.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/FXML/GameFxml.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FXML/GameFxml.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Images/avatars/rabbit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Images/avatars/user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Images/avatars/user2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Images/avatars/user3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Images/avatars/user4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Images/avatars/woman.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Images/backgrounds/baharBG1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Images/fighter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Images/houses/house0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Images/houses/house2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Images/plane.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Images/rockets/rocket.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Images/rockets/rocket2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Images/rockets/rocket3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Images/rockets/rocket5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Images/rockets/rocket6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Images/rockets/rocket7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/FXML/ProfileMenuFxml.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FXML/ProfileMenuFxml.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/FXML/ScoreBoardFxml.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FXML/ScoreBoardFxml.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Images/frizz.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Images/frizz.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +46,7 @@
       <list>
         <option value="Interface" />
         <option value="FxmlFile" />
+        <option value="package.json" />
         <option value="Class" />
       </list>
     </option>
@@ -95,37 +72,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.AvatarMenu.executor": "Run",
-    "Application.GameLauncher.executor": "Run",
-    "Application.LoginMenu.executor": "Run",
-    "Application.ProfileMenu.executor": "Run",
-    "Application.ScoreBoard.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "extract.method.default.visibility": "private",
-    "git-widget-placeholder": "media",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ASUS/Downloads/openjfx-21.0.3_windows-x64_bin-sdk/javafx-sdk-21.0.3/lib",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AvatarMenu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GameLauncher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginMenu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProfileMenu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScoreBoard.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;efficiency&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/Downloads/openjfx-21.0.3_windows-x64_bin-sdk/javafx-sdk-21.0.3/lib&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS\Documents\Uni\AP\AtomicBomber2" />
@@ -183,7 +160,8 @@
       <workItem from="1716194391800" duration="1151000" />
       <workItem from="1716200184636" duration="33699000" />
       <workItem from="1716284991105" duration="2000" />
-      <workItem from="1716285030205" duration="20738000" />
+      <workItem from="1716285030205" duration="27706000" />
+      <workItem from="1716387294967" duration="7241000" />
     </task>
     <servers />
   </component>

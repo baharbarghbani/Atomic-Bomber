@@ -38,6 +38,7 @@ public class SettingController {
 
     public void muteGame(MouseEvent mouseEvent) {
         App.setMuted(true);
+        AppViewController.pauseMusic();
         AppViewController.showAlert("Game is now muted", "Mute" ,Alert.AlertType.INFORMATION, "/Images/backgrounds/setting.png", true);
     }
 

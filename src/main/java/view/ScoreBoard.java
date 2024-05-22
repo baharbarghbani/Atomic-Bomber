@@ -21,12 +21,15 @@ import model.User;
 import java.util.Objects;
 
 public class ScoreBoard extends Application {
+    @FXML
     public ToggleGroup group;
+    @FXML
     public TableView table;
 
     @FXML
     public void initialize(){
         AppViewController.setIcon();
+        ApplicationController.loadGameScores();
         GameScore.refresh(0);
         refreshTable();
         group.selectedToggleProperty().addListener((observable, oldValue, newValue) -> {
@@ -86,8 +89,6 @@ public class ScoreBoard extends Application {
         });
         table.setItems(data);
     }
-
-
     @Override
     public void start(Stage primaryStage) throws Exception {
         ApplicationController.setStage(primaryStage);
@@ -96,7 +97,7 @@ public class ScoreBoard extends Application {
         Pane pane = FXMLLoader.load(Objects.requireNonNull(ScoreBoard.class.getResource("/FXML/ScoreBoardFxml.fxml")));
         Scene scene = new Scene(pane);
         primaryStage.setScene(scene);
-//        ApplicationController.blackAndWhite(User.getLoggedInUser().isBlackAndWhite());
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 
