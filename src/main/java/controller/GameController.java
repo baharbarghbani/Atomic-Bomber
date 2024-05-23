@@ -116,7 +116,7 @@ public class GameController {
     }
 
     public static void checkMigTime(Game game, Wave wave, Pane root) {
-        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(20 * App.getMigTimeCoef()), actionEvent -> ComponentCreator.createMig(wave, game, root)));
+        Timeline timeline = new Timeline(new KeyFrame(Duration.seconds(25 * App.getMigTimeCoef()), actionEvent -> ComponentCreator.createMig(wave, game, root)));
         timeline.setCycleCount(-1);
         timeline.play();
     }
@@ -150,6 +150,8 @@ public class GameController {
 
     public static void performMissileShootingAnimationForMig(Bullet bullet, Game game, Pane pane, Mig mig) {
         if (!App.isFreezed()) {
+            bullet.setY(mig.getY() + 25);
+            bullet.setX(mig.getX() + 20);
             MissileAnimation missileAnimation = new MissileAnimation(game, bullet);
             mig.setMissileAnimation(missileAnimation);
             game.addAnimations(missileAnimation);
@@ -161,8 +163,6 @@ public class GameController {
     public static void endGame() throws Exception {
         GameScore gameScore = new GameScore(App.getLoggedInUser().getUsername(), Game.getInstance().getWaveNumber(), App.getLoggedInUser().getKill(), Game.getInstance().getHardness(), App.getLoggedInUser().getAccuracy());
         GameScore.getAllGameScores().add(gameScore);
-//        if (!gameScore.isAdded())
-//            ApplicationController.saveGameScore();
         gameScore.setIsAdded(true);
         GameLauncherController.endGame();
     }

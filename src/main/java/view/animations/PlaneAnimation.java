@@ -26,7 +26,7 @@ public class PlaneAnimation extends Transition {
         this.setCycleCount(-1);
         this.setCycleDuration(Duration.millis(100));
         plane.setScaleX(-1);
-        game.addAnimations(this);
+        this.game.addAnimations(this);
         checkTank = new Timeline(new KeyFrame(Duration.seconds(0.5), actionEvent -> GameController.checkPlaneInTankArea(plane)));
         checkTank.setCycleCount(-1);
         checkTank.play();

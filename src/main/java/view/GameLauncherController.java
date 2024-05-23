@@ -326,7 +326,6 @@ public class GameLauncherController {
         Wave wave = GameController.createWave(game);
         GameController.checkMigTime(game, game.getWave(), root);
         scene.getStylesheets().add(getClass().getResource("/CSS/style.css").toExternalForm());
-//        plane.requestFocus();
         AppViewController.gameLauncherController.addComponents();
         ComponentCreator.createTanksAnimation(wave.getTanks(), game, 3);
         ComponentCreator.createTrucksAnimation(wave.getTrucks(), game);

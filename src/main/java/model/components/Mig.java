@@ -42,7 +42,6 @@ public class Mig extends Rectangle {
             this.setX(this.getX() - dx);
         } else {
             Wave.removeMig();
-//            pauseMissileAnimation();
             this.migAnimation.stop();
         }
     }
