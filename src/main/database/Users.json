@@ -3661,5 +3661,27 @@
     "score": 0,
     "nuclearBombNumber": 0,
     "rocketNumber": 1
+  },
+  {
+    "username": "4wy6fHBu",
+    "password": "AFrLhyUyIC",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar6.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1
+  },
+  {
+    "username": "3kdDu1zJ",
+    "password": "OBFQN0stX6",
+    "isGuest": true,
+    "kill": 0,
+    "lives": 10,
+    "avatarPath": "/Images/avatars/avatar2.png",
+    "score": 0,
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1
   }
 ]

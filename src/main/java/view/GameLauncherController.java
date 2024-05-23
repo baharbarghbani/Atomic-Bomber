@@ -70,7 +70,7 @@ public class GameLauncherController {
         for (Component objects : wave.getAllObjects()){
             if (bomb.getBoundsInParent().intersects(objects.getBoundsInParent())){
                 GameController.addKill(objects.getKill());
-                if (objects.hasBonus() && objects instanceof Building) {
+                if (objects.hasBonus()) {
                     Bomb bomb2 = GameController.giveBonus(objects);
                     bomb2.bonusAction(objects);
                 }

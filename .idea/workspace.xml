@@ -5,135 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bd07efe-a17d-44a2-8768-46ddb026b90c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/database/Users.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animations/BombAnimtaion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animations/BonusAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animations/ExplosionAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animations/NuclearBombAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animations/PlaneAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animations/TankAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/animations/TruckAnimation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ApplicationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/LoginMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ProfileMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/ScoreBoard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Wave.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/components/Bomb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/components/Building.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/components/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/components/Fort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/components/NuclearBomb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/components/Plane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/components/Rocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/components/ShootingTank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/components/Tank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/components/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/components/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/AvatarMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/AvatarMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/ChangeUsername.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/EndGameMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/GameLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/GameLauncherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/LoginMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/LoginMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/MainMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/MainMenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/ProfileMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/SettingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/view/SettingsMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/CSS/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/FXML/AvatarMenuFxml.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/FXML/ChangeUsername.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/FXML/GameFxml.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/FXML/LoginMenuFxml.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/FXML/MainMenuFxml.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/FXML/ProfileMenuFxml.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/FXML/SettingFxml.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/atomic-bomb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/avatars/avatar1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/avatars/avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/avatars/avatar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/avatars/avatar4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/avatars/avatar5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/avatars/avatar6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/avatars/rabbit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/avatars/user.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/avatars/user2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/avatars/user3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/avatars/user4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/avatars/woman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/backgrounds/background1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/backgrounds/background2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/backgrounds/background3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/backgrounds/background4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/backgrounds/background5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/backgrounds/background7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/backgrounds/baharBG1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/backgrounds/baharBG2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/backgrounds/baharBG3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/backgrounds/baharBG4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/backgrounds/mainmenu4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/backgrounds/setting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/bomber.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/death.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/explosion-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/explosion.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/fighter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/fire/fire0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/fire/fire1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/fire/fire2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/fire/fire3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/fire/fire4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/fire/fire5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/fire/fire6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/fire/fire7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/fire/fire8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/fort.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/houses/house0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/houses/house1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/houses/house2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/plane.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/planeExplosion/explosion0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/planeExplosion/explosion1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/planeExplosion/explosion2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/planeExplosion/explosion3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/planeExplosion/explosion4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/rockets/rocket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/rockets/rocket5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/rockets/rocket6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/rockets/rocket7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/tanks/shooting-tank0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/tanks/shooting-tank1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/tanks/tank0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/tanks/tank1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/trees/tree0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/trees/tree1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/trees/tree2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/trucks/truck0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/trucks/truck1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/color palletr.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,35 +42,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.AvatarMenu.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GameLauncher.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LoginMenu.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProfileMenu.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/Downloads/openjfx-21.0.3_windows-x64_bin-sdk/javafx-sdk-21.0.3/lib&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.AvatarMenu.executor": "Run",
+    "Application.GameLauncher.executor": "Run",
+    "Application.LoginMenu.executor": "Run",
+    "Application.ProfileMenu.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ASUS/Downloads/openjfx-21.0.3_windows-x64_bin-sdk/javafx-sdk-21.0.3/lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS\Documents\Uni\AP\AtomicBomber2" />
@@ -246,6 +119,7 @@
       <workItem from="1715865024586" duration="23927000" />
       <workItem from="1715959351351" duration="28250000" />
       <workItem from="1716041438739" duration="20109000" />
+      <workItem from="1716438911746" duration="882000" />
     </task>
     <servers />
   </component>
