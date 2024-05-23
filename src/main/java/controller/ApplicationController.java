@@ -83,10 +83,7 @@ public class ApplicationController {
             return "Won!";
         } else return "Lost!";
     }
-
-    public static String getWave() {
-        return String.valueOf(Game.getInstance().getWave());
-    }
+    
 
     public static String getAccuracy() {
         return String.valueOf(App.getLoggedInUser().getAccuracy());

@@ -1,8 +1,8 @@
 package model.bombs;
 
-import animations.BonusAnimation;
-import animations.ExplosionAnimation;
-import animations.NuclearBombAnimation;
+import view.animations.BonusAnimation;
+import view.animations.ExplosionAnimation;
+import view.animations.NuclearBombAnimation;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -87,9 +87,6 @@ public class Bomb extends Group {
         imageView.setImage(new Image(Rocket.class.getResource(url).toExternalForm()));
     }
 
-    public void explodeCluster() {
-
-    }
 
     public void explode() {
         ExplosionAnimation explodeAnimation = new ExplosionAnimation(false, true, false);

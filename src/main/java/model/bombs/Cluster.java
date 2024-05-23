@@ -1,6 +1,6 @@
 package model.bombs;
 
-import animations.BombAnimation;
+import view.animations.BombAnimation;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;

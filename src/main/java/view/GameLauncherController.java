@@ -1,8 +1,8 @@
 package view;
 
-import animations.BombAnimation;
-import animations.FreezingAnimation;
-import animations.PlaneAnimation;
+import view.animations.BombAnimation;
+import view.animations.FreezingAnimation;
+import view.animations.PlaneAnimation;
 import controller.ApplicationController;
 import controller.ComponentCreator;
 import controller.GameController;
@@ -345,7 +345,6 @@ public class GameLauncherController {
         PlaneAnimation planeAnimation = new PlaneAnimation(game, pane, plane);
         planeAnimation.play();
         plane.setPlaneAnimation(planeAnimation);
-//        plane.requestFocus();
         plane.setOnKeyPressed(event -> {
             if (event.getCode() == KeyCode.UP) {
                 planeAnimation.setUp(true);
@@ -366,7 +365,6 @@ public class GameLauncherController {
         });
         plane.setOnKeyReleased(event -> {
             plane.setFocusTraversable(true);
-//            plane.requestFocus();
             if (event.getCode() == KeyCode.RIGHT) {
                 planeAnimation.setRight(false);
                 plane.setDisable(false);
@@ -401,7 +399,6 @@ public class GameLauncherController {
                 Rocket rocket = new Rocket(x, y, angle, plane.flipped, vx, vy, root);
                 root.getChildren().add(rocket);
                 GameLauncherController.shootBombs(rocket);
-//                plane.requestFocus();
             }
             if (event.getCode() == KeyCode.R) {
                 GameController.increaseShootingCount();
@@ -483,9 +480,7 @@ public class GameLauncherController {
         root.getChildren().add(nuclearBomb);
         App.getLoggedInUser().reduceNuclearBomb();
         GameLauncherController.updateNuclearBombCount();
-        GameLauncherController.shootBombs(nuclearBomb);
-//        plane.requestFocus();
-    }
+        GameLauncherController.shootBombs(nuclearBomb);}
 
     public void createCluster(PlaneAnimation planeAnimation) {
         plane.setDisable(false);
@@ -506,7 +501,6 @@ public class GameLauncherController {
         GameLauncherController.shootBombs(cluster);
         App.getLoggedInUser().reduceClusterBomb();
         GameLauncherController.updateClusterBombCount();
-//        plane.requestFocus();
     }
 
     @FXML
@@ -536,9 +530,6 @@ public class GameLauncherController {
         this.root = root;
     }
 
-    public void exitWithSave(ActionEvent actionEvent) {
-
-    }
 
     public void exitWithoutSave(ActionEvent actionEvent) throws Exception {
         AppViewController.loginMenu.start(ApplicationController.getStage());

@@ -1,7 +1,7 @@
 package model.components;
 
-import animations.ExplosionAnimation;
-import animations.NuclearBombAnimation;
+import view.animations.ExplosionAnimation;
+import view.animations.NuclearBombAnimation;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.image.Image;

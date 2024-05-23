@@ -53,7 +53,7 @@ public class LoginMenuController {
             return new Result("Please use a password with at least 8 characters,\n" + "including one uppercase letter,\n" + "one lowercase letter, one digit,\n" + "and one special character.", false);
         }
         String imagePath = generateRandomAvatar();
-        User user = new User(username, password, false, imagePath);
+        User user = new User(username, password, imagePath);
         App.addUser(user);
         App.setLoggedInUser(user);
         ApplicationController.saveUser();
@@ -64,7 +64,7 @@ public class LoginMenuController {
         String username = generateRandomString(USERNAME_LENGTH);
         String password = generateRandomString(PASSWORD_LENGTH);
         String avatarPath = generateRandomAvatar();
-        User user = new User(username, password, true, avatarPath);
+        User user = new User(username, password, avatarPath);
         App.setLoggedInUser(user);
         App.addUser(user);
         ApplicationController.loadUsers();

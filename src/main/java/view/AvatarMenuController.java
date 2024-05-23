@@ -14,14 +14,11 @@ import model.App;
 import model.Result;
 
 import java.io.File;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Objects;
 
 import static view.MainMenuController.profileMenu;
 
 public class AvatarMenuController {
-    private static final List<String> SUPPORTED_EXTENSIONS = Arrays.asList(".png", ".jpg", ".jpeg", ".gif", ".bmp");
     @FXML
     public ImageView imageView1;
     @FXML
@@ -39,7 +36,6 @@ public class AvatarMenuController {
 
     @FXML
     public void initialize() {
-        AppViewController applicationController = new AppViewController();
         AppViewController.setIcon();
         imageView1.setImage(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/avatars/avatar1.png"))));
         imageView2.setImage(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/avatars/avatar3.png"))));
@@ -60,7 +56,6 @@ public class AvatarMenuController {
             Dragboard dragboard = event.getDragboard();
             boolean success = false;
             if (dragboard.hasFiles()) {
-                // Handle the dropped file (e.g., display it in the ImageView)
                 File file = dragboard.getFiles().get(0);
                 App.getLoggedInUser().setAvatarPath(file.getAbsolutePath());
                 Image image = new Image(file.toURI().toString());
@@ -72,10 +67,6 @@ public class AvatarMenuController {
         });
     }
 
-    private void handleDroppedImage(File file, ImageView avatarImageView) {
-
-
-    }
 
     @FXML
     public void handleButtonClick(MouseEvent mouseEvent) {
@@ -157,14 +148,5 @@ public class AvatarMenuController {
             }
         }
         return new Result("Avatar not changed!", false);
-    }
-
-    private boolean isValidImageFile(String filePath) {
-        return SUPPORTED_EXTENSIONS.contains(getFileExtension(filePath).toLowerCase());
-    }
-
-    private String getFileExtension(String fileName) {
-        int dotIndex = fileName.lastIndexOf('.');
-        return (dotIndex == -1) ? "" : fileName.substring(dotIndex);
     }
 }

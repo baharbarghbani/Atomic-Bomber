@@ -33,10 +33,6 @@ public class Game {
         return hardness;
     }
 
-    public void setHardness(int hardness) {
-        this.hardness = hardness;
-    }
-
     public Wave getWave() {
         return wave;
     }
@@ -77,6 +73,4 @@ public class Game {
         return waveNumber;
     }
 
-    public void setDifficulty(int i) {
-    }
 }

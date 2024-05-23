@@ -1,7 +1,7 @@
 package model.components;
 
-import animations.ExplosionAnimation;
-import animations.PlaneAnimation;
+import view.animations.ExplosionAnimation;
+import view.animations.PlaneAnimation;
 import controller.GameController;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;

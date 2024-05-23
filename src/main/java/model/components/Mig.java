@@ -1,7 +1,7 @@
 package model.components;
 
-import animations.MigAnimation;
-import animations.MissileAnimation;
+import view.animations.MigAnimation;
+import view.animations.MissileAnimation;
 import controller.ComponentCreator;
 import controller.GameController;
 import javafx.scene.image.Image;
@@ -57,24 +57,10 @@ public class Mig extends Rectangle {
 
     public void shoot(double angle) {
         Bullet bullet = ComponentCreator.createBulletForMig(this.getX(), this.getY(), angle);
-        Plane plane = game.getPlane();
-//        if (plane != null){
-//            plane.requestFocus();
-//        }
         GameController.performMissileShootingAnimationForMig(bullet, game, pane, this);
-//        if (plane != null)
-//            plane.requestFocus();
     }
 
     public void setMissileAnimation(MissileAnimation missileAnimation) {
         this.missileAnimation = missileAnimation;
-    }
-
-    public void pauseMissileAnimation() {
-        missileAnimation.pause();
-    }
-
-    public double getPassingTime() {
-        return passingTime * game.getHardness();
     }
 }

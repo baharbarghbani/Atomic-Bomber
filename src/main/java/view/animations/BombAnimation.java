@@ -1,4 +1,4 @@
-package animations;
+package view.animations;
 
 import javafx.animation.Transition;
 import model.Game;
@@ -55,10 +55,6 @@ public class BombAnimation extends Transition {
             bomb.explode();
         }
 
-    }
-
-    public boolean isClusterHasExploded() {
-        return clusterHasExploded;
     }
 
     public static void setClusterHasExploded(boolean clusterHasExploded1) {

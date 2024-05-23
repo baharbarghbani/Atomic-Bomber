@@ -1,13 +1,13 @@
 package model.components;
 
-import animations.ExplosionAnimation;
-import animations.NuclearBombAnimation;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.image.Image;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.ImagePattern;
 import model.Game;
+import view.animations.ExplosionAnimation;
+import view.animations.NuclearBombAnimation;
 
 public class Tree extends Component {
 

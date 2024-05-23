@@ -1,4 +1,4 @@
-package animations;
+package view.animations;
 
 import controller.GameController;
 import javafx.animation.KeyFrame;

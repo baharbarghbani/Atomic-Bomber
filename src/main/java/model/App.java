@@ -45,13 +45,8 @@ public class App {
 
     public static void deleteUser(User user) {
         users.remove(user);
-        // Load users from JSON file
         ApplicationController.loadUsers();
-
-        // Delete user with username "exampleUser"
         ApplicationController.deleteUser(user.getUsername());
-
-        // Save modified users data to JSON file
         ApplicationController.saveUser();
     }
 

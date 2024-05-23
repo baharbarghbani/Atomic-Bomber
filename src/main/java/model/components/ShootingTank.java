@@ -1,8 +1,8 @@
 package model.components;
 
-import animations.ExplosionAnimation;
-import animations.MissileAnimation;
-import animations.NuclearBombAnimation;
+import view.animations.ExplosionAnimation;
+import view.animations.MissileAnimation;
+import view.animations.NuclearBombAnimation;
 import controller.ComponentCreator;
 import controller.GameController;
 import javafx.event.ActionEvent;
@@ -24,7 +24,6 @@ public class ShootingTank extends Tank {
     }
 
     public void shoot(double angle) {
-//        Bullet bullet = new Bullet(this.getX()+ 20, this.getY(), Math.toRadians(angle), 6 * Math.cos(angle), Math.abs(6 * Math.sin(angle)));
         Bullet bullet = ComponentCreator.createBulletForTank(this.getX(), this.getY(), angle);
         GameController.performTankShootingAnimation(this, bullet, imageNumber, angle, game, pane);
     }
@@ -41,7 +40,6 @@ public class ShootingTank extends Tank {
                 game.getWave().removeObject(ShootingTank.this);
                 game.removeAnimation(explodeAnimation);
                 game.getWave().removeShootingTank(ShootingTank.this);
-//                pauseMissileAnimation();
             }
         });
         explodeAnimation.play();
@@ -63,7 +61,6 @@ public class ShootingTank extends Tank {
                 game.getWave().removeObject(ShootingTank.this);
                 game.getWave().removeShootingTank(ShootingTank.this);
                 game.removeAnimation(nuclearBombAnimation);
-//                pauseMissileAnimation();
             }
         });
         nuclearBombAnimation.play();
@@ -75,9 +72,5 @@ public class ShootingTank extends Tank {
 
     public void setMissileAnimation(MissileAnimation missileAnimation) {
         this.missileAnimation = missileAnimation;
-    }
-
-    public void pauseMissileAnimation() {
-        missileAnimation.pause();
     }
 }

@@ -1,4 +1,4 @@
-package animations;
+package view.animations;
 
 import javafx.animation.Transition;
 import model.components.Plane;

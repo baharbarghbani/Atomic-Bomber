@@ -1,7 +1,7 @@
 package controller;
 
-import animations.TankAnimation;
-import animations.TruckAnimation;
+import view.animations.TankAnimation;
+import view.animations.TruckAnimation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.scene.layout.Pane;

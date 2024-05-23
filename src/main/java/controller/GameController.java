@@ -1,6 +1,6 @@
 package controller;
 
-import animations.MissileAnimation;
+import view.animations.MissileAnimation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.scene.layout.Pane;

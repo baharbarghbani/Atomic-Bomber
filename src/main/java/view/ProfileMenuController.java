@@ -53,7 +53,4 @@ public class ProfileMenuController {
         }
     }
 
-    public void onDragDetected(MouseEvent mouseEvent) {
-
-    }
 }

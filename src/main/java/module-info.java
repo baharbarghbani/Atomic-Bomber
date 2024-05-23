@@ -12,8 +12,8 @@ module AtomicBomber {
     opens model to javafx.fxml, com.google.gson;
     exports controller;
     opens controller to javafx.fxml, com.google.gson, java.compiler;
-    exports animations;
-    opens animations to javafx.fxml, com.google.gson;
+    exports view.animations;
+    opens view.animations to javafx.fxml, com.google.gson;
     exports model.components;
     opens model.components to javafx.fxml, com.google.gson;
     exports model.bombs;

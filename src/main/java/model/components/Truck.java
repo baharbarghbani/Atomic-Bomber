@@ -1,13 +1,13 @@
 package model.components;
 
-import animations.ExplosionAnimation;
-import animations.NuclearBombAnimation;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.image.Image;
 import javafx.scene.layout.Pane;
 import javafx.scene.paint.ImagePattern;
 import model.Game;
+import view.animations.ExplosionAnimation;
+import view.animations.NuclearBombAnimation;
 
 public class Truck extends Component {
     private final double speed = 0.3;
@@ -74,29 +74,6 @@ public class Truck extends Component {
         explodeAnimation.play();
     }
 
-    //    @Override
-//    public void explodeNuclear() {
-////        ImageView imageView = new ImageView(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/explosion.gif"))));
-////        imageView.setLayoutX(this.getX());
-////        imageView.setLayoutY(this.getY());
-//        imageView.setLayoutX(this.getX());
-//        imageView.setLayoutY(this.getY() - 30);
-//        imageView.setFitWidth(this.getWidth() + 40);
-//        imageView.setFitHeight(this.getHeight() + 40);
-//        NuclearBombAnimation nuclearBombAnimation = new NuclearBombAnimation(imageView);
-//        game.addAnimations(nuclearBombAnimation);
-//        pane.getChildren().remove(Truck.this);
-//        nuclearBombAnimation.setOnFinished(new EventHandler<ActionEvent>() {
-//            @Override
-//            public void handle(ActionEvent actionEvent) {
-//                pane.getChildren().remove(imageView);
-//                game.getWave().removeObject(Truck.this);
-//                game.removeAnimation(nuclearBombAnimation);
-//                game.getWave().removeTruck(Truck.this);
-//            }
-//        });
-//        nuclearBombAnimation.play();
-//    }
     public void explodeByNuclear() {
         imageView.setLayoutX(this.getX());
         imageView.setLayoutY(this.getY() - 50);

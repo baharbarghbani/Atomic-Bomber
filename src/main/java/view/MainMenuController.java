@@ -34,12 +34,6 @@ public class MainMenuController {
     }
 
     @FXML
-    public void openScoreboardMenu() throws Exception {
-        // ScoreboardMenu scoreboardMenu = new ScoreboardMenu();
-        // scoreboardMenu.start(ApplicationController.getStage());
-    }
-
-    @FXML
     public void startNewGame() throws Exception {
         new GameLauncher().start(ApplicationController.getStage());
     }

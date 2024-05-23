@@ -3,7 +3,6 @@ package model;
 public class User {
     private String username;
     private String password;
-    private final boolean isGuest;
     private int kill;
     private String avatarPath;
     private int nuclearBombNumber = 0;
@@ -13,10 +12,9 @@ public class User {
     private int successfulShootingCount;
     private int accuracy;
 
-    public User(String username, String password, boolean isGuest, String avatarPath) {
+    public User(String username, String password,String avatarPath) {
         this.username = username;
         this.password = password;
-        this.isGuest = isGuest;
         this.avatarPath = avatarPath;
         kill = 0;
         shootingCount = 0;
