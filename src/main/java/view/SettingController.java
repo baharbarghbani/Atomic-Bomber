@@ -10,23 +10,23 @@ import model.App;
 public class SettingController {
     @FXML
     private ChoiceBox<String> choiceBox;
+
     @FXML
-    public void initialize(){
+    public void initialize() {
         AppViewController.setIcon();
         choiceBox.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
             handleEvent(newValue);
         });
     }
-    private void handleEvent(String newChoice){
-        if (newChoice.equals("easy")){
+
+    private void handleEvent(String newChoice) {
+        if (newChoice.equals("easy")) {
             App.setGameDifficulty(1);
             App.setMigTimeCoef(1);
-        }
-        else if (newChoice.equals("medium")){
+        } else if (newChoice.equals("medium")) {
             App.setGameDifficulty(2);
             App.setMigTimeCoef(0.75);
-        }
-        else if (newChoice.equals("hard")){
+        } else if (newChoice.equals("hard")) {
             App.setGameDifficulty(3);
             App.setMigTimeCoef(0.5);
         }
@@ -39,11 +39,11 @@ public class SettingController {
     public void muteGame(MouseEvent mouseEvent) {
         App.setMuted(true);
         AppViewController.pauseMusic();
-        AppViewController.showAlert("Game is now muted", "Mute" ,Alert.AlertType.INFORMATION, "/Images/backgrounds/setting.png", true);
+        AppViewController.showAlert("Game is now muted", "Mute", Alert.AlertType.INFORMATION, "/Images/backgrounds/setting.png", true);
     }
 
     public void grayTheGame(MouseEvent mouseEvent) {
         App.setGrayScale(true);
-        AppViewController.showAlert("Game is now in grayscale", "Gray Scale" ,Alert.AlertType.INFORMATION, "/Images/backgrounds/setting.png", true);
+        AppViewController.showAlert("Game is now in grayscale", "Gray Scale", Alert.AlertType.INFORMATION, "/Images/backgrounds/setting.png", true);
     }
 }

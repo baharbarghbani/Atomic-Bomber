@@ -13,6 +13,7 @@ public class App {
     private static boolean isMuted = false;
     private static boolean isFreezed = false;
     private static boolean isPaused = false;
+
     public static User findUserByUsername(String username) {
         for (User user : users) {
             if (user.getUsername().equals(username)) {
@@ -21,21 +22,27 @@ public class App {
         }
         return null;
     }
+
     public static void addUser(User user) {
         users.add(user);
     }
+
     public static void loadUsers(ArrayList<User> users) {
         App.users = users;
     }
+
     public static ArrayList<User> getUsers() {
         return users;
     }
+
     public static User getLoggedInUser() {
         return loggedInUser;
     }
+
     public static void setLoggedInUser(User user) {
         loggedInUser = user;
     }
+
     public static void deleteUser(User user) {
         users.remove(user);
         // Load users from JSON file
@@ -47,9 +54,11 @@ public class App {
         // Save modified users data to JSON file
         ApplicationController.saveUser();
     }
+
     public static int getGameDifficulty() {
         return gameDifficulty;
     }
+
     public static void setGameDifficulty(int gameDifficulty) {
         App.gameDifficulty = gameDifficulty;
     }
@@ -57,32 +66,41 @@ public class App {
     public static double getMigTimeCoef() {
         return migTimeCoef;
     }
+
     public static void setMigTimeCoef(double migTimeCoef) {
         App.migTimeCoef = migTimeCoef;
     }
+
     public static boolean isGrayScale() {
         return isGrayScale;
     }
+
     public static void setGrayScale(boolean grayScale) {
         isGrayScale = grayScale;
     }
+
     public static boolean isMuted() {
         return isMuted;
     }
+
     public static void setMuted(boolean muted) {
         isMuted = muted;
     }
-    public static void setFreezed(boolean isFreezed){
-        App.isFreezed = isFreezed;
-    }
-    public static boolean isFreezed(){
+
+    public static boolean isFreezed() {
         return isFreezed;
     }
-    public static void setPaused(boolean isPaused){
-        App.isPaused = isPaused;
+
+    public static void setFreezed(boolean isFreezed) {
+        App.isFreezed = isFreezed;
     }
-    public static boolean isPaused(){
+
+    public static boolean isPaused() {
         return isPaused;
+    }
+
+    public static void setPaused(boolean isPaused) {
+        App.isPaused = isPaused;
     }
 
 }

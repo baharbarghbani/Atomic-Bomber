@@ -5,15 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bd07efe-a17d-44a2-8768-46ddb026b90c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Atomic Bomber Text.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/database/GameScores.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/database/GameScores.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/database/Users.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/database/Users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animations/BombAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/BombAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animations/BonusAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/BonusAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animations/ExplosionAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/ExplosionAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animations/FreezingAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/FreezingAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animations/MigAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/MigAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animations/MissileAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/MissileAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animations/NuclearBombAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/NuclearBombAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animations/PlaneAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/PlaneAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animations/PlaneDamage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/PlaneDamage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/animations/TruckAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/animations/TruckAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ApplicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ComponentCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ComponentCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/LoginMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/LoginMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ProfileMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ProfileMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/GameScore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/GameScore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/ScoreBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Wave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Wave.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/bombs/Bomb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/bombs/Bomb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/bombs/Bullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/bombs/Bullet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/bombs/Cluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/bombs/Cluster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/bombs/NuclearBomb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/bombs/NuclearBomb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/bombs/Rocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/bombs/Rocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/components/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/components/Building.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/components/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/components/Component.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/components/Fort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/components/Fort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/components/Mig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/components/Mig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/components/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/components/Plane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/components/ShootingTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/components/ShootingTank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/components/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/components/Tank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/components/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/components/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/components/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/components/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/AppViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/AppViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/AvatarMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/AvatarMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/ChangeUsername.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ChangeUsername.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/EndGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/EndGameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/EndGameMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/EndGameMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/view/GameLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/GameLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/GameLauncherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/GameLauncherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/LoginMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/LoginMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/MainMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/MainMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/ProfileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ProfileMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/ProfileMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ProfileMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/ScoreBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ScoreBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/ScoreBoardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/SettingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/SettingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/SettingsMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/SettingsMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/FXML/AvatarMenuFxml.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FXML/AvatarMenuFxml.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/FXML/GameFxml.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FXML/GameFxml.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/FXML/MainMenuFxml.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FXML/MainMenuFxml.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/FXML/ProfileMenuFxml.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FXML/ProfileMenuFxml.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/FXML/SettingFxml.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FXML/SettingFxml.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

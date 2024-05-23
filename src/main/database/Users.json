@@ -1207,5 +1207,18 @@
     "shootingCount": 0,
     "successfulShootingCount": 0,
     "accuracy": 0
+  },
+  {
+    "username": "v7G9sf4w",
+    "password": "x586nOqeJV",
+    "isGuest": true,
+    "kill": 0,
+    "avatarPath": "/Images/avatars/avatar3.png",
+    "nuclearBombNumber": 0,
+    "rocketNumber": 1,
+    "clusterBombNumber": 0,
+    "shootingCount": 0,
+    "successfulShootingCount": 0,
+    "accuracy": 0
   }
 ]

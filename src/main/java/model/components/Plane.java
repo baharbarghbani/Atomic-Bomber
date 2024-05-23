@@ -10,25 +10,24 @@ import javafx.scene.layout.Pane;
 import javafx.scene.paint.ImagePattern;
 import javafx.scene.shape.Rectangle;
 import model.Game;
-import view.AppViewController;
-import view.GameLauncherController;
 
 import java.util.Objects;
 
 public class Plane extends Rectangle {
 
-    public boolean flipped = false;
     public static final int HEIGHT = 80;
     public static final double WIDTH = 100;
+    public boolean flipped = false;
     public double angle = 0.001;
     private int hp = 3;
-    private Game game;
-    private Pane pane;
-    private double x;
-    private double y;
+    private final Game game;
+    private final Pane pane;
+    private final double x;
+    private final double y;
     private PlaneAnimation planeAnimation;
-    public Plane(Game game, Pane pane, double x, double y){
-        super(x, y, 80 ,60);
+
+    public Plane(Game game, Pane pane, double x, double y) {
+        super(x, y, 80, 60);
         this.game = game;
         this.x = x;
         this.y = y;
@@ -36,26 +35,28 @@ public class Plane extends Rectangle {
         this.setFill(new ImagePattern(new Image(Plane.class.getResource("/Images/icon.png").toExternalForm())));
     }
 
-    public double getAngle(){
+    public double getAngle() {
         return angle;
     }
-    public void setAngle(double angle){
+
+    public void setAngle(double angle) {
         this.angle = angle;
     }
-    public void setPlaneAnimation(PlaneAnimation planeAnimation){
-        this.planeAnimation = planeAnimation;
-    }
-    public PlaneAnimation getPlaneAnimation(){
+
+    public PlaneAnimation getPlaneAnimation() {
         return this.planeAnimation;
     }
 
+    public void setPlaneAnimation(PlaneAnimation planeAnimation) {
+        this.planeAnimation = planeAnimation;
+    }
 
     public void setBackground(String url) {
         this.setFill(new ImagePattern(new Image(Plane.class.getResource(url).toExternalForm())));
     }
 
-    public void explode(){
-        ExplosionAnimation explodeAnimation = new ExplosionAnimation(true,false,false);
+    public void explode() {
+        ExplosionAnimation explodeAnimation = new ExplosionAnimation(true, false, false);
         explodeAnimation.setPlane(this);
         this.setRotate(-90);
         explodeAnimation.setOnFinished(new EventHandler<ActionEvent>() {
@@ -65,7 +66,7 @@ public class Plane extends Rectangle {
                 pane.getChildren().remove(Plane.this);
                 try {
                     GameController.endGame();
-                }catch (Exception e){
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
             }
@@ -73,12 +74,14 @@ public class Plane extends Rectangle {
         Game.getInstance().setPlane(null);
         explodeAnimation.play();
     }
-    public void remove(){
+
+    public void remove() {
         game.setPlane(null);
     }
-    public void decreaseHP(){
+
+    public void decreaseHP() {
         hp--;
-        if (hp == 0){
+        if (hp == 0) {
             explode();
         }
     }
@@ -91,6 +94,7 @@ public class Plane extends Rectangle {
     public int getHP() {
         return hp;
     }
+
     public void setImage(String s) {
         this.setFill(new ImagePattern(new Image(Objects.requireNonNull(this.getClass().getResource(s)).toExternalForm())));
     }

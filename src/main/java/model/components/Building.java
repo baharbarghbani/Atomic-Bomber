@@ -9,19 +9,21 @@ import javafx.scene.layout.Pane;
 import javafx.scene.paint.ImagePattern;
 import model.Game;
 
-public class Building extends Component{
-    public Building(double x, Game game, Pane pane){
+public class Building extends Component {
+    public Building(double x, Game game, Pane pane) {
         super(x, 675, 60, 60, game, pane);
         kill = 2;
         hasBonus = true;
         this.setFill(new ImagePattern(new Image(Building.class.getResource("/Images/houses/house1.png").toExternalForm())));
     }
+
     @Override
     public void setBackground(String url) {
         this.setFill(new ImagePattern(new Image(Building.class.getResource(url).toExternalForm())));
     }
+
     @Override
-    public void remove(){
+    public void remove() {
         game.getWave().getAllObjects().remove(this);
     }
 
@@ -50,8 +52,9 @@ public class Building extends Component{
         });
         nuclearBombAnimation.play();
     }
+
     @Override
-    public void explodeByCluster(){
+    public void explodeByCluster() {
         imageView.setLayoutX(this.getX());
         imageView.setLayoutY(this.getY() - 30);
         imageView.setFitWidth(this.getWidth() + 30);
@@ -60,8 +63,8 @@ public class Building extends Component{
     }
 
     @Override
-    public void explode(){
-        ExplosionAnimation explodeAnimation = new ExplosionAnimation(false,false,true);
+    public void explode() {
+        ExplosionAnimation explodeAnimation = new ExplosionAnimation(false, false, true);
         explodeAnimation.setComponent(this);
         game.addAnimations(explodeAnimation);
         explodeAnimation.setOnFinished(new EventHandler<ActionEvent>() {

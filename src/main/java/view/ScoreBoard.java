@@ -9,14 +9,11 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import javafx.util.Callback;
-import model.App;
 import model.GameScore;
-import model.User;
 
 import java.util.Objects;
 
@@ -27,7 +24,7 @@ public class ScoreBoard extends Application {
     public TableView table;
 
     @FXML
-    public void initialize(){
+    public void initialize() {
         AppViewController.setIcon();
         ApplicationController.loadGameScores();
         GameScore.refresh(0);
@@ -45,7 +42,7 @@ public class ScoreBoard extends Application {
         });
     }
 
-    private void refreshTable(){
+    private void refreshTable() {
         TableColumn<GameScore, String> firstNameColumn = new TableColumn<>("Username");
         firstNameColumn.setCellValueFactory(new PropertyValueFactory<>("username"));
 
@@ -68,9 +65,7 @@ public class ScoreBoard extends Application {
         table.getColumns().add(accuracyColumn);
         table.getColumns().add(lastWaveColumn);
 
-        ObservableList<GameScore> data = FXCollections.observableArrayList(
-                GameScore.getAllGameScores()
-        );
+        ObservableList<GameScore> data = FXCollections.observableArrayList(GameScore.getAllGameScores());
         table.setRowFactory(new Callback<TableView<GameScore>, TableRow<GameScore>>() {
             @Override
             public TableRow<GameScore> call(TableView<GameScore> tableView) {
@@ -89,6 +84,7 @@ public class ScoreBoard extends Application {
         });
         table.setItems(data);
     }
+
     @Override
     public void start(Stage primaryStage) throws Exception {
         ApplicationController.setStage(primaryStage);

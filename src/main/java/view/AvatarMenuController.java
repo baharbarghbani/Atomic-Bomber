@@ -9,7 +9,6 @@ import javafx.scene.image.ImageView;
 import javafx.scene.input.Dragboard;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.input.TransferMode;
-import javafx.scene.layout.AnchorPane;
 import javafx.stage.FileChooser;
 import model.App;
 import model.Result;
@@ -22,6 +21,7 @@ import java.util.Objects;
 import static view.MainMenuController.profileMenu;
 
 public class AvatarMenuController {
+    private static final List<String> SUPPORTED_EXTENSIONS = Arrays.asList(".png", ".jpg", ".jpeg", ".gif", ".bmp");
     @FXML
     public ImageView imageView1;
     @FXML
@@ -34,16 +34,13 @@ public class AvatarMenuController {
     public ImageView imageView5;
     @FXML
     public ImageView imageView6;
-
-
-    private static final List<String> SUPPORTED_EXTENSIONS = Arrays.asList(".png", ".jpg", ".jpeg", ".gif", ".bmp");
     @FXML
     public ImageView avatarImageView;
 
     @FXML
     public void initialize() {
         AppViewController applicationController = new AppViewController();
-        applicationController.setIcon();
+        AppViewController.setIcon();
         imageView1.setImage(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/avatars/avatar1.png"))));
         imageView2.setImage(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/avatars/avatar3.png"))));
         imageView3.setImage(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/avatars/avatar2.png"))));
@@ -98,8 +95,7 @@ public class AvatarMenuController {
         if (!result.isSuccess()) {
             AppViewController.showAlert(result.getMessage(), "Changing avatar failed!", Alert.AlertType.WARNING, "/Images/backgrounds/background1.png", true);
         } else {
-            AppViewController.showAlert
-                    (result.getMessage(), "Changed avatar successfully!", Alert.AlertType.INFORMATION, "/Images/backgrounds/background1.png", true);
+            AppViewController.showAlert(result.getMessage(), "Changed avatar successfully!", Alert.AlertType.INFORMATION, "/Images/backgrounds/background1.png", true);
             ProfileMenu profileMenu = new ProfileMenu();
             profileMenu.start(ApplicationController.getStage());
         }

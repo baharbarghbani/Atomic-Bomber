@@ -8,8 +8,6 @@ import javafx.scene.shape.Rectangle;
 import java.util.Objects;
 
 public class Bullet extends Bomb {
-    private double speed = 3;
-
     public Bullet(double x, double y, double angle, double vx, double vy) {
         super(x, y, angle, false, vx, vy, null);
         Rectangle rectangle = new Rectangle(x, y, 10, 10);

@@ -1,4 +1,3 @@
-
 package animations;
 
 import controller.GameController;
@@ -18,7 +17,7 @@ public class PlaneAnimation extends Transition {
     private boolean up, down, left, right;
     private boolean isFlipped = false;
 
-    private Timeline checkTank;
+    private final Timeline checkTank;
 
     public PlaneAnimation(Game game, Pane root, Plane plane) {
         this.game = game;
@@ -106,16 +105,6 @@ public class PlaneAnimation extends Transition {
             plane.remove();
             this.stop();
         }
-//        if (GameController.checkPlaneInTankArea(plane)) {
-//            ShootingTank tank = GameController.getTankInArea(plane);
-//            assert tank != null;
-//            double angle = Math.atan((tank.getY() - plane.getY()) / (tank.getX() - plane.getX()));
-//            tank.shoot(angle, Math.cos(angle) * tank.getSpeed(), Math.sin(angle) * tank.getSpeed());
-//            plane.explode();
-//            plane.remove();
-//            this.stop();
-//            EndGameMenu.getInstance().show();
-
     }
 
 
@@ -150,7 +139,8 @@ public class PlaneAnimation extends Transition {
     public void setRight(boolean right) {
         this.right = right;
     }
-    public double getSpeed(){
+
+    public double getSpeed() {
         return speed;
     }
 }

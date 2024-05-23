@@ -17,7 +17,7 @@ public class EndGameMenu extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         ApplicationController.setStage(primaryStage);
-        try{
+        try {
             FXMLLoader fxmlLoader = new FXMLLoader(requireNonNull(getClass().getResource("/FXML/EndGameFxml.fxml")));
             Pane root = fxmlLoader.load();
             Scene currentScene = new Scene(root);
@@ -27,7 +27,7 @@ public class EndGameMenu extends Application {
             primaryStage.setScene(currentScene);
             primaryStage.show();
 
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
 

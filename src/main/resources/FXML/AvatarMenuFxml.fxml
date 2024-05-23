@@ -15,37 +15,31 @@
             <Button fx:id="button1" layoutX="10" onMouseClicked="#handleButtonClick" styleClass="transparent-button" GridPane.columnIndex="0" GridPane.rowIndex="0">
                 <graphic>
                     <ImageView fx:id="imageView1" fitHeight="104.0" fitWidth="116.0" />
-                   <!-- Replace "avatar1.png" with the path to your avatar image -->
                 </graphic>
             </Button>
             <Button fx:id="button2" layoutX="10" onMouseClicked="#handleButtonClick" styleClass="transparent-button" GridPane.columnIndex="1" GridPane.rowIndex="0">
                 <graphic>
                     <ImageView fx:id="imageView2" fitHeight="104.0" fitWidth="116.0" />
-                    <!-- Replace "avatar1.png" with the path to your avatar image -->
                 </graphic>
             </Button>
             <Button fx:id="button3" layoutX="10" onMouseClicked="#handleButtonClick" styleClass="transparent-button" GridPane.columnIndex="2" GridPane.rowIndex="0">
                 <graphic>
                     <ImageView fx:id="imageView3" fitHeight="104.0" fitWidth="116.0" />
-                    <!-- Replace "avatar1.png" with the path to your avatar image -->
                 </graphic>
             </Button>
             <Button fx:id="button4" layoutX="10" onMouseClicked="#handleButtonClick" styleClass="transparent-button" GridPane.columnIndex="0" GridPane.rowIndex="1">
                 <graphic>
                     <ImageView fx:id="imageView4" fitHeight="104.0" fitWidth="116.0" />
-                    <!-- Replace "avatar1.png" with the path to your avatar image -->
                 </graphic>
             </Button>
             <Button fx:id="button5" layoutX="10" onMouseClicked="#handleButtonClick" styleClass="transparent-button" GridPane.columnIndex="1" GridPane.rowIndex="1">
                 <graphic>
                     <ImageView fx:id="imageView5" fitHeight="104.0" fitWidth="116.0" />
-                    <!-- Replace "avatar1.png" with the path to your avatar image -->
                 </graphic>
             </Button>
             <Button fx:id="button6" layoutX="10" onMouseClicked="#handleButtonClick" styleClass="transparent-button" GridPane.columnIndex="2" GridPane.rowIndex="1">
                 <graphic>
                     <ImageView fx:id="imageView6" fitHeight="104.0" fitWidth="116.0" />
-                    <!-- Replace "avatar1.png" with the path to your avatar image -->
                 </graphic>
             </Button>
          <columnConstraints>

@@ -1,29 +1,29 @@
 package view;
+
 import controller.ApplicationController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
-import model.Game;
 
 import java.io.IOException;
 import java.util.Objects;
 
-import static java.util.Objects.requireNonNull;
-
 public class GameLauncher extends Application {
+    protected static GameLauncher instance;
     public Pane root;
     public Scene scene;
-    protected static GameLauncher instance;
 
     public static void main(String[] args) {
         launch(args);
     }
-    public static GameLauncher getInstance(){
+
+    public static GameLauncher getInstance() {
         return instance;
     }
-    public static void setInstance(GameLauncher gameLauncher){
+
+    public static void setInstance(GameLauncher gameLauncher) {
         instance = gameLauncher;
     }
 

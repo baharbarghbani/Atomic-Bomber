@@ -34,56 +34,65 @@ public class Bomb extends Group {
         this.pane = pane;
     }
 
-    public double getAngle(){
+    public double getAngle() {
         return angle;
     }
 
+    public void setAngle(double angle) {
+        this.angle = angle;
+    }
 
-    public double getX(){
-        if (this.getChildren().isEmpty()){
+    public double getX() {
+        if (this.getChildren().isEmpty()) {
             return 0;
         }
         return ((Rectangle) (this.getChildren().getFirst())).getX();
     }
 
-    public double getY(){
-        if (this.getChildren().isEmpty()){
+    public void setX(double x) {
+        ((Rectangle) (this.getChildren().get(0))).setX(x);
+        ((ImageView) this.getChildren().get(1)).setX(x);
+    }
+
+    public double getY() {
+        if (this.getChildren().isEmpty()) {
             return 0;
         }
         return ((Rectangle) (this.getChildren().getFirst())).getY();
     }
 
-    public void setX(double x){
-        ((Rectangle) (this.getChildren().get(0))).setX(x);
-        ((ImageView)this.getChildren().get(1)).setX(x);
-    }
-
-    public void setY(double y){
+    public void setY(double y) {
         ((Rectangle) (this.getChildren().get(0))).setY(y);
-        ((ImageView)this.getChildren().get(1)).setY(y);
+        ((ImageView) this.getChildren().get(1)).setY(y);
 
     }
-    public double getVx(){
+
+    public double getVx() {
         return vx;
+    }
+
+    public void setVx(double vx) {
+        this.vx = vx;
     }
 
     public double getVy() {
         return vy;
     }
-    public void setVy(double Vy){
+
+    public void setVy(double Vy) {
         this.vy = Vy;
     }
-    public void setAngle(double angle){
-        this.angle = angle;
-    }
+
     public void setBackground(String url) {
         imageView.setImage(new Image(Rocket.class.getResource(url).toExternalForm()));
     }
-    public void explodeCluster(){
+
+    public void explodeCluster() {
 
     }
-    public void explode(){
-        ExplosionAnimation explodeAnimation = new ExplosionAnimation(false,true,false);
+
+    public void explode() {
+        ExplosionAnimation explodeAnimation = new ExplosionAnimation(false, true, false);
         explodeAnimation.setBomb(this);
         Game.getInstance().addAnimations(explodeAnimation);
         explodeAnimation.setOnFinished(actionEvent -> {
@@ -93,6 +102,7 @@ public class Bomb extends Group {
         });
         explodeAnimation.play();
     }
+
     public void explodeNuclear() {
         ImageView imageView = new ImageView(new Image(Objects.requireNonNull(getClass().getResourceAsStream("/Images/explosion.gif"))));
         try {
@@ -116,23 +126,21 @@ public class Bomb extends Group {
         nuclearBombAnimation.play();
     }
 
-    public void bonusAction(Component component){
+    public void bonusAction(Component component) {
         pane.getChildren().add(this);
-        new Thread(() -> {Platform.runLater(() -> {
-            bonusAnimation = new BonusAnimation(this);
-            Game.getInstance().addAnimations(bonusAnimation);
-            bonusAnimation.setOnFinished(actionEvent -> {
-                pane.getChildren().remove(this);
+        new Thread(() -> {
+            Platform.runLater(() -> {
+                bonusAnimation = new BonusAnimation(this);
+                Game.getInstance().addAnimations(bonusAnimation);
+                bonusAnimation.setOnFinished(actionEvent -> {
+                    pane.getChildren().remove(this);
+                });
+                bonusAnimation.play();
             });
-            bonusAnimation.play();
-        });
         }).start();
     }
-    public void remove(){
-        pane.getChildren().remove(this);
-    }
 
-    public void setVx(double vx) {
-        this.vx = vx;
+    public void remove() {
+        pane.getChildren().remove(this);
     }
 }

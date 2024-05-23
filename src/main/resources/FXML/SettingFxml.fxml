@@ -10,24 +10,6 @@
 <?import javafx.scene.layout.VBox?>
 
 <AnchorPane prefHeight="600.0" prefWidth="900.0" stylesheets="@../CSS/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.SettingController">
-<!--    <HBox alignment="CENTER" layoutX="170.0" layoutY="64.0" prefHeight="150.0" prefWidth="520.0" styleClass="difficulty-box">-->
-<!--        <GridPane alignment="BOTTOM_CENTER"  vgap="20" hgap="20" prefHeight="100" prefWidth="520.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">-->
-<!--            <Label alignment="CENTER" prefWidth="180" text="Choose Game Difficulty" styleClass="font" prefHeight="100" style="-fx-background-color: #69d0ac; -fx-border-radius: 30px; -fx-background-radius: 30px; -fx-font-size: 13" GridPane.columnIndex="1" GridPane.rowIndex="0" />-->
-<!--            <Button onMouseClicked="#easy" prefWidth="180" styleClass="profile-menu-button" text="easy" GridPane.columnIndex="0" GridPane.rowIndex="1" />-->
-<!--            <Button onMouseClicked="#medium" prefWidth="180" styleClass="profile-menu-button" text="medium" GridPane.columnIndex="1" GridPane.rowIndex="1" />-->
-<!--            <Button onMouseClicked="#hard" prefWidth="180" styleClass="profile-menu-button" text="hard" GridPane.columnIndex="2" GridPane.rowIndex="1" />-->
-<!--         <columnConstraints>-->
-<!--            <ColumnConstraints />-->
-<!--            <ColumnConstraints />-->
-<!--            <ColumnConstraints />-->
-<!--         </columnConstraints>-->
-<!--         <rowConstraints>-->
-<!--            <RowConstraints />-->
-<!--            <RowConstraints />-->
-<!--         </rowConstraints>-->
-<!--        </GridPane>-->
-<!--    </HBox>-->
-<!--    <Button onMouseClicked="#back" styleClass="profile-menu-button" text="Back" layoutX="430.0" layoutY="5000.0"/>-->
     <Label layoutX="399.0" layoutY="43.0" style="-fx-font-size: 30; -fx-text-fill: #ffff; -fx-font-weight: bold; -fx-font-family: Chilanka 'Rage Italic'" text="Setting">
     </Label>
     <VBox alignment="CENTER" layoutX="310.0" layoutY="112.0" spacing="15.0" style="-fx-border-width: 5; -fx-border-color: #1d999b; -fx-border-radius: 30px">

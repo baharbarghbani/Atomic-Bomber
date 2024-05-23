@@ -11,26 +11,28 @@ import model.App;
 import java.io.FileNotFoundException;
 
 
-
 public class MainMenuController {
+    static ProfileMenu profileMenu = new ProfileMenu();
+    static AppViewController menuController = new AppViewController();
     @FXML
     public ImageView imageView;
     @FXML
     public Label username;
-    static ProfileMenu profileMenu = new ProfileMenu();
-    static AppViewController menuController = new AppViewController();
+
     @FXML
     public void openProfileMenu() throws Exception {
         profileMenu.start(ApplicationController.getStage());
     }
+
     @FXML
     public void initialize() throws FileNotFoundException {
-        AppViewController.appController.setIcon();
+        AppViewController.setIcon();
         Image image = menuController.imageInitialize();
         imageView.setImage(image);
         username.setStyle("-fx-alignment: center");
         username.setText(App.getLoggedInUser().getUsername());
     }
+
     @FXML
     public void openScoreboardMenu() throws Exception {
         // ScoreboardMenu scoreboardMenu = new ScoreboardMenu();

@@ -1,37 +1,32 @@
 package animations;
 
 import javafx.animation.Transition;
-import javafx.scene.media.Media;
-import javafx.scene.media.MediaPlayer;
 import model.Game;
 import model.bombs.Bomb;
 import model.bombs.Cluster;
-
 import view.GameLauncher;
 import view.GameLauncherController;
 
 public class BombAnimation extends Transition {
-    private Bomb bomb;
     private static boolean clusterHasExploded = false;
-//    private Timeline checkCluster;
-    public BombAnimation(Bomb bomb){
+    private final Bomb bomb;
+
+    public BombAnimation(Bomb bomb) {
         this.bomb = bomb;
-//        Game.getInstance().getPlane().requestFocus();
         this.setCycleCount(-1);
         this.setCycleDuration(javafx.util.Duration.millis(100));
         Game.getInstance().addAnimations(this);
-//        checkCluster = new Timeline(new javafx.animation.KeyFrame(javafx.util.Duration.seconds(0.5), actionEvent -> GameController.checkCluster(bomb)));
-//        checkCluster.setCycleCount(-1);
-//        checkCluster.play();
+
     }
+
     @Override
     protected void interpolate(double v) {
         double vx = bomb.getVx();
         double vy = bomb.getVy();
-        double angle = Math.atan(vy/vx) + bomb.getAngle();
+        double angle = Math.atan(vy / vx) + bomb.getAngle();
 
         bomb.setRotate(angle * 180 / Math.PI);
-        double gravity =0.1;
+        double gravity = 0.1;
         vy += gravity;
         bomb.setVy(vy);
         double y = bomb.getY() + vy;
@@ -51,7 +46,7 @@ public class BombAnimation extends Transition {
             GameLauncher.getInstance().root.getChildren().remove(bomb);
             Game.getInstance().removeAnimation(this);
         }
-        while (GameLauncherController.hasCollision(bomb)){
+        while (GameLauncherController.hasCollision(bomb)) {
             GameLauncherController.checkCollision(bomb, this);
         }
         if (bomb.getY() > 700) {
@@ -61,9 +56,11 @@ public class BombAnimation extends Transition {
         }
 
     }
+
     public boolean isClusterHasExploded() {
         return clusterHasExploded;
     }
+
     public static void setClusterHasExploded(boolean clusterHasExploded1) {
         clusterHasExploded = clusterHasExploded1;
     }

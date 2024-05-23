@@ -1,14 +1,9 @@
 package animations;
 
 import controller.GameController;
-import javafx.animation.FadeTransition;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.animation.Transition;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.util.Duration;
@@ -16,14 +11,12 @@ import model.Game;
 import model.bombs.Bullet;
 import model.components.Plane;
 import view.GameLauncher;
-import view.GameLauncherController;
 
 import java.io.File;
-import java.util.Objects;
 
 public class MissileAnimation extends Transition {
-    private Game game;
-    private Bullet bullet;
+    private final Game game;
+    private final Bullet bullet;
 
     public MissileAnimation(Game game, Bullet bullet) {
         this.game = game;
@@ -47,7 +40,7 @@ public class MissileAnimation extends Transition {
                 plane.decreaseHP();
                 PlaneDamage planeDamage = new PlaneDamage(plane);
                 planeDamage.play();
-                Timeline timeline = getTimeline(planeDamage,plane);
+                Timeline timeline = getTimeline(planeDamage, plane);
                 timeline.play();
                 GameController.checkHP();
                 this.pause();

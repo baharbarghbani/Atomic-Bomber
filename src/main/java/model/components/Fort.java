@@ -10,23 +10,26 @@ import javafx.scene.paint.ImagePattern;
 import model.Game;
 
 public class Fort extends Component {
-    public Fort(double x, Game game, Pane pane){
+    public Fort(double x, Game game, Pane pane) {
         super(x, 650, 80, 80, game, pane);
         kill = 3;
         hasBonus = true;
         this.setFill(new ImagePattern(new Image(Fort.class.getResource("/Images/fort.png").toExternalForm())));
     }
+
     @Override
     public void setBackground(String url) {
         this.setFill(new ImagePattern(new Image(Fort.class.getResource(url).toExternalForm())));
     }
+
     @Override
-    public void remove(){
+    public void remove() {
         game.getWave().getAllObjects().remove(this);
     }
+
     @Override
-    public void explode(){
-        ExplosionAnimation explodeAnimation = new ExplosionAnimation(false,false,true);
+    public void explode() {
+        ExplosionAnimation explodeAnimation = new ExplosionAnimation(false, false, true);
         explodeAnimation.setComponent(this);
         game.addAnimations(explodeAnimation);
         explodeAnimation.setOnFinished(new EventHandler<ActionEvent>() {
@@ -40,6 +43,7 @@ public class Fort extends Component {
         });
         explodeAnimation.play();
     }
+
     public void explodeByNuclear() {
         imageView.setLayoutX(this.getX());
         imageView.setLayoutY(this.getY() - 50);
@@ -65,8 +69,9 @@ public class Fort extends Component {
         });
         nuclearBombAnimation.play();
     }
+
     @Override
-    public void explodeByCluster(){
+    public void explodeByCluster() {
         imageView.setLayoutX(this.getX());
         imageView.setLayoutY(this.getY() - 30);
         imageView.setFitWidth(this.getWidth() + 30);

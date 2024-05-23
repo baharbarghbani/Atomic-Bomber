@@ -9,7 +9,10 @@ import javafx.util.Duration;
 import model.App;
 import model.Game;
 import model.Wave;
-import model.bombs.*;
+import model.bombs.Bomb;
+import model.bombs.Bullet;
+import model.bombs.Cluster;
+import model.bombs.NuclearBomb;
 import model.components.*;
 import view.GameLauncher;
 import view.GameLauncherController;
@@ -59,6 +62,7 @@ public class ComponentCreator {
         }
         resolveCollisions(wave);
     }
+
     public static void createShootingTanks(Wave wave, Game game, Pane pane) {
         for (int i = 0; i < 2; i++) {
             double x = random.nextDouble(900);
@@ -68,6 +72,7 @@ public class ComponentCreator {
         }
         resolveCollisions(wave);
     }
+
     public static void createFort(Wave wave, Game game, Pane pane) {
         for (int i = 0; i < 2; i++) {
             double x = random.nextDouble(900);
@@ -78,6 +83,7 @@ public class ComponentCreator {
         resolveCollisions(wave);
 
     }
+
     public static void createTanksAnimation(ArrayList<Tank> tanks, Game game, int number) {
         TankAnimation vehicleAnimation;
         for (int i = 0; i < number; i++) {
@@ -87,10 +93,11 @@ public class ComponentCreator {
             vehicleAnimation.play();
         }
     }
-    public static void createTankCheatCode(ArrayList<Tank> tanks){
-        for (Tank tank : tanks){
+
+    public static void createTankCheatCode(ArrayList<Tank> tanks) {
+        for (Tank tank : tanks) {
             Pane root = GameLauncher.getInstance().root;
-            if (!root.getChildren().contains(tank)){
+            if (!root.getChildren().contains(tank)) {
                 TankAnimation tankAnimation = new TankAnimation(tank, Game.getInstance());
                 Game.getInstance().addAnimations(tankAnimation);
                 root.getChildren().add(tank);
@@ -98,6 +105,7 @@ public class ComponentCreator {
             }
         }
     }
+
     public static void createShootingTanksAnimation(ArrayList<ShootingTank> shootingTanks, Game game) {
         TankAnimation shootingTankAnimation;
         for (int i = 0; i < 2; i++) {
@@ -107,6 +115,7 @@ public class ComponentCreator {
             shootingTankAnimation.play();
         }
     }
+
     public static void createTrucksAnimation(ArrayList<Truck> trucks, Game game) {
         TruckAnimation truckAnimation;
         for (int i = 0; i < 2; i++) {
@@ -116,6 +125,7 @@ public class ComponentCreator {
             truckAnimation.play();
         }
     }
+
     private static void resolveCollisions(Wave wave) {
         ArrayList<Component> objects = wave.getAllObjects();
         for (int i = 0; i < objects.size(); i++) {
@@ -133,13 +143,14 @@ public class ComponentCreator {
             }
         }
     }
+
     public static void createMig(Wave wave, Game game, Pane pane) {
         if (game.getWaveNumber() == 3 && !App.isPaused()) {
             GameLauncherController.migWarningText.setVisible(true);
-            Timeline migWarningTimeLine  = new Timeline(new KeyFrame(Duration.seconds(3), actionEvent -> GameLauncherController.migWarningText.setVisible(false)));
+            Timeline migWarningTimeLine = new Timeline(new KeyFrame(Duration.seconds(3), actionEvent -> GameLauncherController.migWarningText.setVisible(false)));
             migWarningTimeLine.setCycleCount(-1);
             migWarningTimeLine.play();
-            if (game.getPlane() != null){
+            if (game.getPlane() != null) {
                 game.getPlane().requestFocus();
             }
             Mig mig = new Mig(1050, 120, game, pane);
@@ -147,29 +158,30 @@ public class ComponentCreator {
             Timeline shootTimeline = new Timeline(new javafx.animation.KeyFrame(javafx.util.Duration.seconds(0.25), actionEvent -> GameController.checkPlaneInMigArea(game.getPlane())));
             shootTimeline.setCycleCount(-1);
             shootTimeline.play();
-            if (game.getPlane() != null)
-                game.getPlane().requestFocus();
+            if (game.getPlane() != null) game.getPlane().requestFocus();
             pane.getChildren().add(mig);
         }
     }
+
     public static Bullet createBulletForTank(double x, double y, double angle) {
-        return new Bullet(x+ 20, y, Math.toRadians(angle), 6 * Math.cos(angle),Math.abs(6 * Math.sin(angle)));
+        return new Bullet(x + 20, y, Math.toRadians(angle), 6 * Math.cos(angle), Math.abs(6 * Math.sin(angle)));
     }
-    public static Bullet createBulletForMig(double x, double y,double angle){
+
+    public static Bullet createBulletForMig(double x, double y, double angle) {
         return new Bullet(x, y, Math.toRadians(angle), 6 * Math.cos(angle), 6 * Math.sin(angle));
     }
-    public static Bomb giveBonus(Component component){
-        if (component instanceof Building){
+
+    public static Bomb giveBonus(Component component) {
+        if (component instanceof Building) {
             return createNuclearBomb(component);
-        }else
-            return createClusterBomb(component);
+        } else return createClusterBomb(component);
     }
 
     private static Bomb createClusterBomb(Component component) {
         return new Cluster(component.getX(), component.getY(), 0.01, false, 0.1, -1, GameLauncher.getInstance().root, 60, 60);
     }
 
-    public static NuclearBomb createNuclearBomb(Component component){
+    public static NuclearBomb createNuclearBomb(Component component) {
         return new NuclearBomb(component.getX(), component.getY(), 0.01, false, 0.1, -1, GameLauncher.getInstance().root, 60, 60);
     }
 

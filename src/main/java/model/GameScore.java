@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 public class GameScore {
+    private static ArrayList<GameScore> allGameScores = new ArrayList<>();
     private final String username;
     private final int lastWave;
     private final int kills;
     private final int hardness;
     private final double accuracy;
     private boolean isAdded = false;
-    private static ArrayList<GameScore> allGameScores = new ArrayList<>();
 
     public GameScore(String username, int lastWave, int kills, int hardness, double accuracy) {
         this.username = username;

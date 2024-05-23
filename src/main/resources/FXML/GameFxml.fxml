@@ -74,14 +74,6 @@
             <RowConstraints maxHeight="54.5" minHeight="40.0" prefHeight="49.5" />
             </rowConstraints>
         </GridPane>
-<!--        <Button fx:id="returnToGameButton" mnemonicParsing="false" onAction="#returnToGame" prefHeight="64.0" prefWidth="194.0" styleClass="profile-menu-button" text="Return to Game" textAlignment="CENTER">-->
-<!--            <VBox.margin>-->
-<!--                <Insets left="192.0" top="32.0" />-->
-<!--            </VBox.margin>-->
-<!--        </Button>-->
-        <!--    <padding>-->
-        <!--        <Insets left="28.0" top="20.0" />-->
-        <!--    </padding>-->
     </VBox>
    <ProgressBar fx:id="progressBar" layoutX="216.0" layoutY="51.0" prefHeight="20.0" prefWidth="100.0" progress="0.0" rotate="90.0" style="-fx-background-color: #0000;" />
      <Label fx:id="migWarning" layoutX="404.0" layoutY="39.0" style="-fx-font-family: Chilanka; -fx-text-fill: #ffffff; -fx-font-size: 30; -fx-font-weight: bold" text="Mig Is Coming!" />

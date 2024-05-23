@@ -13,13 +13,14 @@ import model.Wave;
 import model.bombs.Bullet;
 
 public class Mig extends Rectangle {
+    private static final double radius = 200;
     MigAnimation migAnimation;
     private MissileAnimation missileAnimation;
-    private static double radius = 200;
-    private double speed = 2;
-    private Game game;
-    private Pane pane;
-    private double passingTime = 20;
+    private final double speed = 2;
+    private final Game game;
+    private final Pane pane;
+    private final double passingTime = 20;
+
     public Mig(double x, double y, Game game, Pane pane) {
         super(1050, 120, 100, 80);
         this.game = game;
@@ -37,16 +38,16 @@ public class Mig extends Rectangle {
     }
 
     public void move(double dx) {
-        if (!hitLeftWall()){
+        if (!hitLeftWall()) {
             this.setX(this.getX() - dx);
-        }
-        else{
+        } else {
             Wave.removeMig();
 //            pauseMissileAnimation();
             this.migAnimation.stop();
         }
     }
-    public boolean hitLeftWall(){
+
+    public boolean hitLeftWall() {
         return this.getX() <= -120;
     }
 
@@ -68,10 +69,12 @@ public class Mig extends Rectangle {
     public void setMissileAnimation(MissileAnimation missileAnimation) {
         this.missileAnimation = missileAnimation;
     }
-    public void pauseMissileAnimation(){
+
+    public void pauseMissileAnimation() {
         missileAnimation.pause();
     }
-    public double getPassingTime(){
+
+    public double getPassingTime() {
         return passingTime * game.getHardness();
     }
 }

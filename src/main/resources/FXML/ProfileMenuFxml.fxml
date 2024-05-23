@@ -25,8 +25,6 @@
             <Button onAction="#deleteAccount" prefHeight="60" prefWidth="200" styleClass="profile-menu-button"
                     text="Delete Account" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
         </GridPane>
-<!--        <Button fx:id="dragButton" text="Drag Me" onDragDetected="#onDragDetected"/>-->
-<!--        <ImageView fx:id="imageView1"/>-->
 
     </VBox>
     <Button onMouseClicked="#back" styleClass="profile-menu-button" text="Back" layoutX="430.0" layoutY="470.0"/>

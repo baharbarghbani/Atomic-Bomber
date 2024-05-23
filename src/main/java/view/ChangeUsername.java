@@ -20,18 +20,18 @@ import java.io.IOException;
 import static java.util.Objects.requireNonNull;
 
 public class ChangeUsername extends Application {
+    static Scene currentScene;
     @FXML
     public TextField username;
     @FXML
     public PasswordField password;
-    static Scene currentScene;
 
     @Override
     public void start(Stage stage) throws IOException {
         ApplicationController.setStage(stage);
         try {
             FXMLLoader fxmlLoader = new FXMLLoader();
-            Pane root = fxmlLoader.load(requireNonNull(getClass().getResource("/FXML/ChangeUsername.fxml")));
+            Pane root = FXMLLoader.load(requireNonNull(getClass().getResource("/FXML/ChangeUsername.fxml")));
             currentScene = new Scene(root);
             stage.setScene(currentScene);
             stage.setTitle("Change Username");
@@ -41,20 +41,21 @@ public class ChangeUsername extends Application {
             e.printStackTrace();
         }
     }
+
     @FXML
     public void initialize() throws FileNotFoundException {
         AppViewController.appController.imageInitialize();
-        AppViewController.appController.setIcon();
+        AppViewController.setIcon();
     }
+
     public void changeUsername() {
 //        ProfileMenuController profileMenuController = new ProfileMenuController();
         ProfileMenuController profileMenuController = AppViewController.profileMenuController;
         Result result = profileMenuController.changeInfo(username.getText(), password.getText());
-        if (!result.isSuccess()){
-            AppViewController.showAlert(result.getMessage(), "Changing username failed!", Alert.AlertType.WARNING, "/Images/backgrounds/background1.png",true);
-        }
-        else {
-            AppViewController.showAlert(result.getMessage(), "Changed username and password successfully!", Alert.AlertType.INFORMATION, "/Images/backgrounds/background1.png",true);
+        if (!result.isSuccess()) {
+            AppViewController.showAlert(result.getMessage(), "Changing username failed!", Alert.AlertType.WARNING, "/Images/backgrounds/background1.png", true);
+        } else {
+            AppViewController.showAlert(result.getMessage(), "Changed username and password successfully!", Alert.AlertType.INFORMATION, "/Images/backgrounds/background1.png", true);
             try {
                 new ProfileMenu().start(ApplicationController.getStage());
             } catch (Exception e) {

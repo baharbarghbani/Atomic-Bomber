@@ -1,13 +1,16 @@
 package view;
 
 import controller.ApplicationController;
-import javafx.application.Application;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
 import model.Game;
 
 public class EndGameController {
+    private static Label gameResultLabel;
+    private static Label waveLabel;
+    private static Label accuracyLabel;
+    private static Label killLabel;
     @FXML
     public Label gameResult;
     @FXML
@@ -16,16 +19,9 @@ public class EndGameController {
     public Label accuracy;
     @FXML
     public Label kill;
-    private static Label gameResultLabel;
-    private static Label waveLabel;
-    private static Label accuracyLabel;
-    private static Label killLabel;
-
-
-
 
     @FXML
-    public void initialize(){
+    public void initialize() {
         gameResultLabel = gameResult;
         gameResultLabel.setText("You " + ApplicationController.getGameResult());
         waveLabel = wave;

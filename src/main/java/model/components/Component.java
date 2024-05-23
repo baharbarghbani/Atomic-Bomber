@@ -5,16 +5,15 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.shape.Rectangle;
 import model.Game;
-import model.bombs.Bomb;
 
 import java.util.Objects;
 
-public abstract class Component extends Rectangle{
+public abstract class Component extends Rectangle {
+    protected static ImageView imageView = new ImageView(new Image(Objects.requireNonNull(Component.class.getResourceAsStream("/Images/explosion.gif"))));
     protected Game game;
     protected Pane pane;
     protected int kill;
     protected boolean hasBonus;
-    protected static ImageView imageView = new ImageView(new Image(Objects.requireNonNull(Component.class.getResourceAsStream("/Images/explosion.gif"))));
 
     public Component(double x, int i, int i1, int i2, Game game, Pane pane) {
         super(x, i, i1, i2);
@@ -23,14 +22,20 @@ public abstract class Component extends Rectangle{
     }
 
     public abstract void setBackground(String url);
+
     public abstract void explode();
+
     public abstract void remove();
+
     public abstract void explodeByNuclear();
+
     public abstract void explodeByCluster();
-    public int getKill(){
+
+    public int getKill() {
         return kill;
     }
-    public boolean hasBonus(){
+
+    public boolean hasBonus() {
         return hasBonus;
     }
 

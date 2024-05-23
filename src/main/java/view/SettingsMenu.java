@@ -16,7 +16,7 @@ public class SettingsMenu extends Application {
         ApplicationController.setStage(primaryStage);
         try {
             FXMLLoader fxmlLoader = new javafx.fxml.FXMLLoader();
-            Pane root = fxmlLoader.load(java.util.Objects.requireNonNull(getClass().getResource("/FXML/SettingFxml.fxml")));
+            Pane root = FXMLLoader.load(java.util.Objects.requireNonNull(getClass().getResource("/FXML/SettingFxml.fxml")));
             primaryStage.setTitle("Setting");
             Scene currentScene = new Scene(root);
             root.getStyleClass().add("setting-menu");
@@ -27,7 +27,7 @@ public class SettingsMenu extends Application {
         } catch (java.io.IOException e) {
             e.printStackTrace();
         }
-         primaryStage.setTitle("Setting");
-         primaryStage.show();
+        primaryStage.setTitle("Setting");
+        primaryStage.show();
     }
 }
