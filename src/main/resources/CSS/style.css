@@ -166,4 +166,22 @@
     -fx-background-image: url('../Images/frizz.png');
     -fx-background-size: cover;
 }
+.scoreBoard{
+    -fx-background-color: rgba(112, 175, 176, 0.76);
+    -fx-background-radius: 8px;
+}
+.scoreBoard .column-header-background{
+    -fx-background-color: TRANSPARENT;
+}
+.scoreBoard .column-header{
+    -fx-background-color: rgba(112, 175, 176, 0.98);
+    -fx-border-radius: 1;
+    -fx-border-color: rgba(81, 135, 136, 0.98);
+    -fx-font-family: chilanka;
+    -fx-font-size: 12;
+    -fx-text-fill: #ffffff;
+}
+.scoreBoard .table-row-cell:hover{
+    -fx-background-color: rgba(112, 175, 176, 0.8);
+}
 

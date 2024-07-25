@@ -11,6 +11,7 @@ public class User {
     private int shootingCount;
     private int successfulShootingCount;
     private int accuracy;
+    private GameScore gameScore;
 
     public User(String username, String password,String avatarPath) {
         this.username = username;
@@ -20,7 +21,12 @@ public class User {
         shootingCount = 0;
         successfulShootingCount = 0;
     }
-
+    public void setGameScore(GameScore gameScore) {
+        this.gameScore = gameScore;
+    }
+    public GameScore getGameScore() {
+        return gameScore;
+    }
     public String getUsername() {
         return username;
     }

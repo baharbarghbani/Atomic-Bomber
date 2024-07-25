@@ -2,7 +2,7 @@ package model.components;
 
 import view.animations.MigAnimation;
 import view.animations.MissileAnimation;
-import controller.ComponentCreator;
+import view.ComponentCreator;
 import controller.GameController;
 import javafx.scene.image.Image;
 import javafx.scene.layout.Pane;
@@ -19,8 +19,6 @@ public class Mig extends Rectangle {
     private final double speed = 2;
     private final Game game;
     private final Pane pane;
-    private final double passingTime = 20;
-
     public Mig(double x, double y, Game game, Pane pane) {
         super(1050, 120, 100, 80);
         this.game = game;

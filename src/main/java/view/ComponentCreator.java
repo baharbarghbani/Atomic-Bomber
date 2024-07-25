@@ -1,5 +1,6 @@
-package controller;
+package view;
 
+import controller.GameController;
 import view.animations.TankAnimation;
 import view.animations.TruckAnimation;
 import javafx.animation.KeyFrame;
@@ -14,8 +15,6 @@ import model.bombs.Bullet;
 import model.bombs.Cluster;
 import model.bombs.NuclearBomb;
 import model.components.*;
-import view.GameLauncher;
-import view.GameLauncherController;
 
 import java.util.ArrayList;
 import java.util.Random;

@@ -12,7 +12,9 @@ import model.User;
 import java.io.*;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class ApplicationController {
     private static final String USERS_FILE_PATH = "src/main/database/Users.json";
@@ -53,30 +55,6 @@ public class ApplicationController {
         List<User> userList = loadUsers();
         userList.removeIf(user -> user.getUsername().equals(username));
     }
-
-    public static void saveGameScore() {
-        List<GameScore> gameScores = GameScore.getAllGameScores();
-        try (Writer writer = new FileWriter("src/main/database/GameScores.json")) {
-            Gson gson = new GsonBuilder().setPrettyPrinting().create();
-            gson.toJson(gameScores, writer);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public static List<GameScore> loadGameScores() {
-        List<GameScore> gameScores = new ArrayList<>();
-        try (Reader reader = new FileReader("src/main/database/GameScores.json")) {
-            Type gameScoreListType = new TypeToken<ArrayList<GameScore>>() {
-            }.getType();
-            Gson gson = new Gson();
-            gameScores = gson.fromJson(reader, gameScoreListType);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return gameScores;
-    }
-
 
     public static String getGameResult() {
         if (Game.getInstance().getPlane() != null) {

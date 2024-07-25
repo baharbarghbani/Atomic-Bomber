@@ -4,7 +4,6 @@ import view.animations.BombAnimation;
 import view.animations.FreezingAnimation;
 import view.animations.PlaneAnimation;
 import controller.ApplicationController;
-import controller.ComponentCreator;
 import controller.GameController;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;

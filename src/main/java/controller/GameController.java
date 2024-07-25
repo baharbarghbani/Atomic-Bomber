@@ -1,5 +1,6 @@
 package controller;
 
+import view.ComponentCreator;
 import view.animations.MissileAnimation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
@@ -161,8 +162,11 @@ public class GameController {
     }
 
     public static void endGame() throws Exception {
-        GameScore gameScore = new GameScore(App.getLoggedInUser().getUsername(), Game.getInstance().getWaveNumber(), App.getLoggedInUser().getKill(), Game.getInstance().getHardness(), App.getLoggedInUser().getAccuracy());
-        GameScore.getAllGameScores().add(gameScore);
+        GameScore gameScore = new GameScore(App.getLoggedInUser().getUsername(),
+                Game.getInstance().getWaveNumber(), App.getLoggedInUser().getKill(),
+                Game.getInstance().getHardness(), App.getLoggedInUser().getAccuracy());
+        App.getLoggedInUser().setGameScore(gameScore);
+        ApplicationController.saveUser();
         gameScore.setIsAdded(true);
         GameLauncherController.endGame();
     }

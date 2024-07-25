@@ -49,7 +49,6 @@ public class ChangeUsername extends Application {
     }
 
     public void changeUsername() {
-//        ProfileMenuController profileMenuController = new ProfileMenuController();
         ProfileMenuController profileMenuController = AppViewController.profileMenuController;
         Result result = profileMenuController.changeInfo(username.getText(), password.getText());
         if (!result.isSuccess()) {

@@ -6,6 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
+import model.GameScore;
 
 import java.io.IOException;
 
@@ -15,6 +16,8 @@ public class LoginMenu extends Application {
     static Scene currentScene;
 
     public static void main(String[] args) {
+        ApplicationController.loadUsers();
+        System.out.println(GameScore.getAllGameScores().size());
         try {
             launch(args);
         } catch (Exception e) {

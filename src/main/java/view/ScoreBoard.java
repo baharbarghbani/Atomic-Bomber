@@ -1,6 +1,7 @@
 package view;
 
 import controller.ApplicationController;
+import controller.GameController;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -13,8 +14,11 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import javafx.util.Callback;
+import model.App;
 import model.GameScore;
+import model.User;
 
+import java.util.ArrayList;
 import java.util.Objects;
 
 public class ScoreBoard extends Application {
@@ -26,7 +30,8 @@ public class ScoreBoard extends Application {
     @FXML
     public void initialize() {
         AppViewController.setIcon();
-        ApplicationController.loadGameScores();
+        ArrayList<User> loadedUsers = new ArrayList<>(ApplicationController.loadUsers());
+        App.loadUsers(loadedUsers);
         GameScore.refresh(0);
         refreshTable();
         group.selectedToggleProperty().addListener((observable, oldValue, newValue) -> {

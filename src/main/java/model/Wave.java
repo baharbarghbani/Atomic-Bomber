@@ -1,11 +1,10 @@
 package model;
 
-import controller.ComponentCreator;
+import view.ComponentCreator;
 import javafx.scene.layout.Pane;
 import model.components.*;
 
 import java.util.ArrayList;
-import java.util.Random;
 
 public class Wave {
     private static Mig mig;

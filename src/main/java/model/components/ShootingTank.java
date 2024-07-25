@@ -3,7 +3,7 @@ package model.components;
 import view.animations.ExplosionAnimation;
 import view.animations.MissileAnimation;
 import view.animations.NuclearBombAnimation;
-import controller.ComponentCreator;
+import view.ComponentCreator;
 import controller.GameController;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;

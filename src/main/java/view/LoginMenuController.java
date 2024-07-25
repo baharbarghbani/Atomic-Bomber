@@ -6,6 +6,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import model.App;
+import model.GameScore;
 import model.Result;
 import model.User;
 
@@ -26,6 +27,11 @@ public class LoginMenuController {
         if (ApplicationController.loadUsers() != null) {
             ArrayList<User> loadedUsers = new ArrayList<>(ApplicationController.loadUsers());
             App.loadUsers(loadedUsers);
+            for (User user : loadedUsers){
+                if (user.getGameScore() != null){
+                    GameScore.getAllGameScores().add(user.getGameScore());
+                }
+            }
         }
     }
 
