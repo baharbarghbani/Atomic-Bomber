@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bd07efe-a17d-44a2-8768-46ddb026b90c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/database/Users.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/database/Users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/animations/ExplosionAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/animations/ExplosionAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/animations/MissileAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/animations/MissileAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/CSS/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +21,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="package.json" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="2q8vb46z" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -42,35 +51,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.AvatarMenu.executor": "Run",
-    "Application.GameLauncher.executor": "Run",
-    "Application.LoginMenu.executor": "Run",
-    "Application.ProfileMenu.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ASUS/Downloads/openjfx-21.0.3_windows-x64_bin-sdk/javafx-sdk-21.0.3/lib",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AvatarMenu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GameLauncher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LoginMenu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProfileMenu.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ScoreBoard.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Maven.AtomicBomber2 [package,clean].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Semicolon-separated_id&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;Semicolon-separated_id&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;efficiency&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/Documents/Uni/AP/Atomic Bomber&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;database.data.views.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS\Documents\Uni\AP\AtomicBomber2" />
@@ -78,6 +93,11 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS\Documents\Uni\AP\AtomicBomber2\src\main\resources\Images\rockets" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn package clean" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="LoginMenu" type="Application" factoryName="Application" nameIsGenerated="true">
@@ -118,8 +138,38 @@
       <workItem from="1715848463022" duration="1380000" />
       <workItem from="1715865024586" duration="23927000" />
       <workItem from="1715959351351" duration="28250000" />
-      <workItem from="1716041438739" duration="20109000" />
-      <workItem from="1716438911746" duration="882000" />
+      <workItem from="1716041438739" duration="22724000" />
+      <workItem from="1716098992339" duration="5075000" />
+      <workItem from="1716105628200" duration="16381000" />
+      <workItem from="1716130382060" duration="577000" />
+      <workItem from="1716130988349" duration="16852000" />
+      <workItem from="1716192402344" duration="54000" />
+      <workItem from="1716192485847" duration="1289000" />
+      <workItem from="1716194391800" duration="1151000" />
+      <workItem from="1716200184636" duration="33699000" />
+      <workItem from="1716284991105" duration="2000" />
+      <workItem from="1716285030205" duration="27706000" />
+      <workItem from="1716387294967" duration="9317000" />
+      <workItem from="1716448481772" duration="951000" />
+      <workItem from="1716450816549" duration="1949000" />
+      <workItem from="1716448606999" duration="2457000" />
+      <workItem from="1716835501952" duration="694000" />
+      <workItem from="1717343382459" duration="773000" />
+      <workItem from="1717400737607" duration="557000" />
+      <workItem from="1719572556802" duration="1226000" />
+      <workItem from="1719693567674" duration="1264000" />
+      <workItem from="1719730704535" duration="831000" />
+      <workItem from="1719828226726" duration="1072000" />
+      <workItem from="1719831545401" duration="372000" />
+      <workItem from="1719831932729" duration="3572000" />
+      <workItem from="1720274874687" duration="22000" />
+      <workItem from="1720437185287" duration="50000" />
+      <workItem from="1720599877198" duration="62000" />
+      <workItem from="1720599953085" duration="28000" />
+      <workItem from="1721890897799" duration="27000" />
+      <workItem from="1721898897906" duration="11805000" />
+      <workItem from="1721978214697" duration="751000" />
+      <workItem from="1721979449782" duration="817000" />
     </task>
     <servers />
   </component>
@@ -128,5 +178,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$USER_HOME$/Downloads/Telegram Desktop/FreezingAnimation.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

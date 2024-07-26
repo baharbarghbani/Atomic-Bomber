@@ -1,6 +1,5 @@
 package controller;
 
-import controller.ApplicationController;
 import enums.Menu;
 import model.App;
 import model.Result;
@@ -10,12 +9,12 @@ import view.LoginMenu;
 
 public class ProfileMenuController {
     static LoginMenu loginMenu = new LoginMenu();
-    public Result changeInfo(String newUsername, String newPassword){
+
+    public Result changeInfo(String newUsername, String newPassword) {
         if (newUsername.isEmpty() || newPassword.isEmpty())
             return new Result("Username and password can't be empty", false);
 
-        if (App.findUserByUsername(newUsername) != null)
-            return new Result("Username already exists", false);
+        if (App.findUserByUsername(newUsername) != null) return new Result("Username already exists", false);
 
         if (!Menu.USERNAME.getMatcher(newUsername).matches())
             return new Result("Username must be between 5 to 20 characters", false);
@@ -33,7 +32,8 @@ public class ProfileMenuController {
         ApplicationController.saveUser();
         return new Result("Information changed successfully", true);
     }
-    public void deleteAccount(){
+
+    public void deleteAccount() {
         App.deleteUser(App.getLoggedInUser());
         App.setLoggedInUser(null);
         try {
@@ -43,7 +43,8 @@ public class ProfileMenuController {
         }
 
     }
-    public void goToAvatarMenu(){
+
+    public void goToAvatarMenu() {
         AvatarMenu avatarMenu = new AvatarMenu();
         try {
             avatarMenu.start(ApplicationController.getStage());
@@ -51,7 +52,8 @@ public class ProfileMenuController {
             e.printStackTrace();
         }
     }
-    public void logout(){
+
+    public void logout() {
         App.setLoggedInUser(null);
         try {
             loginMenu.start(ApplicationController.getStage());

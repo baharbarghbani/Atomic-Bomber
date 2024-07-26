@@ -10,7 +10,6 @@
 
 <AnchorPane prefHeight="600.0" prefWidth="900.0" stylesheets="@../CSS/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MainMenuController">
     <VBox alignment="CENTER" layoutX="290.0" layoutY="30.0" prefHeight="200.0" prefWidth="350.0" spacing="5">
-    <!-- Apply the clip to the ImageView -->
         <ImageView fx:id="imageView" fitHeight="104.0" fitWidth="116.0" layoutX="400.0" layoutY="50.0" />
         <Label fx:id="username" prefHeight="30.0" prefWidth="199.0" style="-fx-background-color: #0d2279; -fx-background-radius: 20px" textFill="aliceblue">
             <font>

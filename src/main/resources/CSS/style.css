@@ -16,6 +16,14 @@
 .game{
     -fx-background-image: url('../Images/backgrounds/background7.png');
 }
+.pause-menu{
+    -fx-background-image: url('../Images/backgrounds/setting.png');
+    -fx-background-radius: 30px;
+}
+.end-game-menu{
+    -fx-background-image: url('../Images/backgrounds/background1.png');
+}
+
 .game-info{
     -fx-alignment: center;
     -fx-background-color: transparent;
@@ -27,7 +35,7 @@
 .font{
     -fx-font-family: chilanka;
     -fx-font-size: 20;
-    -fx-text-fill: #ffffff;
+    -fx-text-fill: #0c2672;
     -fx-font-weight: bold;
 }
 
@@ -113,4 +121,73 @@
     -fx-pref-width: 200;
     -fx-pref-height: 38;
 }
-
+.difficulty-box{
+    -fx-border-color: #0c2672;
+    -fx-border-width: 10;
+    -fx-font-family: chilanka;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 40px;
+    -fx-padding: 10px;
+}
+.choice-box{
+    -fx-background-color: #1d999b;
+    -fx-font-family: chilanka;
+    -fx-font-size: 16;
+    -fx-text-fill: #ffff;
+    /*-fx-background-radius: 30px;*/
+    /*-fx-border-radius: 40px;*/
+    /*-fx-padding: 10px;*/
+}
+.choice-box .list-cell{
+    /*-fx-background-color: #0c2672;*/
+    -fx-font-family: chilanka;
+    -fx-font-size: 20;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 40px;
+    -fx-padding: 10px;
+}
+.choice-box:hover{
+    -fx-background-color: #69d0ac;
+}
+.setting-menu-button{
+    -fx-background-color: #0c346b;
+    -fx-background-radius: 30px;
+    -fx-font-size: 16;
+    -fx-text-fill: #ffffff
+}
+.endGame-box{
+    -fx-background-image: url('../Images/backgrounds/background1.png');
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-background-size: cover;
+}
+.freeze{
+    -fx-background-image: url('../Images/frizz.png');
+    -fx-background-size: cover;
+}
+.scoreBoard{
+    -fx-background-color: rgba(112, 175, 176, 0.76);
+    -fx-background-radius: 8px;
+}
+.scoreBoard .column-header-background{
+    -fx-background-color: TRANSPARENT;
+}
+.scoreBoard .column-header{
+    -fx-background-color: rgba(112, 175, 176, 0.98);
+    -fx-border-radius: 1;
+    -fx-border-color: rgba(81, 135, 136, 0.98);
+    -fx-font-family: chilanka;
+    -fx-font-size: 12;
+    -fx-text-fill: #0000;
+}
+.scoreBoard .table-row-cell{
+    -fx-background-color: rgba(112, 175, 176, 0.63);
+}
+.scoreBoard .table-row-cell:hover{
+    -fx-background-color: rgba(112, 175, 176, 0.8);
+}
+.scoreBoard .table-cell{
+    -fx-font-family: Chilanka;
+    -fx-font-size: 12;
+}

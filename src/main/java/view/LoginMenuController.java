@@ -6,27 +6,32 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import model.App;
+import model.GameScore;
 import model.Result;
 import model.User;
-import view.MainMenu;
 
 import java.util.ArrayList;
 
 public class LoginMenuController {
-    private controller.LoginMenuController controller = new controller.LoginMenuController();
+    static MainMenu mainMenu = new MainMenu();
+    private final controller.LoginMenuController controller = new controller.LoginMenuController();
     @FXML
     private TextField username;
     @FXML
     private PasswordField password;
-    static MainMenu mainMenu = new MainMenu();
-    static ApplicationController applicationController = new ApplicationController();
 
     @FXML
     public void initialize() {
-        applicationController.setIcon();
+        AppViewController.setIcon();
+        AppViewController.playMusic("src/main/media/Billie_Eilish_-_CHIHIRO_@BaseNaija.mp3");
         if (ApplicationController.loadUsers() != null) {
             ArrayList<User> loadedUsers = new ArrayList<>(ApplicationController.loadUsers());
             App.loadUsers(loadedUsers);
+            for (User user : loadedUsers){
+                if (user.getGameScore() != null){
+                    GameScore.getAllGameScores().add(user.getGameScore());
+                }
+            }
         }
     }
 
@@ -34,7 +39,7 @@ public class LoginMenuController {
     public void login() {
         Result loginResult = controller.login(username.getText(), password.getText());
         if (!loginResult.isSuccess()) {
-            ApplicationController.showAlert(loginResult.getMessage(), "Login Failed!", Alert.AlertType.WARNING, "/Images/backgrounds/baharBG3.png");
+            AppViewController.showAlert(loginResult.getMessage(), "Login Failed!", Alert.AlertType.WARNING, "/Images/backgrounds/baharBG3.png", true);
         } else {
             try {
                 mainMenu.start(ApplicationController.getStage());
@@ -48,7 +53,7 @@ public class LoginMenuController {
     public void signUp() {
         Result result = controller.signUp(username.getText(), password.getText());
         if (!result.isSuccess()) {
-            ApplicationController.showAlert(result.getMessage(), "Sign up Failed!", Alert.AlertType.WARNING, "/Images/backgrounds/baharBG3.png");
+            AppViewController.showAlert(result.getMessage(), "Sign up Failed!", Alert.AlertType.WARNING, "/Images/backgrounds/baharBG3.png", true);
         } else {
             try {
                 mainMenu.start(ApplicationController.getStage());
@@ -62,15 +67,15 @@ public class LoginMenuController {
     public void recoverPassword() {
         Result result = controller.recoverPassword(username.getText());
         if (!result.isSuccess()) {
-            ApplicationController.showAlert(result.getMessage(), "Recover Password Failed!", Alert.AlertType.WARNING, "/Images/backgrounds/baharBG3.png");
+            AppViewController.showAlert(result.getMessage(), "Recover Password Failed!", Alert.AlertType.WARNING, "/Images/backgrounds/baharBG3.png", true);
         } else
-            ApplicationController.showAlert(result.getMessage(), "Recover Password", Alert.AlertType.INFORMATION, "/Images/backgrounds/baharBG3.png");
+            AppViewController.showAlert(result.getMessage(), "Recover Password", Alert.AlertType.INFORMATION, "/Images/backgrounds/baharBG3.png", true);
     }
 
     @FXML
     public void registerAsGuest() {
         Result result = controller.startGameAsGuest();
-        ApplicationController.showAlert(result.getMessage(), "Guest Mode", Alert.AlertType.INFORMATION, "/Images/backgrounds/baharBG3.png");
+        AppViewController.showAlert(result.getMessage(), "Guest Mode", Alert.AlertType.INFORMATION, "/Images/backgrounds/baharBG3.png", true);
         try {
             mainMenu.start(ApplicationController.getStage());
         } catch (Exception e) {

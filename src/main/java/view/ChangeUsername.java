@@ -20,48 +20,41 @@ import java.io.IOException;
 import static java.util.Objects.requireNonNull;
 
 public class ChangeUsername extends Application {
+    static Scene currentScene;
     @FXML
     public TextField username;
     @FXML
     public PasswordField password;
-    static Scene currentScene;
 
     @Override
     public void start(Stage stage) throws IOException {
         ApplicationController.setStage(stage);
         try {
             FXMLLoader fxmlLoader = new FXMLLoader();
-            Pane root = fxmlLoader.load(requireNonNull(getClass().getResource("/FXML/ChangeUsername.fxml")));
-
-            // Set the icon for the stage
-            stage.setTitle("Change Username");
-            // Create custom title bar layout
-            // Set the scene
+            Pane root = FXMLLoader.load(requireNonNull(getClass().getResource("/FXML/ChangeUsername.fxml")));
             currentScene = new Scene(root);
-//            stage.setTitle("Login Menu");
             stage.setScene(currentScene);
-
-            // Show the stage
+            stage.setTitle("Change Username");
+            stage.setResizable(false);
             stage.show();
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
+
     @FXML
     public void initialize() throws FileNotFoundException {
-        MenuController menuController = new MenuController();
-        ApplicationController applicationController = new ApplicationController();
-        menuController.imageInitialize(null);
-        applicationController.setIcon();
+        AppViewController.appController.imageInitialize();
+        AppViewController.setIcon();
     }
+
     public void changeUsername() {
-        ProfileMenuController profileMenuController = new ProfileMenuController();
+        ProfileMenuController profileMenuController = AppViewController.profileMenuController;
         Result result = profileMenuController.changeInfo(username.getText(), password.getText());
-        if (!result.isSuccess()){
-            ApplicationController.showAlert(result.getMessage(), "Changing username failed!", Alert.AlertType.WARNING, "/Images/backgrounds/background1.png");
-        }
-        else {
-            ApplicationController.showAlert(result.getMessage(), "Changed username and password successfully!", Alert.AlertType.INFORMATION, "/Images/backgrounds/background1.png");
+        if (!result.isSuccess()) {
+            AppViewController.showAlert(result.getMessage(), "Changing username failed!", Alert.AlertType.WARNING, "/Images/backgrounds/background1.png", true);
+        } else {
+            AppViewController.showAlert(result.getMessage(), "Changed username and password successfully!", Alert.AlertType.INFORMATION, "/Images/backgrounds/background1.png", true);
             try {
                 new ProfileMenu().start(ApplicationController.getStage());
             } catch (Exception e) {
