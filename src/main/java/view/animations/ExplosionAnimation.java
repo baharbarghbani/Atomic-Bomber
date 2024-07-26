@@ -3,6 +3,7 @@ package view.animations;
 import javafx.animation.Transition;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
+import model.App;
 import model.bombs.Bomb;
 import model.bombs.Cluster;
 import model.bombs.NuclearBomb;
@@ -60,9 +61,11 @@ public class ExplosionAnimation extends Transition {
     }
 
     private void explosion() {
-        Media media = new Media(new File("src/main/media/explosion.wav").toURI().toString());
-        MediaPlayer mediaPlayer = new MediaPlayer(media);
-        mediaPlayer.setVolume(0.4);
-        mediaPlayer.setAutoPlay(true);
+        if (!App.isMuted()) {
+            Media media = new Media(new File("src/main/media/explosion.wav").toURI().toString());
+            MediaPlayer mediaPlayer = new MediaPlayer(media);
+            mediaPlayer.setVolume(0.4);
+            mediaPlayer.setAutoPlay(true);
+        }
     }
 }

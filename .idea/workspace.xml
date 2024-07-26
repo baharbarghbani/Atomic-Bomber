@@ -6,24 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8bd07efe-a17d-44a2-8768-46ddb026b90c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/database/GameScores.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/database/Users.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/database/Users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ApplicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ComponentCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ComponentCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/GameController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Wave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Wave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/components/Mig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/components/Mig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/components/ShootingTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/components/ShootingTank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/ChangeUsername.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ChangeUsername.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/GameLauncherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/GameLauncherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/LoginMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/LoginMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/LoginMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/LoginMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/ScoreBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/ScoreBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/animations/ExplosionAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/animations/ExplosionAnimation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/animations/MissileAnimation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/animations/MissileAnimation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/CSS/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/FXML/ScoreBoardFxml.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FXML/ScoreBoardFxml.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +167,9 @@
       <workItem from="1720599877198" duration="62000" />
       <workItem from="1720599953085" duration="28000" />
       <workItem from="1721890897799" duration="27000" />
-      <workItem from="1721898897906" duration="11186000" />
+      <workItem from="1721898897906" duration="11805000" />
+      <workItem from="1721978214697" duration="751000" />
+      <workItem from="1721979449782" duration="817000" />
     </task>
     <servers />
   </component>

@@ -20,6 +20,7 @@ public class User {
         kill = 0;
         shootingCount = 0;
         successfulShootingCount = 0;
+        gameScore = new GameScore(username, 0, 0, 0, 0);
     }
     public void setGameScore(GameScore gameScore) {
         this.gameScore = gameScore;

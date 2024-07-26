@@ -7,6 +7,7 @@ import javafx.animation.Transition;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.util.Duration;
+import model.App;
 import model.Game;
 import model.bombs.Bullet;
 import model.components.Plane;
@@ -58,10 +59,12 @@ public class MissileAnimation extends Transition {
     }
 
     private void explosion() {
-        Media media = new Media(new File("src/main/media/explosion.wav").toURI().toString());
-        MediaPlayer mediaPlayer = new MediaPlayer(media);
-        mediaPlayer.setVolume(0.4);
-        mediaPlayer.setAutoPlay(true);
+        if (!App.isMuted()) {
+            Media media = new Media(new File("src/main/media/explosion.wav").toURI().toString());
+            MediaPlayer mediaPlayer = new MediaPlayer(media);
+            mediaPlayer.setVolume(0.4);
+            mediaPlayer.setAutoPlay(true);
+        }
     }
 }
 
