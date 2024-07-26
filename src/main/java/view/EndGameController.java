@@ -12,13 +12,13 @@ public class EndGameController {
     private static Label accuracyLabel;
     private static Label killLabel;
     @FXML
-    public Label gameResult;
+    private Label gameResult;
     @FXML
-    public Label wave;
+    private Label wave;
     @FXML
-    public Label accuracy;
+    private Label accuracy;
     @FXML
-    public Label kill;
+    private Label kill;
 
     @FXML
     public void initialize() {
@@ -34,7 +34,7 @@ public class EndGameController {
     }
 
     @FXML
-    public void back(MouseEvent mouseEvent) {
+    public void back() {
         AppViewController.mainMenu.start(ApplicationController.getStage());
     }
 

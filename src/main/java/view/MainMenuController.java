@@ -15,9 +15,9 @@ public class MainMenuController {
     static ProfileMenu profileMenu = new ProfileMenu();
     static AppViewController menuController = new AppViewController();
     @FXML
-    public ImageView imageView;
+    private ImageView imageView;
     @FXML
-    public Label username;
+    private Label username;
 
     @FXML
     public void openProfileMenu() throws Exception {

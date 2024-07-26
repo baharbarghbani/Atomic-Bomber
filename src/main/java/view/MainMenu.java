@@ -28,7 +28,6 @@ public class MainMenu extends Application {
             root.getStyleClass().add("main-menu");
             currentScene.getStylesheets().add(getClass().getResource("/CSS/style.css").toExternalForm());
             stage.setScene(currentScene);
-//            stage.show();
         } catch (IOException e) {
             e.printStackTrace();
         }

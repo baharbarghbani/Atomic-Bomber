@@ -10,7 +10,7 @@ import static view.MainMenuController.menuController;
 
 public class ProfileMenuController {
     @FXML
-    public ImageView imageView;
+    private ImageView imageView;
 
     @FXML
     public void initialize() throws Exception {

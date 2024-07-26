@@ -23,9 +23,19 @@ import java.util.Objects;
 
 public class ScoreBoard extends Application {
     @FXML
-    public ToggleGroup group;
+    private ToggleGroup group;
     @FXML
-    public TableView table;
+    private TableView table;
+    @FXML
+    private TableColumn usernameColumn;
+    @FXML
+    private TableColumn killsColumn;
+    @FXML
+    private TableColumn difficultyColumn;
+    @FXML
+    private TableColumn accuracyColumn;
+    @FXML
+    private TableColumn lastWaveColumn;
 
     @FXML
     public void initialize() {
@@ -34,42 +44,46 @@ public class ScoreBoard extends Application {
         App.loadUsers(loadedUsers);
         GameScore.refresh(0);
         refreshTable();
-        group.selectedToggleProperty().addListener((observable, oldValue, newValue) -> {
-            if (newValue != null) {
-                RadioButton selectedRadioButton = (RadioButton) newValue;
-                String button = selectedRadioButton.getText();
-                int n = 0;
-                if (button.equals("Difficulty")) n = 1;
-                else if (button.equals("Accuracy")) n = 2;
-                GameScore.refresh(n);
-                refreshTable();
-            }
-        });
+//        group.selectedToggleProperty().addListener((observable, oldValue, newValue) -> {
+//            if (newValue != null) {
+//                RadioButton selectedRadioButton = (RadioButton) newValue;
+//                String button = selectedRadioButton.getText();
+//                int n = 0;
+//                if (button.equals("Difficulty")) n = 1;
+//                else if (button.equals("Accuracy")) n = 2;
+//                GameScore.refresh(n);
+//                refreshTable();
+//            }
+//        });
     }
 
     private void refreshTable() {
-        TableColumn<GameScore, String> firstNameColumn = new TableColumn<>("Username");
-        firstNameColumn.setCellValueFactory(new PropertyValueFactory<>("username"));
+//        TableColumn<GameScore, String> firstNameColumn = new TableColumn<>("Username");
+//        firstNameColumn.setCellValueFactory(new PropertyValueFactory<>("username"));
+//
+//        TableColumn<GameScore, String> killsColumn = new TableColumn<>("Kills");
+//        killsColumn.setCellValueFactory(new PropertyValueFactory<>("kills"));
+//
+//        TableColumn<GameScore, String> hardnessColumn = new TableColumn<>("Difficulty");
+//        hardnessColumn.setCellValueFactory(new PropertyValueFactory<>("hardness"));
+//
+//        TableColumn<GameScore, Integer> accuracyColumn = new TableColumn<>("Accuracy%");
+//        accuracyColumn.setCellValueFactory(new PropertyValueFactory<>("accuracy"));
+//
+//        TableColumn<GameScore, Integer> lastWaveColumn = new TableColumn<>("Last Wave");
+//        lastWaveColumn.setCellValueFactory(new PropertyValueFactory<>("lastWave"));
 
-        TableColumn<GameScore, String> killsColumn = new TableColumn<>("Kills");
+//        table.getColumns().clear();
+//        table.getColumns().add(usernameColumn);
+//        table.getColumns().add(killsColumn);
+//        table.getColumns().add(difficultyColumn);
+//        table.getColumns().add(accuracyColumn);
+//        table.getColumns().add(lastWaveColumn);
+        usernameColumn.setCellValueFactory(new PropertyValueFactory<>("username"));
         killsColumn.setCellValueFactory(new PropertyValueFactory<>("kills"));
-
-        TableColumn<GameScore, String> hardnessColumn = new TableColumn<>("Difficulty");
-        hardnessColumn.setCellValueFactory(new PropertyValueFactory<>("hardness"));
-
-        TableColumn<GameScore, Integer> accuracyColumn = new TableColumn<>("Accuracy%");
+        difficultyColumn.setCellValueFactory(new PropertyValueFactory<>("hardness"));
         accuracyColumn.setCellValueFactory(new PropertyValueFactory<>("accuracy"));
-
-        TableColumn<GameScore, Integer> lastWaveColumn = new TableColumn<>("Last Wave");
         lastWaveColumn.setCellValueFactory(new PropertyValueFactory<>("lastWave"));
-
-        table.getColumns().clear();
-        table.getColumns().add(firstNameColumn);
-        table.getColumns().add(killsColumn);
-        table.getColumns().add(hardnessColumn);
-        table.getColumns().add(accuracyColumn);
-        table.getColumns().add(lastWaveColumn);
-
         ObservableList<GameScore> data = FXCollections.observableArrayList(GameScore.getAllGameScores());
         table.setRowFactory(new Callback<TableView<GameScore>, TableRow<GameScore>>() {
             @Override
@@ -79,9 +93,7 @@ public class ScoreBoard extends Application {
                     protected void updateItem(GameScore score, boolean empty) {
                         super.updateItem(score, empty);
                         if (getIndex() < 3 && !empty) {
-                            setStyle("-fx-background-color: gold;");
-                        } else {
-                            setStyle("");
+                            setStyle("-fx-background-color: rgb(105, 208, 172);");
                         }
                     }
                 };
