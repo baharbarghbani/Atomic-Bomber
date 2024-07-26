@@ -23,7 +23,7 @@
                 <Button layoutX="445.0" layoutY="520.0" mnemonicParsing="false" onMouseClicked="#back" prefHeight="28.0" prefWidth="59.0" text="Back" />
                 <TableView fx:id="table" editable="true" layoutX="220.0" layoutY="114.0" prefHeight="349.0" prefWidth="502.0" styleClass="scoreBoard">
                     <columns>
-                        <TableColumn fx:id="usernameColumn" prefWidth="100.0" text="Username" />
+                        <TableColumn fx:id="usernameColumn" prefWidth="100.0" text="Username"/>
                         <TableColumn fx:id="killsColumn" prefWidth="100.0" text="Kills" />
                         <TableColumn fx:id="difficultyColumn" prefWidth="100.0" text="Difficulty" />
                         <TableColumn fx:id="accuracyColumn" prefWidth="100.0" text="Accuracy(%)" />
